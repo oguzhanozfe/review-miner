@@ -25,6 +25,7 @@ jobs:
           import json, pathlib
           for ex in pathlib.Path("examples").glob("*/report.json"):
               a = json.loads(ex.read_text()); b = json.loads((pathlib.Path("out/demo") / ex.parent.name / "report.json").read_text())
-              assert a["themes"] == b["themes"] and a["categories"] == b["categories"], ex
+              norm = lambda ts: [dict(t, review_ids=sorted(t["review_ids"])) for t in ts]
+              assert norm(a["themes"]) == norm(b["themes"]) and a["categories"] == b["categories"], ex
               print("replay matches", ex.parent.name)
           PY

@@ -218,7 +218,9 @@ class DemoTests(unittest.TestCase):
             data = json.loads((ROOT / "fixtures" / "stardew-valley-1.6.json").read_text())
             res = analyze(data, b)
         ex = json.loads((ROOT / "examples" / "stardew-valley-1.6" / "report.json").read_text())
-        self.assertEqual(res["themes"], ex["themes"])
+        # member order can differ on near-tied centroid distances across Python versions; compare sets
+        norm = lambda ts: [dict(t, review_ids=sorted(t["review_ids"])) for t in ts]
+        self.assertEqual(norm(res["themes"]), norm(ex["themes"]))
 
     def test_replay_miss_is_a_clear_error(self):
         from review_miner import llm
