@@ -67,6 +67,18 @@ def _table(themes):
             f"<th>After (n / share)</th><th>Change</th></tr>{rows}</table>")
 
 
+def _cat_table(cats, polarity):
+    rows = "".join(
+        f"<tr><td>{escape(c['category'])}</td><td>{c['themes']}</td>"
+        f"<td>{c['before']['count']} / {_pct(c['before']['share'])}</td>"
+        f"<td>{c['after']['count']} / {_pct(c['after']['share'])}</td>"
+        f"<td class='{c['trend'] if c['trend'] in ('rose', 'fell') else ''}'>{c['delta_pp']:+.1f} pp {c['trend']}"
+        f" <span class=mut>(z={c['z']})</span></td></tr>"
+        for c in cats if c["polarity"] == polarity)
+    return ("<table><tr><th>Category</th><th>Clusters</th><th>Before (n / share)</th>"
+            f"<th>After (n / share)</th><th>Change</th></tr>{rows}</table>")
+
+
 def render_html(r: dict) -> str:
     v, s, vol, ss = r["verification"], r["stats"], r["volume"], r["sample_sizes"]
     neg = [t for t in r["themes"] if t["polarity"] == "negative"]
@@ -101,8 +113,12 @@ theme shares are <i>within</i> a polarity, not of all reviews). {s['duplicates_r
 positive {ss['positive'].get('before', 0)} before / {ss['positive'].get('after', 0)} after.</p>
 <p class=mut>Trend: &ldquo;rose&rdquo;/&ldquo;fell&rdquo; only when a two-proportion z-test passes |z| &ge; 1.96; themes under 8 reviews are &ldquo;low n&rdquo;.</p>
 
-<h2>Complaints: what changed</h2>{_table(neg)}
-<h2>Praise: what changed</h2>{_table(pos)}
+<h2>Complaints by category</h2>
+<p class=mut>Clusters summed by label. k-means can split one topic into several clusters, so read this level first.</p>
+{_cat_table(r.get('categories', []), 'negative')}
+<h2>Praise by category</h2>{_cat_table(r.get('categories', []), 'positive')}
+<h2>Complaint clusters: what changed</h2>{_table(neg)}
+<h2>Praise clusters: what changed</h2>{_table(pos)}
 <h2>Complaint themes</h2>{''.join(_theme(t) for t in neg)}
 <h2>Praise themes</h2>{''.join(_theme(t) for t in pos)}
 <h2>Unverified quotes</h2>{unv}

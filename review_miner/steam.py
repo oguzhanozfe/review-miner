@@ -16,7 +16,7 @@ import urllib.request
 
 REVIEWS_URL = "https://api.steampowered.com/IUserReviewsService/GetAppReviews/v1/"
 NEWS_URL = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/"
-USER_AGENT = "review-miner/0.1 (+https://github.com/oguzhanozfe/review-miner)"
+USER_AGENT = "review-miner/0.1 (python-urllib; rate-limited research client)"
 FILTER_RECENT = 1
 PURCHASE_ALL = 1
 REVIEW_TYPE = {"positive": 1, "negative": 2}

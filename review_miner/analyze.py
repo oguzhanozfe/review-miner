@@ -97,6 +97,29 @@ def volume(data: dict) -> dict:
     return out
 
 
+def category_rollup(themes: list[dict], sizes: dict) -> list[dict]:
+    """Sum clusters by (polarity, category): k-means can split one topic into several clusters,
+    so the category level is the robust read and the cluster level is the detail."""
+    acc = {}
+    for t in themes:
+        a = acc.setdefault((t["polarity"], t["category"]), {"before": 0, "after": 0, "themes": 0})
+        a["before"] += t["before"]["count"]
+        a["after"] += t["after"]["count"]
+        a["themes"] += 1
+    out = []
+    for (pol, cat), a in acc.items():
+        nb, na = sizes[pol]["before"], sizes[pol]["after"]
+        sb, sa = (a["before"] / nb if nb else 0.0), (a["after"] / na if na else 0.0)
+        z = two_prop_z(a["before"], nb, a["after"], na)
+        trend = "low n" if a["before"] + a["after"] < LOW_N else (
+            "rose" if z >= 1.96 else "fell" if z <= -1.96 else "flat")
+        out.append({"polarity": pol, "category": cat, "themes": a["themes"],
+                    "before": {"count": a["before"], "share": round(sb, 4)},
+                    "after": {"count": a["after"], "share": round(sa, 4)},
+                    "delta_pp": round((sa - sb) * 100, 1), "z": round(z, 2), "trend": trend})
+    return sorted(out, key=lambda c: (c["polarity"], -abs(c["delta_pp"])))
+
+
 def analyze(data: dict, backend, k: int | None = None, seed: int = 7) -> dict:
     t0 = time.time()
     usable, stats = prepare(data)
@@ -142,14 +165,16 @@ def analyze(data: dict, backend, k: int | None = None, seed: int = 7) -> dict:
             themes.append(theme)
             all_quotes += [dict(q, theme=theme["id"]) for q in label["quotes"] + label["feature_requests"]]
     unverified = [q for q in all_quotes if not q["verified"]]
+    sizes = {p: Counter(r["side"] for r in usable if r["voted_up"] == (p == "positive"))
+             for p in ("negative", "positive")}
     return {
         "game": data["name"], "appid": data["appid"], "patch": data["patch"],
         "window_days": data.get("window_days"), "window_note": data.get("note", ""),
         "source": data.get("source"), "sampling": data.get("sampling"),
         "collected_at": data.get("collected_at"), "backend": backend.name,
         "volume": volume(data), "stats": stats,
-        "sample_sizes": {p: dict(Counter(r["side"] for r in usable if r["voted_up"] == (p == "positive")))
-                         for p in ("negative", "positive")},
+        "sample_sizes": {p: dict(c) for p, c in sizes.items()},
+        "categories": category_rollup(themes, sizes),
         "themes": sorted(themes, key=lambda t: (t["polarity"], -t["size"])),
         "verification": {"total": len(all_quotes), "verified": len(all_quotes) - len(unverified),
                          "unverified": len(unverified), "unverified_items": unverified},

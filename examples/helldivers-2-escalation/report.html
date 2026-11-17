@@ -22,7 +22,7 @@ blockquote{margin:.4em 0;padding:.2em .8em;border-left:3px solid var(--line)}
 <h1>HELLDIVERS 2: reviews before vs after &ldquo;Patch 1.001.002 Escalation of Freedom&rdquo;</h1>
 <p>Patch posted 2024-08-06 (<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5963413728352726120">Steam news</a>). Windows: 7 days before,
 7 days after. </p>
-<p class=note>Labels by <b>gemini:gemini-3.1-flash-lite, gemini-3.5-flash-lite, gemma-4-31b-it + gemini-embedding-001</b>. Quotes: <b>45/45</b> verified verbatim against the cited review;
+<p class=note>Labels by <b>gemini:gemini-3.5-flash-lite, gemma-4-31b-it + gemini-embedding-001</b>. Quotes: <b>45/45</b> verified verbatim against the cited review;
 0 unverified (listed at the end, never silently dropped).
 Reviews from <code>IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)</code>; Valve retired the old <code>/appreviews?json=1</code> endpoint in October 2026.</p>
 
@@ -42,8 +42,12 @@ theme shares are <i>within</i> a polarity, not of all reviews). 2 duplicates rem
 positive 37 before / 46 after.</p>
 <p class=mut>Trend: &ldquo;rose&rdquo;/&ldquo;fell&rdquo; only when a two-proportion z-test passes |z| &ge; 1.96; themes under 8 reviews are &ldquo;low n&rdquo;.</p>
 
-<h2>Complaints: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#neg-6'>Excessive weapon nerfing in PvE</a></td><td>balance</td><td>3 / 2.5%</td><td>37 / 28.9%</td><td class='rose'>+26.4 pp rose</td></tr><tr><td><a href='#neg-2'>Technical issues, bugs, and game crashes</a></td><td>bug</td><td>39 / 32.0%</td><td>15 / 11.7%</td><td class='fell'>-20.2 pp fell</td></tr><tr><td><a href='#neg-5'>Decline due to poor balancing updates</a></td><td>balance</td><td>21 / 17.2%</td><td>10 / 7.8%</td><td class='fell'>-9.4 pp fell</td></tr><tr><td><a href='#neg-4'>Developer nerfs and balancing ruining fun</a></td><td>balance</td><td>20 / 16.4%</td><td>30 / 23.4%</td><td class=''>+7.0 pp flat</td></tr><tr><td><a href='#neg-3'>Repetitive gameplay loop and content fatigue</a></td><td>content</td><td>7 / 5.7%</td><td>0 / 0.0%</td><td class=''>-5.7 pp low n</td></tr><tr><td><a href='#neg-0'>Excessive weapon nerfs and balance issues</a></td><td>balance</td><td>5 / 4.1%</td><td>9 / 7.0%</td><td class=''>+2.9 pp flat</td></tr><tr><td><a href='#neg-1'>Developer incompetence and hostility toward players</a></td><td>other</td><td>27 / 22.1%</td><td>27 / 21.1%</td><td class=''>-1.0 pp flat</td></tr></table>
-<h2>Praise: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#pos-0'>Weapon Balancing and Gameplay Fun</a></td><td>balance</td><td>7 / 18.9%</td><td>21 / 45.6%</td><td class='rose'>+26.7 pp rose</td></tr><tr><td><a href='#pos-2'>General praise and positive updates</a></td><td>content</td><td>14 / 37.8%</td><td>9 / 19.6%</td><td class=''>-18.3 pp flat</td></tr><tr><td><a href='#pos-3'>General praise for cooperative gameplay</a></td><td>content</td><td>8 / 21.6%</td><td>6 / 13.0%</td><td class=''>-8.6 pp flat</td></tr><tr><td><a href='#pos-1'>Roleplaying as Super Earth citizens</a></td><td>other</td><td>3 / 8.1%</td><td>5 / 10.9%</td><td class=''>+2.8 pp flat</td></tr><tr><td><a href='#pos-4'>enthusiastic support for democratic gameplay</a></td><td>other</td><td>5 / 13.5%</td><td>5 / 10.9%</td><td class=''>-2.6 pp flat</td></tr></table>
+<h2>Complaints by category</h2>
+<p class=mut>Clusters summed by label. k-means can split one topic into several clusters, so read this level first.</p>
+<table><tr><th>Category</th><th>Clusters</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td>balance</td><td>4</td><td>49 / 40.2%</td><td>86 / 67.2%</td><td class='rose'>+27.0 pp rose <span class=mut>(z=4.29)</span></td></tr><tr><td>bug</td><td>1</td><td>39 / 32.0%</td><td>15 / 11.7%</td><td class='fell'>-20.2 pp fell <span class=mut>(z=-3.89)</span></td></tr><tr><td>content</td><td>1</td><td>7 / 5.7%</td><td>0 / 0.0%</td><td class=''>-5.7 pp low n <span class=mut>(z=-2.75)</span></td></tr><tr><td>other</td><td>1</td><td>27 / 22.1%</td><td>27 / 21.1%</td><td class=''>-1.0 pp flat <span class=mut>(z=-0.2)</span></td></tr></table>
+<h2>Praise by category</h2><table><tr><th>Category</th><th>Clusters</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td>content</td><td>2</td><td>22 / 59.5%</td><td>15 / 32.6%</td><td class='fell'>-26.9 pp fell <span class=mut>(z=-2.45)</span></td></tr><tr><td>balance</td><td>1</td><td>7 / 18.9%</td><td>21 / 45.6%</td><td class='rose'>+26.7 pp rose <span class=mut>(z=2.56)</span></td></tr><tr><td>other</td><td>2</td><td>8 / 21.6%</td><td>10 / 21.7%</td><td class=''>+0.1 pp flat <span class=mut>(z=0.01)</span></td></tr></table>
+<h2>Complaint clusters: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#neg-6'>Excessive weapon nerfs destroying PvE fun</a></td><td>balance</td><td>3 / 2.5%</td><td>37 / 28.9%</td><td class='rose'>+26.4 pp rose</td></tr><tr><td><a href='#neg-2'>Technical issues, bugs, and game crashes</a></td><td>bug</td><td>39 / 32.0%</td><td>15 / 11.7%</td><td class='fell'>-20.2 pp fell</td></tr><tr><td><a href='#neg-5'>Frustration with poor updates and nerfs</a></td><td>balance</td><td>21 / 17.2%</td><td>10 / 7.8%</td><td class='fell'>-9.4 pp fell</td></tr><tr><td><a href='#neg-4'>Developer nerfs and balancing ruining fun</a></td><td>balance</td><td>20 / 16.4%</td><td>30 / 23.4%</td><td class=''>+7.0 pp flat</td></tr><tr><td><a href='#neg-3'>Repetitive gameplay loop and content fatigue</a></td><td>content</td><td>7 / 5.7%</td><td>0 / 0.0%</td><td class=''>-5.7 pp low n</td></tr><tr><td><a href='#neg-0'>Excessive weapon nerfs and balance issues</a></td><td>balance</td><td>5 / 4.1%</td><td>9 / 7.0%</td><td class=''>+2.9 pp flat</td></tr><tr><td><a href='#neg-1'>Developer incompetence and hostility toward players</a></td><td>other</td><td>27 / 22.1%</td><td>27 / 21.1%</td><td class=''>-1.0 pp flat</td></tr></table>
+<h2>Praise clusters: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#pos-0'>Weapon Balancing and Gameplay Fun</a></td><td>balance</td><td>7 / 18.9%</td><td>21 / 45.6%</td><td class='rose'>+26.7 pp rose</td></tr><tr><td><a href='#pos-2'>General praise and positive updates</a></td><td>content</td><td>14 / 37.8%</td><td>9 / 19.6%</td><td class=''>-18.3 pp flat</td></tr><tr><td><a href='#pos-3'>General praise for cooperative gameplay</a></td><td>content</td><td>8 / 21.6%</td><td>6 / 13.0%</td><td class=''>-8.6 pp flat</td></tr><tr><td><a href='#pos-1'>Roleplaying as Super Earth citizens</a></td><td>other</td><td>3 / 8.1%</td><td>5 / 10.9%</td><td class=''>+2.8 pp flat</td></tr><tr><td><a href='#pos-4'>General praise and roleplay enthusiasm</a></td><td>other</td><td>5 / 13.5%</td><td>5 / 10.9%</td><td class=''>-2.6 pp flat</td></tr></table>
 <h2>Complaint themes</h2><div class=theme id="neg-1">
 <span class=tag>other</span><span class=tag>negative</span>
 <b>Developer incompetence and hostility toward players</b> <span class=mut>(54 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
@@ -73,22 +77,22 @@ After: 30 (23.4%) &middot;
 <p class=mut>Feature requests</p><blockquote class=''><b>Let players have weaponry that works properly without constant nerfs</b><br>“Arrowhead, for the love of god let us have weaponry that works properly.”<br><span class=mut><span class=tag>after</span>review 171668373 &middot; verified</span></blockquote>
 </div><div class=theme id="neg-6">
 <span class=tag>balance</span><span class=tag>negative</span>
-<b>Excessive weapon nerfing in PvE</b> <span class=mut>(40 reviews &middot; labelled by gemma-4-31b-it)</span>
-<p>Players are frustrated by frequent weapon nerfs and a balancing philosophy that treats a cooperative PvE game like a competitive PvP game.</p>
+<b>Excessive weapon nerfs destroying PvE fun</b> <span class=mut>(40 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players are frustrated that the developers continually nerf popular weapons and fun strategies in a PvE game instead of buffing weaker alternatives.</p>
 <p>Before: 3 (2.5% of sampled negative reviews) &rarr;
 After: 37 (28.9%) &middot;
 <span class="rose">+26.4 pp, rose</span> <span class=mut>(z=5.7)</span></p>
-<blockquote class=''>“There is way more nerfs than buffs happening”<br><span class=mut><span class=tag>after</span>review 171667166 &middot; verified</span></blockquote><blockquote class=''>“trying to &quot;Balance&quot; a PVE game is disadvantageous compared to a PVP game”<br><span class=mut><span class=tag>after</span>review 172020840 &middot; verified</span></blockquote><blockquote class=''>“Every patch = NERF weapons = Game no longer fun”<br><span class=mut><span class=tag>after</span>review 171949435 &middot; verified</span></blockquote>
-<p class=mut>Feature requests</p><blockquote class=''><b>Buff unused weapons instead of nerfing fun ones</b><br>“STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES.”<br><span class=mut><span class=tag>after</span>review 171600515 &middot; verified</span></blockquote><blockquote class=''><b>Buff unpopular weapons instead of nerfing popular ones</b><br>“Can&#x27;t you just buff the other weapons that are not popular?”<br><span class=mut><span class=tag>after</span>review 171667427 &middot; verified</span></blockquote>
+<blockquote class=''>“devs stop destroying the fun of playing a PVE game and actually do things for the better.”<br><span class=mut><span class=tag>after</span>review 171667166 &middot; verified</span></blockquote><blockquote class=''>“IF IT AINT BROKEN, DONT FIX IT”<br><span class=mut><span class=tag>after</span>review 171880181 &middot; verified</span></blockquote><blockquote class=''>“STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES”<br><span class=mut><span class=tag>after</span>review 171600515 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Stop nerfing popular weapons and instead buff unused ones to make everything viable</b><br>“STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES. U RE KILLING THE GAME”<br><span class=mut><span class=tag>after</span>review 171600515 &middot; verified</span></blockquote><blockquote class=''><b>Buff weapons and stop trying to balance a PvE game like a PvP game</b><br>“Can&#x27;t you just buff the other weapons that are not popular?”<br><span class=mut><span class=tag>after</span>review 171667427 &middot; verified</span></blockquote>
 </div><div class=theme id="neg-5">
 <span class=tag>balance</span><span class=tag>negative</span>
-<b>Decline due to poor balancing updates</b> <span class=mut>(31 reviews &middot; labelled by gemma-4-31b-it)</span>
-<p>Players feel the game has become miserable and unsatisfying due to poor developer decisions and aggressive balancing updates.</p>
+<b>Frustration with poor updates and nerfs</b> <span class=mut>(31 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Reviewers are disappointed that successive developer updates and weapon nerfs have made the game increasingly boring, unbalanced, and unenjoyable.</p>
 <p>Before: 21 (17.2% of sampled negative reviews) &rarr;
 After: 10 (7.8%) &middot;
 <span class="fell">-9.4 pp, fell</span> <span class=mut>(z=-2.25)</span></p>
-<blockquote class=''>“changed exactly what the community enjoyed to make it dramatically less enjoyable in every way”<br><span class=mut><span class=tag>before</span>review 171466471 &middot; verified</span></blockquote><blockquote class=''>“Broken nerfing simulator. What a shame.”<br><span class=mut><span class=tag>after</span>review 171667371 &middot; verified</span></blockquote><blockquote class=''>“with the update they also nerfed some weapons ammo”<br><span class=mut><span class=tag>before</span>review 171212819 &middot; verified</span></blockquote>
-
+<blockquote class=''>“Then the devs updated it and changed exactly what the community enjoyed to make it dramatically less enjoyable”<br><span class=mut><span class=tag>before</span>review 171466471 &middot; verified</span></blockquote><blockquote class=''>“Broken nerfing simulator. What a shame.”<br><span class=mut><span class=tag>after</span>review 171667371 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Refund for the game</b><br>“I want my money back!”<br><span class=mut><span class=tag>before</span>review 171212819 &middot; verified</span></blockquote>
 </div><div class=theme id="neg-0">
 <span class=tag>balance</span><span class=tag>negative</span>
 <b>Excessive weapon nerfs and balance issues</b> <span class=mut>(14 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
@@ -139,12 +143,12 @@ After: 6 (13.0%) &middot;
 
 </div><div class=theme id="pos-4">
 <span class=tag>other</span><span class=tag>positive</span>
-<b>enthusiastic support for democratic gameplay</b> <span class=mut>(10 reviews &middot; labelled by gemini-3.1-flash-lite)</span>
-<p>Players express high satisfaction with the game&#x27;s core loop, thematic immersion, and overall fun factor.</p>
+<b>General praise and roleplay enthusiasm</b> <span class=mut>(10 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Players are highly enthusiastic about the game&#x27;s combat and immersive roleplaying elements.</p>
 <p>Before: 5 (13.5% of sampled positive reviews) &rarr;
 After: 5 (10.9%) &middot;
 <span class="">-2.6 pp, flat</span> <span class=mut>(z=-0.37)</span></p>
-<blockquote class=''>“I love this game with all my heart! MOST DEMOCRATIC GAME EVER!”<br><span class=mut><span class=tag>before</span>review 171534755 &middot; verified</span></blockquote><blockquote class=''>“Fun shooter, blow stuff up kill aliens and robots. What&#x27;s no to love!”<br><span class=mut><span class=tag>before</span>review 171269515 &middot; verified</span></blockquote><blockquote class=''>“10/10 would serve democracy again”<br><span class=mut><span class=tag>after</span>review 171948676 &middot; verified</span></blockquote>
+<blockquote class=''>“Fun shooter, blow stuff up kill aliens and robots. What&#x27;s no to love!”<br><span class=mut><span class=tag>before</span>review 171269515 &middot; verified</span></blockquote><blockquote class=''>“If you loved Starship Troopers, you&#x27;ll love this game.....”<br><span class=mut><span class=tag>before</span>review 171535038 &middot; verified</span></blockquote><blockquote class=''>“First mission I land all alone next thing I know I&#x27;m being surrounded by bugs”<br><span class=mut><span class=tag>after</span>review 171948676 &middot; verified</span></blockquote>
 
 </div><div class=theme id="pos-1">
 <span class=tag>other</span><span class=tag>positive</span>
@@ -157,5 +161,5 @@ After: 5 (10.9%) &middot;
 
 </div>
 <h2>Unverified quotes</h2><p>None.</p>
-<p class=mut>Generated in 568.6 s. Data collected 2026-11-17.</p>
+<p class=mut>Generated in 135.9 s. Data collected 2026-11-17.</p>
 </main></body></html>

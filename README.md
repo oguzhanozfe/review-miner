@@ -4,8 +4,9 @@ Turn Steam reviews into product themes (bugs, balance, monetization, performance
 and compare the windows before and after a patch. Every quote in the output is checked against
 the review it cites, and quotes that fail the check are listed, not dropped.
 
-> **Endpoint note (Nov 2026).** Valve retired `store.steampowered.com/appreviews/<appid>?json=1`
-> around 2026-10-22. It now answers `302` to the store front page. This tool uses the documented
+> **Endpoint note (Nov 2026).** `store.steampowered.com/appreviews/<appid>?json=1` answered `302`
+> to the store front page when tested on 2026-11-17, and Valve's docs now mark it deprecated.
+> Developer reports put the cutover around 2026-10-22. This tool uses the documented
 > replacement, [`IUserReviewsService/GetAppReviews`](https://partner.steamgames.com/doc/webapi/IUserReviewsService#GetAppReviews).
 > It takes the same filters, as enums inside `input_json`, needs no key, and adds date-range
 > filters. Redirects are never followed, so a retired endpoint fails loudly instead of parsing
@@ -81,31 +82,33 @@ verification.
 Real runs on the recorded fixtures, 2026-11-17. The labels come from Gemini free-tier models
 through the OpenAI-compatible endpoint, with `gemini-embedding-001` (768-d) embeddings. Each
 number below is in the committed `examples/<game>/report.json`, and every theme there records
-which model labelled it.
+which model labelled it. Open `examples/*/report.html` to read the themes with their quotes.
 
 | Game / patch | Labelled by | Reviews analysed | Quotes verified | Steam negative share, before → after (full counts) |
 | --- | --- | --- | --- | --- |
 | Stardew Valley 1.6 (2024-03-19) | gemini-3.5-flash-lite | 105 | 18 / 18 | 0.5% → 0.8% |
 | Cyberpunk 2077 Update 2.0 (2023-09-21) | gemini-3.5-flash-lite | 172 | 23 / 23 | 5.3% → 10.7% |
-| HELLDIVERS 2 Escalation of Freedom (2024-08-06) | gemini-3.5-flash-lite, gemma-4-31b-it, gemini-3.1-flash-lite (fallbacks after 503s) | 333 | 45 / 45 | 14.4% → 44.1% |
+| HELLDIVERS 2 Escalation of Freedom (2024-08-06) | gemini-3.5-flash-lite (complaints), gemma-4-31b-it (praise, after 503s) | 333 | 45 / 45 | 14.4% → 44.1% |
 
-Theme changes that pass the z-test (|z| ≥ 1.96). Shares are of the sampled complaints or praise on
-each side:
+These changes pass the z-test (|z| ≥ 1.96). Shares are of the sampled complaints or praise on
+each side. Category rows sum all clusters with that label; read them first, because k-means can
+split one topic into several clusters.
 
-- **HELLDIVERS 2.** The complaint theme "Excessive weapon nerfing in PvE" (balance) went from 2.5%
-  to 28.9% of sampled complaints (3 → 37 reviews, z = 5.7). "Technical issues, bugs, and game
-  crashes" fell from 32.0% to 11.7% (z = -3.9). Among praise, "Weapon Balancing and Gameplay Fun"
-  rose from 18.9% to 45.7% (z = 2.6), so balance dominated both sides of the conversation.
-- **Cyberpunk 2077.** "Negative impact of the 2.0 update" (labelled balance) went from 9.1% to 39.7%
-  of sampled complaints (z = 3.2). Complaints about bugs stayed flat (33% → 29%).
-- **Stardew Valley.** No theme passes the test. The game has 8 sampled complaints before the patch,
-  which is too few to call a change.
+- **HELLDIVERS 2.** Balance complaints (4 clusters) went from 40.2% to 67.2% of sampled complaints
+  (49 → 86 reviews, z = 4.3). Bug complaints fell from 32.0% to 11.7% (z = -3.9). Within balance,
+  one cluster, "Excessive weapon nerfs destroying PvE fun", went from 2.5% to 28.9% (3 → 37, z = 5.7),
+  while a sibling balance cluster fell (17.2% → 7.8%, z = -2.3), so read the clusters together.
+  Among praise, the balance category rose from 18.9% to 45.7% (z = 2.6).
+- **Cyberpunk 2077.** One cluster, "Negative impact of the 2.0 update" (labelled balance), went from
+  9.1% to 39.7% of sampled complaints (z = 3.2). Bug complaints stayed flat (33% → 29%).
+- **Stardew Valley.** Nothing passes the test. There are only 8 sampled complaints before the
+  patch, and every complaint cluster got the same "content" label.
 
 Every model-written quote was found verbatim in the review it cites (86 / 86). The verifier's
 negative path is tested with fabricated quotes (`tests/test_pipeline.py`), and CI runs every
-fixture through the offline backend with `--strict`. The runs used about 18k prompt tokens on the
-free tier; later reruns are served from the disk cache. Open `examples/*/report.html` to read the
-themes with their quotes.
+fixture through the offline backend with `--strict`. Token counts per run are in each
+`report.json` (`token_usage`). The last regeneration was served mostly from the response cache,
+so those counts cover only new calls.
 
 ## Known limits
 
@@ -129,8 +132,19 @@ themes with their quotes.
   themes are much coarser (most clusters fall into "content"). It exists so tests, CI and the demo
   run with no network or key.
 - **Free-tier quotas.** Gemini's free tier has small daily and per-minute limits. Responses are
-  cached on disk by request hash (`.cache/review-miner`), and a 429 on chat moves on to the next
-  model (`gemini-3.5-flash-lite`, then `gemma-4-31b-it`). Each theme records which model labelled it.
+  cached on disk by request hash (`.cache/review-miner`). When a chat call returns 429, or still
+  fails with a 5xx or timeout after retries, it moves on to the next model (`gemini-3.5-flash-lite`,
+  then `gemma-4-31b-it`, then `gemini-3.1-flash-lite`). One report can therefore mix models; each
+  theme records which model labelled it.
+- **Only the Gemini path has been run end to end.** The `deepseek`, `openai` and `ollama` backends
+  are implemented but unverified: the DeepSeek account had no balance, no OpenAI key was used, and
+  a local Ollama run was stopped before it finished.
+- **No multiple-testing correction.** Each game tests 7-12 clusters plus categories at
+  |z| ≥ 1.96, so expect about one false "rose"/"fell" in twenty tests.
+- **Jokes are data too.** Steam reviews are often ironic. The prompt tells the model to skip joke
+  feature requests, but meme reviews still form their own clusters, for example Stardew's
+  "Humorous review about war crimes". The quotes are verbatim, so the report shows what players
+  wrote, jokes included.
 - **Endpoint drift.** Steam's review API changed once already, in October 2026, and can change
   again. Fixtures were recorded on 2026-11-17.
 

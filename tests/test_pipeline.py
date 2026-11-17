@@ -132,6 +132,9 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(sum(t["before"]["count"] for t in ts), res["sample_sizes"][pol]["before"])
             self.assertAlmostEqual(sum(t["after"]["share"] for t in ts), 1.0, places=3)
         self.assertEqual(res["verification"]["unverified"], 0)
+        for c in res["categories"]:  # category rollup is the sum of its clusters
+            ts = [t for t in res["themes"] if (t["polarity"], t["category"]) == (c["polarity"], c["category"])]
+            self.assertEqual(c["after"]["count"], sum(t["after"]["count"] for t in ts))
 
 
 @unittest.skipUnless(FIXTURES, "no recorded fixtures")

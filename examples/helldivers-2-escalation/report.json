@@ -20,7 +20,7 @@
   "negative_pages_per_day": 2
  },
  "collected_at": 1794877524,
- "backend": "gemini:gemini-3.1-flash-lite, gemini-3.5-flash-lite, gemma-4-31b-it + gemini-embedding-001",
+ "backend": "gemini:gemini-3.5-flash-lite, gemma-4-31b-it + gemini-embedding-001",
  "volume": {
   "before": {
    "days": 7,
@@ -78,6 +78,120 @@
    "after": 46
   }
  },
+ "categories": [
+  {
+   "polarity": "negative",
+   "category": "balance",
+   "themes": 4,
+   "before": {
+    "count": 49,
+    "share": 0.4016
+   },
+   "after": {
+    "count": 86,
+    "share": 0.6719
+   },
+   "delta_pp": 27.0,
+   "z": 4.29,
+   "trend": "rose"
+  },
+  {
+   "polarity": "negative",
+   "category": "bug",
+   "themes": 1,
+   "before": {
+    "count": 39,
+    "share": 0.3197
+   },
+   "after": {
+    "count": 15,
+    "share": 0.1172
+   },
+   "delta_pp": -20.2,
+   "z": -3.89,
+   "trend": "fell"
+  },
+  {
+   "polarity": "negative",
+   "category": "content",
+   "themes": 1,
+   "before": {
+    "count": 7,
+    "share": 0.0574
+   },
+   "after": {
+    "count": 0,
+    "share": 0.0
+   },
+   "delta_pp": -5.7,
+   "z": -2.75,
+   "trend": "low n"
+  },
+  {
+   "polarity": "negative",
+   "category": "other",
+   "themes": 1,
+   "before": {
+    "count": 27,
+    "share": 0.2213
+   },
+   "after": {
+    "count": 27,
+    "share": 0.2109
+   },
+   "delta_pp": -1.0,
+   "z": -0.2,
+   "trend": "flat"
+  },
+  {
+   "polarity": "positive",
+   "category": "content",
+   "themes": 2,
+   "before": {
+    "count": 22,
+    "share": 0.5946
+   },
+   "after": {
+    "count": 15,
+    "share": 0.3261
+   },
+   "delta_pp": -26.9,
+   "z": -2.45,
+   "trend": "fell"
+  },
+  {
+   "polarity": "positive",
+   "category": "balance",
+   "themes": 1,
+   "before": {
+    "count": 7,
+    "share": 0.1892
+   },
+   "after": {
+    "count": 21,
+    "share": 0.4565
+   },
+   "delta_pp": 26.7,
+   "z": 2.56,
+   "trend": "rose"
+  },
+  {
+   "polarity": "positive",
+   "category": "other",
+   "themes": 2,
+   "before": {
+    "count": 8,
+    "share": 0.2162
+   },
+   "after": {
+    "count": 10,
+    "share": 0.2174
+   },
+   "delta_pp": 0.1,
+   "z": 0.01,
+   "trend": "flat"
+  }
+ ],
  "themes": [
   {
    "id": "neg-1",
@@ -402,10 +516,10 @@
    "id": "neg-6",
    "polarity": "negative",
    "category": "balance",
-   "theme": "Excessive weapon nerfing in PvE",
-   "summary": "Players are frustrated by frequent weapon nerfs and a balancing philosophy that treats a cooperative PvE game like a competitive PvP game.",
+   "theme": "Excessive weapon nerfs destroying PvE fun",
+   "summary": "Players are frustrated that the developers continually nerf popular weapons and fun strategies in a PvE game instead of buffing weaker alternatives.",
    "label_parsed": true,
-   "labelled_by": "gemma-4-31b-it",
+   "labelled_by": "gemini-3.5-flash-lite",
    "size": 40,
    "before": {
     "count": 3,
@@ -421,21 +535,21 @@
    "quotes": [
     {
      "review_id": "171667166",
-     "quote": "There is way more nerfs than buffs happening",
+     "quote": "devs stop destroying the fun of playing a PVE game and actually do things for the better.",
      "verified": true,
      "reason": "verbatim",
      "side": "after"
     },
     {
-     "review_id": "172020840",
-     "quote": "trying to \"Balance\" a PVE game is disadvantageous compared to a PVP game",
+     "review_id": "171880181",
+     "quote": "IF IT AINT BROKEN, DONT FIX IT",
      "verified": true,
      "reason": "verbatim",
      "side": "after"
     },
     {
-     "review_id": "171949435",
-     "quote": "Every patch = NERF weapons = Game no longer fun",
+     "review_id": "171600515",
+     "quote": "STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES",
      "verified": true,
      "reason": "verbatim",
      "side": "after"
@@ -443,15 +557,15 @@
    ],
    "feature_requests": [
     {
-     "request": "Buff unused weapons instead of nerfing fun ones",
+     "request": "Stop nerfing popular weapons and instead buff unused ones to make everything viable",
      "review_id": "171600515",
-     "quote": "STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES.",
+     "quote": "STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES. U RE KILLING THE GAME",
      "verified": true,
      "reason": "verbatim",
      "side": "after"
     },
     {
-     "request": "Buff unpopular weapons instead of nerfing popular ones",
+     "request": "Buff weapons and stop trying to balance a PvE game like a PvP game",
      "review_id": "171667427",
      "quote": "Can't you just buff the other weapons that are not popular?",
      "verified": true,
@@ -506,10 +620,10 @@
    "id": "neg-5",
    "polarity": "negative",
    "category": "balance",
-   "theme": "Decline due to poor balancing updates",
-   "summary": "Players feel the game has become miserable and unsatisfying due to poor developer decisions and aggressive balancing updates.",
+   "theme": "Frustration with poor updates and nerfs",
+   "summary": "Reviewers are disappointed that successive developer updates and weapon nerfs have made the game increasingly boring, unbalanced, and unenjoyable.",
    "label_parsed": true,
-   "labelled_by": "gemma-4-31b-it",
+   "labelled_by": "gemini-3.5-flash-lite",
    "size": 31,
    "before": {
     "count": 21,
@@ -525,7 +639,7 @@
    "quotes": [
     {
      "review_id": "171466471",
-     "quote": "changed exactly what the community enjoyed to make it dramatically less enjoyable in every way",
+     "quote": "Then the devs updated it and changed exactly what the community enjoyed to make it dramatically less enjoyable",
      "verified": true,
      "reason": "verbatim",
      "side": "before"
@@ -536,16 +650,18 @@
      "verified": true,
      "reason": "verbatim",
      "side": "after"
-    },
+    }
+   ],
+   "feature_requests": [
     {
+     "request": "Refund for the game",
      "review_id": "171212819",
-     "quote": "with the update they also nerfed some weapons ammo",
+     "quote": "I want my money back!",
      "verified": true,
      "reason": "verbatim",
      "side": "before"
     }
    ],
-   "feature_requests": [],
    "review_ids": [
     "172020567",
     "171945715",
@@ -948,10 +1064,10 @@
    "id": "pos-4",
    "polarity": "positive",
    "category": "other",
-   "theme": "enthusiastic support for democratic gameplay",
-   "summary": "Players express high satisfaction with the game's core loop, thematic immersion, and overall fun factor.",
+   "theme": "General praise and roleplay enthusiasm",
+   "summary": "Players are highly enthusiastic about the game's combat and immersive roleplaying elements.",
    "label_parsed": true,
-   "labelled_by": "gemini-3.1-flash-lite",
+   "labelled_by": "gemma-4-31b-it",
    "size": 10,
    "before": {
     "count": 5,
@@ -966,13 +1082,6 @@
    "trend": "flat",
    "quotes": [
     {
-     "review_id": "171534755",
-     "quote": "I love this game with all my heart! MOST DEMOCRATIC GAME EVER!",
-     "verified": true,
-     "reason": "verbatim",
-     "side": "before"
-    },
-    {
      "review_id": "171269515",
      "quote": "Fun shooter, blow stuff up kill aliens and robots. What's no to love!",
      "verified": true,
@@ -980,8 +1089,15 @@
      "side": "before"
     },
     {
+     "review_id": "171535038",
+     "quote": "If you loved Starship Troopers, you'll love this game.....",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
      "review_id": "171948676",
-     "quote": "10/10 would serve democracy again",
+     "quote": "First mission I land all alone next thing I know I'm being surrounded by bugs",
      "verified": true,
      "reason": "verbatim",
      "side": "after"
@@ -1063,20 +1179,18 @@
   "unverified": 0,
   "unverified_items": []
  },
- "elapsed_s": 568.6,
+ "elapsed_s": 135.9,
  "token_usage": {
-  "prompt_tokens": 6891,
-  "completion_tokens": 1508,
-  "calls": 6,
-  "cache_hits": 6,
+  "prompt_tokens": 3340,
+  "completion_tokens": 779,
+  "calls": 3,
+  "cache_hits": 9,
   "by_model": {
-   "gemini-3.5-flash-lite": 5,
-   "gemma-4-31b-it": 6,
-   "gemini-3.1-flash-lite": 1
+   "gemini-3.5-flash-lite": 7,
+   "gemma-4-31b-it": 5
   },
   "model_failures": [
-   "gemini-3.5-flash-lite: HTTP Error 503: Service Unavailable",
-   "gemma-4-31b-it: HTTP Error 503: Service Unavailable"
+   "gemini-3.5-flash-lite: HTTP Error 503: Service Unavailable"
   ]
  }
 }

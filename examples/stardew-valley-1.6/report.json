@@ -77,6 +77,56 @@
    "after": 37
   }
  },
+ "categories": [
+  {
+   "polarity": "negative",
+   "category": "content",
+   "themes": 3,
+   "before": {
+    "count": 8,
+    "share": 1.0
+   },
+   "after": {
+    "count": 23,
+    "share": 1.0
+   },
+   "delta_pp": 0.0,
+   "z": 0.0,
+   "trend": "flat"
+  },
+  {
+   "polarity": "positive",
+   "category": "content",
+   "themes": 3,
+   "before": {
+    "count": 36,
+    "share": 0.973
+   },
+   "after": {
+    "count": 37,
+    "share": 1.0
+   },
+   "delta_pp": 2.7,
+   "z": 1.01,
+   "trend": "flat"
+  },
+  {
+   "polarity": "positive",
+   "category": "other",
+   "themes": 1,
+   "before": {
+    "count": 1,
+    "share": 0.027
+   },
+   "after": {
+    "count": 0,
+    "share": 0.0
+   },
+   "delta_pp": -2.7,
+   "z": -1.01,
+   "trend": "low n"
+  }
+ ],
  "themes": [
   {
    "id": "neg-2",
@@ -502,12 +552,12 @@
   "unverified": 0,
   "unverified_items": []
  },
- "elapsed_s": 8086.5,
+ "elapsed_s": 0.0,
  "token_usage": {
-  "prompt_tokens": 5107,
-  "completion_tokens": 1325,
-  "calls": 7,
-  "cache_hits": 0,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "calls": 0,
+  "cache_hits": 7,
   "by_model": {
    "gemini-3.5-flash-lite": 7
   }
