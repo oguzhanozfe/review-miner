@@ -5,12 +5,12 @@ import datetime as dt
 from html import escape
 
 CSS = """
-:root{--bg:#fbfbf9;--fg:#1d1d1b;--mut:#6b6b66;--line:#e2e1dc;--card:#fff;--up:#b3261e;--down:#1b6e3a;--warn:#8a5a00}
-@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecebe6;--mut:#a09f99;--line:#33322f;--card:#1f1f1d;--up:#ff8a80;--down:#7fd69a;--warn:#f2c46d}}
+:root{--bg:#fbfbf9;--fg:#1d1d1b;--mut:#6b6b66;--line:#e2e1dc;--card:#fff;--up:#b3261e;--down:#1b6e3a;--warn:#8a5a00;--link:#1d4ed8}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecebe6;--mut:#a09f99;--line:#33322f;--card:#1f1f1d;--up:#ff8a80;--down:#7fd69a;--warn:#f2c46d;--link:#8ab4f8}}
 body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;margin:0}
 main{max-width:980px;margin:0 auto;padding:24px 16px 64px}
 h1{font-size:1.6rem;margin:.2em 0}h2{margin-top:2em;border-bottom:1px solid var(--line);padding-bottom:.2em}
-.mut{color:var(--mut)}.note{border-left:3px solid var(--warn);padding:.4em .8em;background:var(--card)}
+a{color:var(--link)}.mut{color:var(--mut)}.note{border-left:3px solid var(--warn);padding:.4em .8em;background:var(--card)}
 table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
 th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
 .theme{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:12px 0}
@@ -123,4 +123,28 @@ positive {ss['positive'].get('before', 0)} before / {ss['positive'].get('after',
 <h2>Praise themes</h2>{''.join(_theme(t) for t in pos)}
 <h2>Unverified quotes</h2>{unv}
 <p class=mut>Generated in {r['elapsed_s']} s. Data collected {_date(r.get('collected_at'))}.</p>
+</main></body></html>"""
+
+
+def render_index(results: list[tuple[str, dict]], mode_line: str) -> str:
+    """Landing page linking each game's report, with the headline numbers."""
+    rows = "".join(
+        f"<tr><td><a href='{escape(slug)}/report.html'>{escape(r['game'])}</a></td>"
+        f"<td>{escape(r['patch']['title'])}<br><span class=mut>{_date(r['patch']['date'])}</span></td>"
+        f"<td>{r['stats']['analyzed']}</td>"
+        f"<td>{r['verification']['verified']} / {r['verification']['total']}</td>"
+        f"<td>{_pct(r['volume']['before']['negative_share'])} &rarr; {_pct(r['volume']['after']['negative_share'])}</td></tr>"
+        for slug, r in results)
+    return f"""<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>review-miner demo</title><style>{CSS}</style></head><body><main>
+<h1>review-miner</h1>
+<p>Steam reviews before vs after a patch, clustered into product themes (bug, balance, monetization,
+performance, content, UX). Every quote is checked verbatim against the review it cites.
+<a href="https://github.com/oguzhanozfe/review-miner">Source on GitHub</a>.</p>
+<p class=note>{escape(mode_line)}</p>
+<div style="overflow-x:auto"><table><tr><th>Game</th><th>Patch</th><th>Reviews analysed</th><th>Quotes verified</th>
+<th>Steam negative share, before &rarr; after</th></tr>{rows}</table></div>
+<p class=mut>Reviews are real public Steam reviews recorded 2026-11-17 (author IDs removed). Theme shares are of a
+stratified sample; negative share uses Steam's full counts.</p>
 </main></body></html>"""

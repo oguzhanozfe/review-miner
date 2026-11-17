@@ -18,3 +18,13 @@ jobs:
           for f in fixtures/*.json; do
             python -m review_miner.cli analyze "$f" --backend offline --out "out/$(basename "$f" .json)" --strict
           done
+      - name: demo in replay mode (no key), must reproduce the committed example reports
+        run: |
+          python -m review_miner demo --mode replay --strict --out out/demo
+          python - <<'PY'
+          import json, pathlib
+          for ex in pathlib.Path("examples").glob("*/report.json"):
+              a = json.loads(ex.read_text()); b = json.loads((pathlib.Path("out/demo") / ex.parent.name / "report.json").read_text())
+              assert a["themes"] == b["themes"] and a["categories"] == b["categories"], ex
+              print("replay matches", ex.parent.name)
+          PY

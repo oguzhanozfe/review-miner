@@ -207,5 +207,25 @@ class CompatBackendTests(unittest.TestCase):
         self.assertEqual(b.usage["cache_hits"], 1)
 
 
+class DemoTests(unittest.TestCase):
+    def test_no_key_falls_back_to_replay_and_never_calls_network(self):
+        from review_miner import llm
+        env = {k: "" for k in ("GEMINI_API_KEY", "OPENAI_API_KEY")}
+        with mock.patch.dict("os.environ", env), mock.patch.object(llm, "ollama_ready", lambda: False), \
+                mock.patch.object(llm, "_post", side_effect=AssertionError("network")):
+            b, line = llm.resolve_demo_backend()
+            self.assertTrue(line.startswith("mode: replay"))
+            data = json.loads((ROOT / "fixtures" / "stardew-valley-1.6.json").read_text())
+            res = analyze(data, b)
+        ex = json.loads((ROOT / "examples" / "stardew-valley-1.6" / "report.json").read_text())
+        self.assertEqual(res["themes"], ex["themes"])
+
+    def test_replay_miss_is_a_clear_error(self):
+        from review_miner import llm
+        b = llm.OpenAICompatBackend("gemini", cache=llm.DiskCache(llm.REPLAY_DIR), replay=True)
+        with self.assertRaises(SystemExit):
+            b.embed(["a review that was never recorded"])
+
+
 if __name__ == "__main__":
     unittest.main()

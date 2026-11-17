@@ -4,6 +4,26 @@ Turn Steam reviews into product themes (bugs, balance, monetization, performance
 and compare the windows before and after a patch. Every quote in the output is checked against
 the review it cites, and quotes that fail the check are listed, not dropped.
 
+## Try it
+
+**Live reports:** <https://oguzhanozfe.github.io/review-miner/> (Stardew Valley 1.6, Cyberpunk 2077
+Update 2.0, HELLDIVERS 2 Escalation of Freedom).
+
+[![HELLDIVERS 2 report: complaints by category before vs after the patch](docs/screenshot.png)](https://oguzhanozfe.github.io/review-miner/helldivers-2-escalation/report.html)
+
+```bash
+git clone https://github.com/oguzhanozfe/review-miner && cd review-miner
+python -m review_miner demo        # no key, no install; writes out/demo/index.html
+```
+
+`demo` picks a model on its own. If `GEMINI_API_KEY` (or `OPENAI_API_KEY`) is set, it uses that
+provider live. Otherwise it uses a local Ollama at `127.0.0.1:11434` if `qwen3.5:9b` and
+`qwen3-embedding:0.6b` are pulled. Otherwise it replays the recorded Gemini responses committed in
+`replay/` and prints `mode: replay (...)`. Replay reproduces the committed example reports exactly,
+and CI checks that on every push. Force a mode with `--mode live|local|replay|offline`.
+Fetching fresh reviews from Steam is optional and needs no key either (`collect`, below), but
+replay only covers the bundled fixtures, so new data needs a key, Ollama or `--backend offline`.
+
 > **Endpoint note (Nov 2026).** `store.steampowered.com/appreviews/<appid>?json=1` answered `302`
 > to the store front page when tested on 2026-11-17, and Valve's docs now mark it deprecated.
 > Developer reports put the cutover around 2026-10-22. This tool uses the documented
@@ -88,7 +108,7 @@ which model labelled it. Open `examples/*/report.html` to read the themes with t
 | --- | --- | --- | --- | --- |
 | Stardew Valley 1.6 (2024-03-19) | gemini-3.5-flash-lite | 105 | 18 / 18 | 0.5% → 0.8% |
 | Cyberpunk 2077 Update 2.0 (2023-09-21) | gemini-3.5-flash-lite | 172 | 23 / 23 | 5.3% → 10.7% |
-| HELLDIVERS 2 Escalation of Freedom (2024-08-06) | gemini-3.5-flash-lite (complaints), gemma-4-31b-it (praise, after 503s) | 333 | 45 / 45 | 14.4% → 44.1% |
+| HELLDIVERS 2 Escalation of Freedom (2024-08-06) | gemini-3.5-flash-lite (complaints), gemma-4-31b-it (praise, after 503s) | 333 | 45 / 45 | 14.3% → 44.1% |
 
 These changes pass the z-test (|z| ≥ 1.96). Shares are of the sampled complaints or praise on
 each side. Category rows sum all clusters with that label; read them first, because k-means can
@@ -112,6 +132,10 @@ so those counts cover only new calls.
 
 ## Known limits
 
+- **Replay is a recording.** `replay/` holds the exact Gemini responses (labels and embeddings)
+  from the 2026-11-17 runs, keyed by a hash of each request. It proves the pipeline end to end
+  without a key, but it is not a fresh model call, and any change to the prompt or the
+  fixtures makes replay miss.
 - **Sample, not census.** Each fixture holds 189-417 reviews: per day, the 10 newest positive and
   up to 20 newest negative English-tagged reviews. Theme shares are shares of that sample within a
   polarity. Only the volume and negative-share numbers come from Steam's full counts.

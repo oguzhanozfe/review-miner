@@ -24,23 +24,46 @@ def cmd_collect(args) -> None:
 
 
 def cmd_analyze(args) -> None:
-    from .analyze import analyze
     from .llm import make_backend
-    from .report import render_html
 
     data = json.loads(Path(args.fixture).read_text())
     backend = make_backend(args.backend, model=args.model, embed_model=args.embed_model)
-    result = analyze(data, backend, k=args.k, seed=args.seed)
-    if getattr(backend, "usage", None):
+    v = _run(data, backend, Path(args.out), k=args.k, seed=args.seed)["verification"]
+    if args.strict and v["unverified"]:
+        sys.exit(2)
+
+
+def _run(data, backend, out: Path, k=None, seed=7) -> dict:
+    from .analyze import analyze
+    from .report import render_html
+
+    result = analyze(data, backend, k=k, seed=seed)
+    if getattr(backend, "usage", None) and not getattr(backend, "replay", False):
         result["token_usage"] = backend.usage
-    out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     (out / "report.json").write_text(json.dumps(result, ensure_ascii=False, indent=1))
     (out / "report.html").write_text(render_html(result))
     v = result["verification"]
     print(f"{out}/report.html  themes={len(result['themes'])}  quotes verified "
           f"{v['verified']}/{v['total']}  unverified={v['unverified']}")
-    if args.strict and v["unverified"]:
+    return result
+
+
+def cmd_demo(args) -> None:
+    """Every bundled fixture -> report.html each + index.html. No key needed (replay fallback)."""
+    from .llm import resolve_demo_backend
+    from .report import render_index
+
+    line = resolve_demo_backend(args.mode)[1]
+    print(line)
+    fixtures = [Path(f) for f in args.fixtures] or sorted(Path("fixtures").glob("*.json"))
+    out, results = Path(args.out), []
+    for f in fixtures:  # fresh backend per game: model fallback state must not leak across runs
+        backend = resolve_demo_backend(args.mode)[0]
+        results.append((f.stem, _run(json.loads(f.read_text()), backend, out / f.stem)))
+    (out / "index.html").write_text(render_index(results, line))
+    print(f"{out}/index.html")
+    if args.strict and any(r["verification"]["unverified"] for _, r in results):
         sys.exit(2)
 
 
@@ -70,6 +93,14 @@ def main(argv=None) -> None:
     a.add_argument("--seed", type=int, default=7)
     a.add_argument("--strict", action="store_true", help="exit 2 if any quote fails verification")
     a.set_defaults(func=cmd_analyze)
+
+    d = sub.add_parser("demo", help="all bundled fixtures -> HTML reports + index; no key needed")
+    d.add_argument("fixtures", nargs="*", help="default: fixtures/*.json")
+    d.add_argument("--out", default="out/demo")
+    d.add_argument("--mode", default="auto", choices=["auto", "live", "local", "replay", "offline"],
+                   help="auto: GEMINI_API_KEY/OPENAI_API_KEY -> local Ollama -> replay of recorded responses")
+    d.add_argument("--strict", action="store_true", help="exit 2 if any quote fails verification")
+    d.set_defaults(func=cmd_demo)
 
     args = p.parse_args(argv)
     args.func(args)

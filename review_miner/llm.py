@@ -36,6 +36,10 @@ Return JSON only, with these keys:
 "feature_requests": objects {{"request": "...", "review_id": "...", "quote": "..."}} for concrete things reviewers ask to be added or changed, with a verbatim supporting quote. Skip jokes, memes and sarcasm: Steam reviews are often ironic. Empty list if none."""
 
 
+class ReplayMiss(RuntimeError):
+    """Replay mode found no recorded response for this exact request."""
+
+
 class QuotaError(RuntimeError):
     """HTTP 429: the model's quota is spent. Never retried in a loop; the caller switches model."""
 
@@ -160,10 +164,11 @@ class OpenAICompatBackend:
     records which model wrote it; token usage is tracked so runs can be costed.
     """
 
-    def __init__(self, provider="gemini", model=None, embed_model=None, cache=None):
+    def __init__(self, provider="gemini", model=None, embed_model=None, cache=None, replay=False):
         cfg = PROVIDERS[provider]
+        self.replay = replay  # serve recorded responses only; never touch the network
         self.key = os.environ.get(cfg["key_env"])
-        if not self.key:
+        if not self.key and not replay:
             raise SystemExit(f"{cfg['key_env']} is not set (or use --backend offline)")
         self.base = (os.environ.get("OPENAI_BASE_URL") if provider == "openai" else None) \
             or cfg["base"] or "https://api.openai.com/v1"
@@ -180,7 +185,13 @@ class OpenAICompatBackend:
     @property
     def name(self):
         used = sorted(self.usage["by_model"]) or self.models
-        return f"{self.provider}:{', '.join(used)} + {self.embed_model or 'local hashed TF-IDF'}"
+        name = f"{self.provider}:{', '.join(used)} + {self.embed_model or 'local hashed TF-IDF'}"
+        return name + (" (replay of recorded responses)" if self.replay else "")
+
+    def _call(self, path, payload):
+        if self.replay:
+            raise ReplayMiss(path)
+        return _post(f"{self.base}/{path}", payload, self._h())
 
     def _h(self):
         return {"Authorization": f"Bearer {self.key}"}
@@ -197,9 +208,12 @@ class OpenAICompatBackend:
                 payload = {"model": self.embed_model, "input": batch}
                 if self.embed_dims:
                     payload["dimensions"] = self.embed_dims
+                if self.replay:
+                    raise SystemExit("replay: no recorded embeddings for this input. Replay covers the "
+                                     "bundled fixtures only; set GEMINI_API_KEY or use --backend offline.")
                 for attempt in range(4):  # embedding 429s are per-minute: wait it out, bounded
                     try:
-                        r = _post(f"{self.base}/embeddings", payload, self._h())
+                        r = self._call("embeddings", payload)
                         break
                     except QuotaError:
                         if attempt == 3:
@@ -222,10 +236,11 @@ class OpenAICompatBackend:
                 self.usage["cache_hits"] += 1
             else:
                 try:
-                    r = _post(f"{self.base}/chat/completions", {
+                    r = self._call("chat/completions", {
                         "model": model, "temperature": 0, "response_format": {"type": "json_object"},
-                        "messages": [{"role": "user", "content": prompt}]}, self._h())
-                except (QuotaError, OSError, http.client.HTTPException) as e:
+                        "messages": [{"role": "user", "content": prompt}]})
+                except (QuotaError, ReplayMiss, OSError, http.client.HTTPException) as e:
+                    # replay: the recording moved on from this model here too, so do the same
                     # quota spent, or still 5xx/timeouts after retries: try the next model
                     self.usage.setdefault("model_failures", []).append(f"{model}: {e}"[:200])
                     self.models.pop(0)
@@ -297,6 +312,39 @@ class OfflineBackend:
 
 
 BACKENDS = ["gemini", "deepseek", "openai", "ollama", "offline"]
+
+
+REPLAY_DIR = Path(__file__).resolve().parent.parent / "replay"
+REPLAY_NOTE = "recorded gemini-3.5-flash-lite / gemma-4-31b-it + gemini-embedding-001, 2026-11-17"
+
+
+def ollama_ready(model=None, embed_model=None, host=None) -> bool:
+    """True if a local Ollama answers quickly and has both models pulled."""
+    host = (host or os.environ.get("OLLAMA_HOST") or "http://127.0.0.1:11434").rstrip("/")
+    want = {model or os.environ.get("REVIEW_MINER_MODEL", "qwen3.5:9b"),
+            embed_model or os.environ.get("REVIEW_MINER_EMBED_MODEL", "qwen3-embedding:0.6b")}
+    try:
+        with urllib.request.urlopen(f"{host}/api/tags", timeout=2) as resp:
+            have = {m["name"] for m in json.load(resp)["models"]}
+    except (OSError, ValueError, KeyError):
+        return False
+    return want <= have
+
+
+def resolve_demo_backend(mode: str = "auto"):
+    """Demo model order: your key -> local Ollama -> replay of the committed recordings.
+    Returns (backend, mode line). Never fails for lack of a key."""
+    if mode in ("auto", "live") and os.environ.get("GEMINI_API_KEY"):
+        return OpenAICompatBackend("gemini"), "mode: live (gemini, GEMINI_API_KEY)"
+    if mode in ("auto", "live") and os.environ.get("OPENAI_API_KEY"):
+        return OpenAICompatBackend("openai"), "mode: live (openai-compatible, OPENAI_API_KEY)"
+    if mode in ("auto", "local") and ollama_ready():
+        b = OllamaBackend()
+        return b, f"mode: local ({b.name})"
+    if mode == "offline":
+        return OfflineBackend(), "mode: offline (TF-IDF + keyword lexicon, no model)"
+    return (OpenAICompatBackend("gemini", cache=DiskCache(REPLAY_DIR), replay=True),
+            f"mode: replay ({REPLAY_NOTE})")
 
 
 def make_backend(kind: str, model=None, embed_model=None):
