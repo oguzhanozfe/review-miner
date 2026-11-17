@@ -1,0 +1,161 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>HELLDIVERS 2 review themes</title><style>
+:root{--bg:#fbfbf9;--fg:#1d1d1b;--mut:#6b6b66;--line:#e2e1dc;--card:#fff;--up:#b3261e;--down:#1b6e3a;--warn:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecebe6;--mut:#a09f99;--line:#33322f;--card:#1f1f1d;--up:#ff8a80;--down:#7fd69a;--warn:#f2c46d}}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;margin:0}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.6rem;margin:.2em 0}h2{margin-top:2em;border-bottom:1px solid var(--line);padding-bottom:.2em}
+.mut{color:var(--mut)}.note{border-left:3px solid var(--warn);padding:.4em .8em;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.theme{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:12px 0}
+.tag{display:inline-block;font-size:.75rem;border:1px solid var(--line);border-radius:4px;padding:0 6px;margin-right:4px}
+.rose{color:var(--up);font-weight:600}.fell{color:var(--down);font-weight:600}
+blockquote{margin:.4em 0;padding:.2em .8em;border-left:3px solid var(--line)}
+.bad{border-left-color:var(--up)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px}
+.kpi b{font-size:1.3rem;display:block}
+</style></head><body><main>
+<p class=mut>review-miner report</p>
+<h1>HELLDIVERS 2: reviews before vs after &ldquo;Patch 1.001.002 Escalation of Freedom&rdquo;</h1>
+<p>Patch posted 2024-08-06 (<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5963413728352726120">Steam news</a>). Windows: 7 days before,
+7 days after. </p>
+<p class=note>Labels by <b>gemini:gemini-3.1-flash-lite, gemini-3.5-flash-lite, gemma-4-31b-it + gemini-embedding-001</b>. Quotes: <b>45/45</b> verified verbatim against the cited review;
+0 unverified (listed at the end, never silently dropped).
+Reviews from <code>IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)</code>; Valve retired the old <code>/appreviews?json=1</code> endpoint in October 2026.</p>
+
+<h2>Volume (all English reviews, from Steam's own counts)</h2>
+<div class=grid>
+<div class=kpi><span class=mut>Before: reviews / day</span><b>155.3</b></div>
+<div class=kpi><span class=mut>After: reviews / day</span><b>765.9</b></div>
+<div class=kpi><span class=mut>Before: negative share</span><b>14.3%</b></div>
+<div class=kpi><span class=mut>After: negative share</span><b>44.1%</b></div>
+</div>
+
+<h2>Sample</h2>
+<p>417 reviews sampled (same budget every day, positives and negatives sampled separately, so
+theme shares are <i>within</i> a polarity, not of all reviews). 2 duplicates removed,
+3 tagged English but detected as another language, 22 too short to theme,
+<b>333</b> analysed: negative 122 before / 128 after,
+positive 37 before / 46 after.</p>
+<p class=mut>Trend: &ldquo;rose&rdquo;/&ldquo;fell&rdquo; only when a two-proportion z-test passes |z| &ge; 1.96; themes under 8 reviews are &ldquo;low n&rdquo;.</p>
+
+<h2>Complaints: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#neg-6'>Excessive weapon nerfing in PvE</a></td><td>balance</td><td>3 / 2.5%</td><td>37 / 28.9%</td><td class='rose'>+26.4 pp rose</td></tr><tr><td><a href='#neg-2'>Technical issues, bugs, and game crashes</a></td><td>bug</td><td>39 / 32.0%</td><td>15 / 11.7%</td><td class='fell'>-20.2 pp fell</td></tr><tr><td><a href='#neg-5'>Decline due to poor balancing updates</a></td><td>balance</td><td>21 / 17.2%</td><td>10 / 7.8%</td><td class='fell'>-9.4 pp fell</td></tr><tr><td><a href='#neg-4'>Developer nerfs and balancing ruining fun</a></td><td>balance</td><td>20 / 16.4%</td><td>30 / 23.4%</td><td class=''>+7.0 pp flat</td></tr><tr><td><a href='#neg-3'>Repetitive gameplay loop and content fatigue</a></td><td>content</td><td>7 / 5.7%</td><td>0 / 0.0%</td><td class=''>-5.7 pp low n</td></tr><tr><td><a href='#neg-0'>Excessive weapon nerfs and balance issues</a></td><td>balance</td><td>5 / 4.1%</td><td>9 / 7.0%</td><td class=''>+2.9 pp flat</td></tr><tr><td><a href='#neg-1'>Developer incompetence and hostility toward players</a></td><td>other</td><td>27 / 22.1%</td><td>27 / 21.1%</td><td class=''>-1.0 pp flat</td></tr></table>
+<h2>Praise: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#pos-0'>Weapon Balancing and Gameplay Fun</a></td><td>balance</td><td>7 / 18.9%</td><td>21 / 45.6%</td><td class='rose'>+26.7 pp rose</td></tr><tr><td><a href='#pos-2'>General praise and positive updates</a></td><td>content</td><td>14 / 37.8%</td><td>9 / 19.6%</td><td class=''>-18.3 pp flat</td></tr><tr><td><a href='#pos-3'>General praise for cooperative gameplay</a></td><td>content</td><td>8 / 21.6%</td><td>6 / 13.0%</td><td class=''>-8.6 pp flat</td></tr><tr><td><a href='#pos-1'>Roleplaying as Super Earth citizens</a></td><td>other</td><td>3 / 8.1%</td><td>5 / 10.9%</td><td class=''>+2.8 pp flat</td></tr><tr><td><a href='#pos-4'>enthusiastic support for democratic gameplay</a></td><td>other</td><td>5 / 13.5%</td><td>5 / 10.9%</td><td class=''>-2.6 pp flat</td></tr></table>
+<h2>Complaint themes</h2><div class=theme id="neg-1">
+<span class=tag>other</span><span class=tag>negative</span>
+<b>Developer incompetence and hostility toward players</b> <span class=mut>(54 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players express deep frustration with Arrowhead&#x27;s management, communication, and perceived hostility toward the community.</p>
+<p>Before: 27 (22.1% of sampled negative reviews) &rarr;
+After: 27 (21.1%) &middot;
+<span class="">-1.0 pp, flat</span> <span class=mut>(z=-0.2)</span></p>
+<blockquote class=''>“I have never seen a dev team so inept at everything and actively hostile towards their player base”<br><span class=mut><span class=tag>after</span>review 171944323 &middot; verified</span></blockquote><blockquote class=''>“This is the first time i see a dev team with voracious hunger for failure.”<br><span class=mut><span class=tag>after</span>review 172022391 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Total re-evaluation of priorities and sacking of all community managers</b><br>“Nothing short of the sacking of all community managers and a total re-evaluation of priorities can fix this level of decay.”<br><span class=mut><span class=tag>after</span>review 171947109 &middot; verified</span></blockquote>
+</div><div class=theme id="neg-2">
+<span class=tag>bug</span><span class=tag>negative</span>
+<b>Technical issues, bugs, and game crashes</b> <span class=mut>(54 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Reviewers are frustrated by constant crashes, bugs, and network disconnects introduced in recent patches that make the game unplayable.</p>
+<p>Before: 39 (32.0% of sampled negative reviews) &rarr;
+After: 15 (11.7%) &middot;
+<span class="fell">-20.2 pp, fell</span> <span class=mut>(z=-3.89)</span></p>
+<blockquote class=''>“every updates comes with a load of bugs that makes the game unplayable”<br><span class=mut><span class=tag>after</span>review 171735822 &middot; verified</span></blockquote><blockquote class=''>“Incredibly unstable, the game continuously crashes during play.”<br><span class=mut><span class=tag>before</span>review 171468005 &middot; verified</span></blockquote><blockquote class=''>“Crashes, performance issues, even crashed my entire PC on multiple occassions.”<br><span class=mut><span class=tag>after</span>review 171881307 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Perform a quality control update to fix game and network stability</b><br>“I gotta thumb down til the devs do a quality control update on game and network stability”<br><span class=mut><span class=tag>before</span>review 171112186 &middot; verified</span></blockquote>
+</div><div class=theme id="neg-4">
+<span class=tag>balance</span><span class=tag>negative</span>
+<b>Developer nerfs and balancing ruining fun</b> <span class=mut>(50 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Reviewers express deep frustration with continuous weapon nerfs and poor balance decisions by the developers, which they feel ruin the enjoyment of the game.</p>
+<p>Before: 20 (16.4% of sampled negative reviews) &rarr;
+After: 30 (23.4%) &middot;
+<span class="">+7.0 pp, flat</span> <span class=mut>(z=1.39)</span></p>
+<blockquote class=''>“it is insanely unfair for the players with the massive amounts of nerfs to the Helldivers arsenal”<br><span class=mut><span class=tag>after</span>review 171880049 &middot; verified</span></blockquote><blockquote class=''>“Stop nerfing everything based on its popularity, this is not an eSports PvP shooter.”<br><span class=mut><span class=tag>after</span>review 171668373 &middot; verified</span></blockquote><blockquote class=''>“remove all of the fun aspects of the game with every &quot;major&quot; update”<br><span class=mut><span class=tag>after</span>review 171731973 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Let players have weaponry that works properly without constant nerfs</b><br>“Arrowhead, for the love of god let us have weaponry that works properly.”<br><span class=mut><span class=tag>after</span>review 171668373 &middot; verified</span></blockquote>
+</div><div class=theme id="neg-6">
+<span class=tag>balance</span><span class=tag>negative</span>
+<b>Excessive weapon nerfing in PvE</b> <span class=mut>(40 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Players are frustrated by frequent weapon nerfs and a balancing philosophy that treats a cooperative PvE game like a competitive PvP game.</p>
+<p>Before: 3 (2.5% of sampled negative reviews) &rarr;
+After: 37 (28.9%) &middot;
+<span class="rose">+26.4 pp, rose</span> <span class=mut>(z=5.7)</span></p>
+<blockquote class=''>“There is way more nerfs than buffs happening”<br><span class=mut><span class=tag>after</span>review 171667166 &middot; verified</span></blockquote><blockquote class=''>“trying to &quot;Balance&quot; a PVE game is disadvantageous compared to a PVP game”<br><span class=mut><span class=tag>after</span>review 172020840 &middot; verified</span></blockquote><blockquote class=''>“Every patch = NERF weapons = Game no longer fun”<br><span class=mut><span class=tag>after</span>review 171949435 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Buff unused weapons instead of nerfing fun ones</b><br>“STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES.”<br><span class=mut><span class=tag>after</span>review 171600515 &middot; verified</span></blockquote><blockquote class=''><b>Buff unpopular weapons instead of nerfing popular ones</b><br>“Can&#x27;t you just buff the other weapons that are not popular?”<br><span class=mut><span class=tag>after</span>review 171667427 &middot; verified</span></blockquote>
+</div><div class=theme id="neg-5">
+<span class=tag>balance</span><span class=tag>negative</span>
+<b>Decline due to poor balancing updates</b> <span class=mut>(31 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Players feel the game has become miserable and unsatisfying due to poor developer decisions and aggressive balancing updates.</p>
+<p>Before: 21 (17.2% of sampled negative reviews) &rarr;
+After: 10 (7.8%) &middot;
+<span class="fell">-9.4 pp, fell</span> <span class=mut>(z=-2.25)</span></p>
+<blockquote class=''>“changed exactly what the community enjoyed to make it dramatically less enjoyable in every way”<br><span class=mut><span class=tag>before</span>review 171466471 &middot; verified</span></blockquote><blockquote class=''>“Broken nerfing simulator. What a shame.”<br><span class=mut><span class=tag>after</span>review 171667371 &middot; verified</span></blockquote><blockquote class=''>“with the update they also nerfed some weapons ammo”<br><span class=mut><span class=tag>before</span>review 171212819 &middot; verified</span></blockquote>
+
+</div><div class=theme id="neg-0">
+<span class=tag>balance</span><span class=tag>negative</span>
+<b>Excessive weapon nerfs and balance issues</b> <span class=mut>(14 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players are expressing severe frustration over frequent and heavy-handed weapon nerfs by the developers, demanding better balancing decisions.</p>
+<p>Before: 5 (4.1% of sampled negative reviews) &rarr;
+After: 9 (7.0%) &middot;
+<span class="">+2.9 pp, flat</span> <span class=mut>(z=1.01)</span></p>
+<blockquote class=''>“Evil arrowhead be like we will not nerf every good weapon”<br><span class=mut><span class=tag>after</span>review 171945558 &middot; verified</span></blockquote><blockquote class=''>“Don&#x27;t nerf the best. 
+Just buff the rest.”<br><span class=mut><span class=tag>after</span>review 171734804 &middot; verified</span></blockquote><blockquote class=''>“Give us a Balance Team or give us Death”<br><span class=mut><span class=tag>before</span>review 171387128 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Provide a competent balance team</b><br>“Give us a Balance Team or give us Death”<br><span class=mut><span class=tag>before</span>review 171387128 &middot; verified</span></blockquote><blockquote class=''><b>Buff underperforming weapons instead of nerfing the best ones</b><br>“Don&#x27;t nerf the best.
+Just buff the rest.”<br><span class=mut><span class=tag>after</span>review 171734804 &middot; verified</span></blockquote>
+</div><div class=theme id="neg-3">
+<span class=tag>content</span><span class=tag>negative</span>
+<b>Repetitive gameplay loop and content fatigue</b> <span class=mut>(7 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players find the game gets stale and repetitive quickly due to a lack of mission variety and new content updates.</p>
+<p>Before: 7 (5.7% of sampled negative reviews) &rarr;
+After: 0 (0.0%) &middot;
+<span class="">-5.7 pp, low n</span> <span class=mut>(z=-2.75)</span></p>
+<blockquote class=''>“gets stale due to a lack of updates and new content”<br><span class=mut><span class=tag>before</span>review 171491001 &middot; verified</span></blockquote><blockquote class=''>“The core gameplay loop quickly becomes repetitive after a few hours.”<br><span class=mut><span class=tag>before</span>review 171428854 &middot; verified</span></blockquote><blockquote class=''>“Every mission feels the same”<br><span class=mut><span class=tag>before</span>review 171257675 &middot; verified</span></blockquote>
+
+</div>
+<h2>Praise themes</h2><div class=theme id="pos-0">
+<span class=tag>balance</span><span class=tag>positive</span>
+<b>Weapon Balancing and Gameplay Fun</b> <span class=mut>(28 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Players generally love the chaotic cooperative gameplay but express conflicting views on the developers&#x27; approach to weapon balancing and nerfs.</p>
+<p>Before: 7 (18.9% of sampled positive reviews) &rarr;
+After: 21 (45.6%) &middot;
+<span class="rose">+26.7 pp, rose</span> <span class=mut>(z=2.56)</span></p>
+<blockquote class=''>“trying vehemently to avoid having a meta set that people use by nerfing whatever the playerbase is currently using”<br><span class=mut><span class=tag>after</span>review 171812280 &middot; verified</span></blockquote><blockquote class=''>“It&#x27;s an amazing ride with every dive, blowing up bugs and bots en masse, barely making it out”<br><span class=mut><span class=tag>after</span>review 171734680 &middot; verified</span></blockquote><blockquote class=''>“the last patch update definitely made more weapon kits viable and fun along with addressing a lot of community issues”<br><span class=mut><span class=tag>after</span>review 171947796 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Focus on making all weapons viable rather than nerfing the powerful ones.</b><br>“Focus your efforts more on making everything fun and viable rather than working it in reverse.”<br><span class=mut><span class=tag>after</span>review 171812280 &middot; verified</span></blockquote><blockquote class=''><b>Add a third faction to the game.</b><br>“im still waiting for the third faction btw”<br><span class=mut><span class=tag>before</span>review 171337152 &middot; verified</span></blockquote>
+</div><div class=theme id="pos-2">
+<span class=tag>content</span><span class=tag>positive</span>
+<b>General praise and positive updates</b> <span class=mut>(23 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Players are highly satisfied with the gameplay, graphics, and the developers&#x27; commitment to frequent updates and fair monetization.</p>
+<p>Before: 14 (37.8% of sampled positive reviews) &rarr;
+After: 9 (19.6%) &middot;
+<span class="">-18.3 pp, flat</span> <span class=mut>(z=-1.85)</span></p>
+<blockquote class=''>“dedicated dev team with frequent and high quality content updates.”<br><span class=mut><span class=tag>after</span>review 171949002 &middot; verified</span></blockquote><blockquote class=''>“a live service model that finally feels pro-consumer, and a living narrative influenced by the players”<br><span class=mut><span class=tag>before</span>review 171271389 &middot; verified</span></blockquote><blockquote class=''>“I extremely recommend this game to everyone. It&#x27;s so damn fun to play single or coop of 4.”<br><span class=mut><span class=tag>after</span>review 171813121 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>Release the game on Xbox to enable cross-platform play across all systems.</b><br>“really wish it was on xbox so all gaming systems could play together.”<br><span class=mut><span class=tag>before</span>review 171341641 &middot; verified</span></blockquote>
+</div><div class=theme id="pos-3">
+<span class=tag>content</span><span class=tag>positive</span>
+<b>General praise for cooperative gameplay</b> <span class=mut>(14 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Reviewers highly praise the game as a high-quality cooperative horde shooter with engaging thematic elements and strong replayability.</p>
+<p>Before: 8 (21.6% of sampled positive reviews) &rarr;
+After: 6 (13.0%) &middot;
+<span class="">-8.6 pp, flat</span> <span class=mut>(z=-1.04)</span></p>
+<blockquote class=''>“Fantastic horde shooter, whether solo or with friends.”<br><span class=mut><span class=tag>before</span>review 171147846 &middot; verified</span></blockquote><blockquote class=''>“Truly a masterpiece from a small team of dedicated developers.”<br><span class=mut><span class=tag>before</span>review 171408122 &middot; verified</span></blockquote><blockquote class=''>“Helldivers 2 is an absolutely incredible game and I have had nothing but positive experiences”<br><span class=mut><span class=tag>after</span>review 171601731 &middot; verified</span></blockquote>
+
+</div><div class=theme id="pos-4">
+<span class=tag>other</span><span class=tag>positive</span>
+<b>enthusiastic support for democratic gameplay</b> <span class=mut>(10 reviews &middot; labelled by gemini-3.1-flash-lite)</span>
+<p>Players express high satisfaction with the game&#x27;s core loop, thematic immersion, and overall fun factor.</p>
+<p>Before: 5 (13.5% of sampled positive reviews) &rarr;
+After: 5 (10.9%) &middot;
+<span class="">-2.6 pp, flat</span> <span class=mut>(z=-0.37)</span></p>
+<blockquote class=''>“I love this game with all my heart! MOST DEMOCRATIC GAME EVER!”<br><span class=mut><span class=tag>before</span>review 171534755 &middot; verified</span></blockquote><blockquote class=''>“Fun shooter, blow stuff up kill aliens and robots. What&#x27;s no to love!”<br><span class=mut><span class=tag>before</span>review 171269515 &middot; verified</span></blockquote><blockquote class=''>“10/10 would serve democracy again”<br><span class=mut><span class=tag>after</span>review 171948676 &middot; verified</span></blockquote>
+
+</div><div class=theme id="pos-1">
+<span class=tag>other</span><span class=tag>positive</span>
+<b>Roleplaying as Super Earth citizens</b> <span class=mut>(8 reviews &middot; labelled by gemma-4-31b-it)</span>
+<p>Players are enthusiastically embracing the game&#x27;s satirical theme of spreading democracy and freedom.</p>
+<p>Before: 3 (8.1% of sampled positive reviews) &rarr;
+After: 5 (10.9%) &middot;
+<span class="">+2.8 pp, flat</span> <span class=mut>(z=0.42)</span></p>
+<blockquote class=''>“Finally every diver around the world can finally spread democracy”<br><span class=mut><span class=tag>before</span>review 171206368 &middot; verified</span></blockquote><blockquote class=''>“I recommend in the name of freedom, democracy, and super earth”<br><span class=mut><span class=tag>before</span>review 171469846 &middot; verified</span></blockquote><blockquote class=''>“I EAT FREEDOM FOR BREAKFAST AND DEMOCRACY FOR DINNER!!!”<br><span class=mut><span class=tag>after</span>review 171949932 &middot; verified</span></blockquote>
+
+</div>
+<h2>Unverified quotes</h2><p>None.</p>
+<p class=mut>Generated in 568.6 s. Data collected 2026-11-17.</p>
+</main></body></html>

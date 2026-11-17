@@ -78,7 +78,34 @@ verification.
 
 ## Results
 
-Example reports from a real run are being added in `examples/`.
+Real runs on the recorded fixtures, 2026-11-17. The labels come from Gemini free-tier models
+through the OpenAI-compatible endpoint, with `gemini-embedding-001` (768-d) embeddings. Each
+number below is in the committed `examples/<game>/report.json`, and every theme there records
+which model labelled it.
+
+| Game / patch | Labelled by | Reviews analysed | Quotes verified | Steam negative share, before → after (full counts) |
+| --- | --- | --- | --- | --- |
+| Stardew Valley 1.6 (2024-03-19) | gemini-3.5-flash-lite | 105 | 18 / 18 | 0.5% → 0.8% |
+| Cyberpunk 2077 Update 2.0 (2023-09-21) | gemini-3.5-flash-lite | 172 | 23 / 23 | 5.3% → 10.7% |
+| HELLDIVERS 2 Escalation of Freedom (2024-08-06) | gemini-3.5-flash-lite, gemma-4-31b-it, gemini-3.1-flash-lite (fallbacks after 503s) | 333 | 45 / 45 | 14.4% → 44.1% |
+
+Theme changes that pass the z-test (|z| ≥ 1.96). Shares are of the sampled complaints or praise on
+each side:
+
+- **HELLDIVERS 2.** The complaint theme "Excessive weapon nerfing in PvE" (balance) went from 2.5%
+  to 28.9% of sampled complaints (3 → 37 reviews, z = 5.7). "Technical issues, bugs, and game
+  crashes" fell from 32.0% to 11.7% (z = -3.9). Among praise, "Weapon Balancing and Gameplay Fun"
+  rose from 18.9% to 45.7% (z = 2.6), so balance dominated both sides of the conversation.
+- **Cyberpunk 2077.** "Negative impact of the 2.0 update" (labelled balance) went from 9.1% to 39.7%
+  of sampled complaints (z = 3.2). Complaints about bugs stayed flat (33% → 29%).
+- **Stardew Valley.** No theme passes the test. The game has 8 sampled complaints before the patch,
+  which is too few to call a change.
+
+Every model-written quote was found verbatim in the review it cites (86 / 86). The verifier's
+negative path is tested with fabricated quotes (`tests/test_pipeline.py`), and CI runs every
+fixture through the offline backend with `--strict`. The runs used about 18k prompt tokens on the
+free tier; later reruns are served from the disk cache. Open `examples/*/report.html` to read the
+themes with their quotes.
 
 ## Known limits
 

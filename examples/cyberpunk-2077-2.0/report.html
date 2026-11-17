@@ -1,0 +1,132 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Cyberpunk 2077 review themes</title><style>
+:root{--bg:#fbfbf9;--fg:#1d1d1b;--mut:#6b6b66;--line:#e2e1dc;--card:#fff;--up:#b3261e;--down:#1b6e3a;--warn:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#161615;--fg:#ecebe6;--mut:#a09f99;--line:#33322f;--card:#1f1f1d;--up:#ff8a80;--down:#7fd69a;--warn:#f2c46d}}
+body{background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif;margin:0}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:1.6rem;margin:.2em 0}h2{margin-top:2em;border-bottom:1px solid var(--line);padding-bottom:.2em}
+.mut{color:var(--mut)}.note{border-left:3px solid var(--warn);padding:.4em .8em;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.theme{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:12px 0}
+.tag{display:inline-block;font-size:.75rem;border:1px solid var(--line);border-radius:4px;padding:0 6px;margin-right:4px}
+.rose{color:var(--up);font-weight:600}.fell{color:var(--down);font-weight:600}
+blockquote{margin:.4em 0;padding:.2em .8em;border-left:3px solid var(--line)}
+.bad{border-left-color:var(--up)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px}
+.kpi b{font-size:1.3rem;display:block}
+</style></head><body><main>
+<p class=mut>review-miner report</p>
+<h1>Cyberpunk 2077: reviews before vs after &ldquo;Update 2.0&rdquo;</h1>
+<p>Patch posted 2023-09-21 (<a href="https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5219165352624021366">Steam news</a>). Windows: 7 days before,
+4 days after. after-window stops at 4 days because Phantom Liberty launched 5 days after Update 2.0</p>
+<p class=note>Labels by <b>gemini:gemini-3.5-flash-lite + gemini-embedding-001</b>. Quotes: <b>23/23</b> verified verbatim against the cited review;
+0 unverified (listed at the end, never silently dropped).
+Reviews from <code>IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)</code>; Valve retired the old <code>/appreviews?json=1</code> endpoint in October 2026.</p>
+
+<h2>Volume (all English reviews, from Steam's own counts)</h2>
+<div class=grid>
+<div class=kpi><span class=mut>Before: reviews / day</span><b>117.6</b></div>
+<div class=kpi><span class=mut>After: reviews / day</span><b>557.2</b></div>
+<div class=kpi><span class=mut>Before: negative share</span><b>5.3%</b></div>
+<div class=kpi><span class=mut>After: negative share</span><b>10.7%</b></div>
+</div>
+
+<h2>Sample</h2>
+<p>234 reviews sampled (same budget every day, positives and negatives sampled separately, so
+theme shares are <i>within</i> a polarity, not of all reviews). 3 duplicates removed,
+5 tagged English but detected as another language, 17 too short to theme,
+<b>172</b> analysed: negative 33 before / 73 after,
+positive 38 before / 28 after.</p>
+<p class=mut>Trend: &ldquo;rose&rdquo;/&ldquo;fell&rdquo; only when a two-proportion z-test passes |z| &ge; 1.96; themes under 8 reviews are &ldquo;low n&rdquo;.</p>
+
+<h2>Complaints: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#neg-4'>Negative impact of the 2.0 update</a></td><td>balance</td><td>3 / 9.1%</td><td>29 / 39.7%</td><td class='rose'>+30.6 pp rose</td></tr><tr><td><a href='#neg-0'>False promises and disappointing narrative</a></td><td>content</td><td>12 / 36.4%</td><td>14 / 19.2%</td><td class=''>-17.2 pp flat</td></tr><tr><td><a href='#neg-3'>Anger over paid DLC prices</a></td><td>monetization</td><td>6 / 18.2%</td><td>7 / 9.6%</td><td class=''>-8.6 pp flat</td></tr><tr><td><a href='#neg-2'>Persistent bugs and crashes after update 2.0</a></td><td>bug</td><td>11 / 33.3%</td><td>21 / 28.8%</td><td class=''>-4.6 pp flat</td></tr><tr><td><a href='#neg-1'>Disappointment with developers and unmet expectations</a></td><td>content</td><td>1 / 3.0%</td><td>2 / 2.7%</td><td class=''>-0.3 pp low n</td></tr></table>
+<h2>Praise: what changed</h2><table><tr><th>Theme</th><th>Category</th><th>Before (n / share)</th><th>After (n / share)</th><th>Change</th></tr><tr><td><a href='#pos-3'>Enjoyable story and engaging open world</a></td><td>content</td><td>15 / 39.5%</td><td>3 / 10.7%</td><td class='fell'>-28.8 pp fell</td></tr><tr><td><a href='#pos-2'>Praise for story and redemption</a></td><td>content</td><td>12 / 31.6%</td><td>15 / 53.6%</td><td class=''>+22.0 pp flat</td></tr><tr><td><a href='#pos-0'>Family sharing save file conflict</a></td><td>ux</td><td>0 / 0.0%</td><td>1 / 3.6%</td><td class=''>+3.6 pp low n</td></tr><tr><td><a href='#pos-1'>Appreciation for the game&#x27;s overall experience and updates</a></td><td>content</td><td>11 / 28.9%</td><td>9 / 32.1%</td><td class=''>+3.2 pp flat</td></tr></table>
+<h2>Complaint themes</h2><div class=theme id="neg-2">
+<span class=tag>bug</span><span class=tag>negative</span>
+<b>Persistent bugs and crashes after update 2.0</b> <span class=mut>(32 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players express frustration that the 2.0 update failed to resolve ongoing technical issues, frequent crashes, and bugs.</p>
+<p>Before: 11 (33.3% of sampled negative reviews) &rarr;
+After: 21 (28.8%) &middot;
+<span class="">-4.6 pp, flat</span> <span class=mut>(z=-0.47)</span></p>
+<blockquote class=''>“2.0 and this game is still a buggy mess.”<br><span class=mut><span class=tag>after</span>review 146770453 &middot; verified</span></blockquote><blockquote class=''>“Somehow they made the game crash even more with update 2.0”<br><span class=mut><span class=tag>after</span>review 146778159 &middot; verified</span></blockquote><blockquote class=''>“Still full of bugs, had to restart every 45ish min to fix many visual bugs”<br><span class=mut><span class=tag>before</span>review 146502922 &middot; verified</span></blockquote>
+
+</div><div class=theme id="neg-4">
+<span class=tag>balance</span><span class=tag>negative</span>
+<b>Negative impact of the 2.0 update</b> <span class=mut>(32 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players are frustrated that the 2.0 update radically overhauled game mechanics, invalidated existing builds, and introduced unwelcome changes to skills, crafting, and leveling.</p>
+<p>Before: 3 (9.1% of sampled negative reviews) &rarr;
+After: 29 (39.7%) &middot;
+<span class="rose">+30.6 pp, rose</span> <span class=mut>(z=3.18)</span></p>
+<blockquote class=''>“redesign many of the game systems, invalidating my build, all the work I put into my gear”<br><span class=mut><span class=tag>after</span>review 146783566 &middot; verified</span></blockquote><blockquote class=''>“The entire skill system was completely redone and I did not like this change”<br><span class=mut><span class=tag>before</span>review 146379788 &middot; verified</span></blockquote><blockquote class=''>“any builds you had are now useless. You will have to start fresh”<br><span class=mut><span class=tag>after</span>review 146912520 &middot; verified</span></blockquote>
+
+</div><div class=theme id="neg-0">
+<span class=tag>content</span><span class=tag>negative</span>
+<b>False promises and disappointing narrative</b> <span class=mut>(26 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>The reviewers express disappointment over unfulfilled promises, a restrictive storyline lacking player agency, and superficial characters.</p>
+<p>Before: 12 (36.4% of sampled negative reviews) &rarr;
+After: 14 (19.2%) &middot;
+<span class="">-17.2 pp, flat</span> <span class=mut>(z=-1.9)</span></p>
+<blockquote class=''>“Disappointing narrative that falsely promises player agency; you&#x27;re just a puppet on predetermined tracks.”<br><span class=mut><span class=tag>after</span>review 146770885 &middot; verified</span></blockquote><blockquote class=''>“it is not the game that cd project has promised in its core”<br><span class=mut><span class=tag>before</span>review 146490763 &middot; verified</span></blockquote>
+
+</div><div class=theme id="neg-3">
+<span class=tag>monetization</span><span class=tag>negative</span>
+<b>Anger over paid DLC prices</b> <span class=mut>(13 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Reviewers are strongly expressing frustration and anger that the developers are charging a high price for the new DLC after the disastrous initial launch of the base game.</p>
+<p>Before: 6 (18.2% of sampled negative reviews) &rarr;
+After: 7 (9.6%) &middot;
+<span class="">-8.6 pp, flat</span> <span class=mut>(z=-1.25)</span></p>
+<blockquote class=''>“After everything that&#x27;s happened, they want us to pay 30$ for DLC that should have been free?”<br><span class=mut><span class=tag>before</span>review 146668810 &middot; verified</span></blockquote><blockquote class=''>“im not paying 30 dollars to reward a dev to finish a game 3 years after releasing it”<br><span class=mut><span class=tag>after</span>review 146993901 &middot; verified</span></blockquote>
+
+</div><div class=theme id="neg-1">
+<span class=tag>content</span><span class=tag>negative</span>
+<b>Disappointment with developers and unmet expectations</b> <span class=mut>(3 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>The reviews express severe disappointment with CDPR due to perceived political or design choices, as well as unfulfilled promises regarding the game&#x27;s depth and quality.</p>
+<p>Before: 1 (3.0% of sampled negative reviews) &rarr;
+After: 2 (2.7%) &middot;
+<span class="">-0.3 pp, low n</span> <span class=mut>(z=-0.08)</span></p>
+<blockquote class=''>“Game is sexist. CDPR hated men”<br><span class=mut><span class=tag>before</span>review 146294342 &middot; verified</span></blockquote><blockquote class=''>“Biggest L CDPR ever take is Letting Mary Kenney”<br><span class=mut><span class=tag>after</span>review 146989691 &middot; verified</span></blockquote><blockquote class=''>“This will be the most disappointing release of any videogame”<br><span class=mut><span class=tag>after</span>review 146977228 &middot; verified</span></blockquote>
+
+</div>
+<h2>Praise themes</h2><div class=theme id="pos-2">
+<span class=tag>content</span><span class=tag>positive</span>
+<b>Praise for story and redemption</b> <span class=mut>(27 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players praise the compelling story, immersive world, and overall improvement of the game since its initial launch.</p>
+<p>Before: 12 (31.6% of sampled positive reviews) &rarr;
+After: 15 (53.6%) &middot;
+<span class="">+22.0 pp, flat</span> <span class=mut>(z=1.8)</span></p>
+<blockquote class=''>“This is one of the best games ever made.”<br><span class=mut><span class=tag>after</span>review 146782944 &middot; verified</span></blockquote><blockquote class=''>“an incredibly immersive world and heavy story themes make it a must play imo”<br><span class=mut><span class=tag>before</span>review 146536142 &middot; verified</span></blockquote><blockquote class=''>“One of the most amazing story telling games i have ever played.”<br><span class=mut><span class=tag>after</span>review 147005547 &middot; verified</span></blockquote>
+
+</div><div class=theme id="pos-1">
+<span class=tag>content</span><span class=tag>positive</span>
+<b>Appreciation for the game&#x27;s overall experience and updates</b> <span class=mut>(20 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Players praise Cyberpunk 2077 for its engaging story, world design, and significant improvements brought by recent patches and updates like 2.0.</p>
+<p>Before: 11 (28.9% of sampled positive reviews) &rarr;
+After: 9 (32.1%) &middot;
+<span class="">+3.2 pp, flat</span> <span class=mut>(z=0.28)</span></p>
+<blockquote class=''>“Besides Cybernetic modding and Hacking , this game has got some good systems and a great story”<br><span class=mut><span class=tag>before</span>review 146713004 &middot; verified</span></blockquote><blockquote class=''>“Does the game still have some bugs? Yes. But this game is vastly different.”<br><span class=mut><span class=tag>after</span>review 147005030 &middot; verified</span></blockquote>
+
+</div><div class=theme id="pos-3">
+<span class=tag>content</span><span class=tag>positive</span>
+<b>Enjoyable story and engaging open world</b> <span class=mut>(18 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>Reviewers praise the game&#x27;s fun open world, immersive story, characters, and overall improvements since launch.</p>
+<p>Before: 15 (39.5% of sampled positive reviews) &rarr;
+After: 3 (10.7%) &middot;
+<span class="fell">-28.8 pp, fell</span> <span class=mut>(z=-2.59)</span></p>
+<blockquote class=''>“pretty fun game. i hope more content and story”<br><span class=mut><span class=tag>before</span>review 146406085 &middot; verified</span></blockquote><blockquote class=''>“Engaging story, Great atmosphere and entertaining gameplay”<br><span class=mut><span class=tag>before</span>review 146712708 &middot; verified</span></blockquote>
+<p class=mut>Feature requests</p><blockquote class=''><b>More content and story</b><br>“i hope more content and story”<br><span class=mut><span class=tag>before</span>review 146406085 &middot; verified</span></blockquote>
+</div><div class=theme id="pos-0">
+<span class=tag>ux</span><span class=tag>positive</span>
+<b>Family sharing save file conflict</b> <span class=mut>(1 reviews &middot; labelled by gemini-3.5-flash-lite)</span>
+<p>The reviewer is frustrated that sharing a game library on Steam Deck causes save files to merge, risking accidental overwrites of each other&#x27;s progress.</p>
+<p>Before: 0 (0.0% of sampled positive reviews) &rarr;
+After: 1 (3.6%) &middot;
+<span class="">+3.6 pp, low n</span> <span class=mut>(z=1.17)</span></p>
+<blockquote class=''>“I saw we would be sharing save file locations, I can see his saves and it&#x27;s a risk of accidentally overwriting each other&#x27;s files”<br><span class=mut><span class=tag>after</span>review 146782057 &middot; verified</span></blockquote><blockquote class=''>“risk of accidentally overwriting each other&#x27;s files and losing the others progress entirely”<br><span class=mut><span class=tag>after</span>review 146782057 &middot; verified</span></blockquote>
+
+</div>
+<h2>Unverified quotes</h2><p>None.</p>
+<p class=mut>Generated in 6775.0 s. Data collected 2026-11-17.</p>
+</main></body></html>

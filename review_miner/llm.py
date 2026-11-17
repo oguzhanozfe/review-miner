@@ -40,7 +40,7 @@ class QuotaError(RuntimeError):
     """HTTP 429: the model's quota is spent. Never retried in a loop; the caller switches model."""
 
 
-def _post(url: str, payload: dict, headers: dict | None = None, timeout: int = 300,
+def _post(url: str, payload: dict, headers: dict | None = None, timeout: int = 120,
           retries: int = 3) -> dict:
     """POST JSON. Retries timeouts and 5xx (busy servers); a 429 raises QuotaError at once."""
     req = urllib.request.Request(url, data=json.dumps(payload).encode(),
@@ -143,7 +143,7 @@ class OllamaBackend:
 
 PROVIDERS = {  # OpenAI-compatible chat endpoints; the key is read from the named env var only
     "gemini": {"base": "https://generativelanguage.googleapis.com/v1beta/openai", "key_env": "GEMINI_API_KEY",
-               "models": ["gemini-3.5-flash-lite", "gemma-4-31b-it"], "embed_model": "gemini-embedding-001",
+               "models": ["gemini-3.5-flash-lite", "gemma-4-31b-it", "gemini-3.1-flash-lite"], "embed_model": "gemini-embedding-001",
                "embed_dims": 768},  # 768 of 3072 dims keeps pure-Python k-means fast
     "deepseek": {"base": "https://api.deepseek.com/v1", "key_env": "DEEPSEEK_API_KEY",
                  "models": ["deepseek-chat"], "embed_model": None},  # no embeddings API: TF-IDF instead
@@ -225,8 +225,10 @@ class OpenAICompatBackend:
                     r = _post(f"{self.base}/chat/completions", {
                         "model": model, "temperature": 0, "response_format": {"type": "json_object"},
                         "messages": [{"role": "user", "content": prompt}]}, self._h())
-                except QuotaError:
-                    self.models.pop(0)  # quota spent for today: fall through to the next model
+                except (QuotaError, OSError, http.client.HTTPException) as e:
+                    # quota spent, or still 5xx/timeouts after retries: try the next model
+                    self.usage.setdefault("model_failures", []).append(f"{model}: {e}"[:200])
+                    self.models.pop(0)
                     continue
                 content = r["choices"][0]["message"]["content"]
                 self.cache.put(key, content)
@@ -236,7 +238,7 @@ class OpenAICompatBackend:
                 self.usage["calls"] += 1
             self.usage["by_model"][model] = self.usage["by_model"].get(model, 0) + 1
             return {**parse_label(content), "model": model}
-        raise QuotaError("every model in the list returned 429; rerun later (cached labels are kept)")
+        raise QuotaError("every model in the list failed (429/5xx/timeout); rerun later, cached labels are kept")
 
 
 # --- offline ---------------------------------------------------------------------------------

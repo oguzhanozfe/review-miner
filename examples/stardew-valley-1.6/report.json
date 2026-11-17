@@ -1,0 +1,515 @@
+{
+ "game": "Stardew Valley",
+ "appid": 413150,
+ "patch": {
+  "gid": "7309977427453935016",
+  "title": "Stardew Valley 1.6 Update Available now!",
+  "date": 1710874250,
+  "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/7309977427453935016",
+  "tags": []
+ },
+ "window_days": {
+  "before": 7,
+  "after": 7
+ },
+ "window_note": "",
+ "source": "IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)",
+ "sampling": {
+  "per_page": 10,
+  "positive_pages_per_day": 1,
+  "negative_pages_per_day": 2
+ },
+ "collected_at": 1794877472,
+ "backend": "gemini:gemini-3.5-flash-lite + gemini-embedding-001",
+ "volume": {
+  "before": {
+   "days": 7,
+   "positive": 1859,
+   "negative": 10,
+   "negative_share": 0.0054,
+   "per_day": 267.0
+  },
+  "after": {
+   "days": 7,
+   "positive": 4654,
+   "negative": 39,
+   "negative_share": 0.0083,
+   "per_day": 670.4
+  }
+ },
+ "stats": {
+  "raw": 189,
+  "duplicates_removed": 5,
+  "detected_languages": {
+   "english": 122,
+   "unknown": 59,
+   "brazilian": 2,
+   "spanish": 1
+  },
+  "tag_mismatches": 3,
+  "tag_mismatch_examples": [
+   {
+    "id": "161084581",
+    "steam_tag": "english",
+    "detected": "spanish"
+   },
+   {
+    "id": "161085761",
+    "steam_tag": "english",
+    "detected": "brazilian"
+   },
+   {
+    "id": "161483698",
+    "steam_tag": "english",
+    "detected": "brazilian"
+   }
+  ],
+  "too_short": 17,
+  "analyzed": 105
+ },
+ "sample_sizes": {
+  "negative": {
+   "before": 8,
+   "after": 23
+  },
+  "positive": {
+   "before": 37,
+   "after": 37
+  }
+ },
+ "themes": [
+  {
+   "id": "neg-2",
+   "polarity": "negative",
+   "category": "content",
+   "theme": "Boredom and lack of engaging content",
+   "summary": "Reviewers express dissatisfaction primarily due to the game becoming boring over time, feeling stressful, or simply not matching their personal style.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 16,
+   "before": {
+    "count": 5,
+    "share": 0.625
+   },
+   "after": {
+    "count": 11,
+    "share": 0.4783
+   },
+   "delta_pp": -14.7,
+   "z": -0.72,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "160687006",
+     "quote": "it got borring after a bit",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "160981528",
+     "quote": "ive played my fair share of 90 hours and kinda boring tbh",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "161297959",
+    "160687006",
+    "161033426",
+    "160981528",
+    "160965274",
+    "161177012",
+    "161031242",
+    "161479102",
+    "161397833",
+    "160427859",
+    "160981410",
+    "161102664",
+    "160872065",
+    "160934992",
+    "161210484",
+    "160594089"
+   ]
+  },
+  {
+   "id": "neg-0",
+   "polarity": "negative",
+   "category": "content",
+   "theme": "tedious gameplay loops and stressful time limits",
+   "summary": "Players express frustration with the game's repetitive tasks, stressful time management, and tedious grind.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 13,
+   "before": {
+    "count": 2,
+    "share": 0.25
+   },
+   "after": {
+    "count": 11,
+    "share": 0.4783
+   },
+   "delta_pp": 22.8,
+   "z": 1.13,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "160424915",
+     "quote": "the game relies on nearly every task being overtly tedious in order to make finishing them more satisfying.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "160969095",
+     "quote": "It's unbearably dull, and frankly I think an actual sedative pill would be both cheaper and more effective",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "161105524",
+     "quote": "the more I played the more I could tell this game was a great idea for me, it just didn't pan out",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "160969095",
+    "161236048",
+    "161105524",
+    "161527341",
+    "161413754",
+    "161220236",
+    "160424915",
+    "161113925",
+    "161421392",
+    "161393907",
+    "161319655",
+    "160534040",
+    "161032122"
+   ]
+  },
+  {
+   "id": "neg-1",
+   "polarity": "negative",
+   "category": "content",
+   "theme": "Dislike of content grind and ideological themes",
+   "summary": "Reviewers express dissatisfaction with the game's repetitive grind, unwanted social themes, and community toxicity.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 2,
+   "before": {
+    "count": 1,
+    "share": 0.125
+   },
+   "after": {
+    "count": 1,
+    "share": 0.0435
+   },
+   "delta_pp": -8.2,
+   "z": -0.81,
+   "trend": "low n",
+   "quotes": [
+    {
+     "review_id": "160892887",
+     "quote": "can't homewreck families and steal wives",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "161482118",
+     "quote": "Then he went and made this game so massive with more of the lame grind stuff!",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Create a new game instead of adding updates to this one",
+     "review_id": "161482118",
+     "quote": "He should have just made a new game instead of adding random junk to this one.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "review_ids": [
+    "161482118",
+    "160892887"
+   ]
+  },
+  {
+   "id": "pos-2",
+   "polarity": "positive",
+   "category": "content",
+   "theme": "Relaxing and addictive gameplay experience",
+   "summary": "Players praise Stardew Valley as a relaxing, deeply engaging, and wholesome game packed with content and hidden details.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 43,
+   "before": {
+    "count": 21,
+    "share": 0.5676
+   },
+   "after": {
+    "count": 22,
+    "share": 0.5946
+   },
+   "delta_pp": 2.7,
+   "z": 0.24,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "161451768",
+     "quote": "Very fun game, absolutely tonnes of hidden details and things to do/ways to progress.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "161283287",
+     "quote": "Very addictive every time i come back to this game... get sucked in for HOURS.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "160688833",
+     "quote": "Probably one of the most relaxing and joyful game I've ever played, the game is super in depth",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "160862692",
+    "161451768",
+    "161283287",
+    "160529149",
+    "160528534",
+    "160863263",
+    "161282602",
+    "160688833",
+    "160525668",
+    "161180182",
+    "160464569",
+    "161375776",
+    "160462152",
+    "160464827",
+    "161528047",
+    "161527859",
+    "161085831",
+    "160525124",
+    "160936365",
+    "161012849",
+    "161012066",
+    "160784835",
+    "160529758",
+    "160600318",
+    "161376355",
+    "161012922",
+    "160862486",
+    "161525838",
+    "160936333",
+    "161181166",
+    "161281842",
+    "160787010",
+    "161376400",
+    "161451928",
+    "160691961",
+    "161013273",
+    "161376012",
+    "160936361",
+    "160862705",
+    "160603441",
+    "161451637",
+    "161086256",
+    "161011873"
+   ]
+  },
+  {
+   "id": "pos-1",
+   "polarity": "positive",
+   "category": "content",
+   "theme": "Endless content and addictive gameplay",
+   "summary": "Players praise the game's vast amount of activities, replayability, and relaxing yet addictive nature.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 24,
+   "before": {
+    "count": 12,
+    "share": 0.3243
+   },
+   "after": {
+    "count": 12,
+    "share": 0.3243
+   },
+   "delta_pp": 0.0,
+   "z": 0.0,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "160691054",
+     "quote": "there is some reason to play again lol",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "161525929",
+     "quote": "Great game you'll find yourself coming back for more.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "160528526",
+     "quote": "honestly stardew valley is addict! 😍💕",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Children that resemble or act like the spouse",
+     "review_id": "161181723",
+     "quote": "my babies dont look or act like my spouse which makes them feel a little like an afterthought",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "review_ids": [
+    "160691054",
+    "161375809",
+    "161525929",
+    "161451957",
+    "160691266",
+    "160528526",
+    "160601660",
+    "161180727",
+    "161527230",
+    "160598666",
+    "161181723",
+    "160861644",
+    "160529634",
+    "160787196",
+    "161376051",
+    "160599785",
+    "161526495",
+    "161451627",
+    "160464943",
+    "161181222",
+    "161013325",
+    "160524951",
+    "161452068",
+    "160787345"
+   ]
+  },
+  {
+   "id": "pos-0",
+   "polarity": "positive",
+   "category": "content",
+   "theme": "Humorous and unconventional player experiences",
+   "summary": "Players share funny, chaotic, and idiosyncratic personal experiences and sandbox antics in the game.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 6,
+   "before": {
+    "count": 3,
+    "share": 0.0811
+   },
+   "after": {
+    "count": 3,
+    "share": 0.0811
+   },
+   "delta_pp": 0.0,
+   "z": 0.0,
+   "trend": "low n",
+   "quotes": [
+    {
+     "review_id": "160530585",
+     "quote": "You can kill your own children",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "161282750",
+     "quote": "i cheated on every npc",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "161012199",
+    "161282750",
+    "161525501",
+    "160530585",
+    "160691410",
+    "160787510"
+   ]
+  },
+  {
+   "id": "pos-3",
+   "polarity": "positive",
+   "category": "other",
+   "theme": "Humorous review about war crimes",
+   "summary": "The reviewer humorously describes the game as a good way to commit war crimes.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 1,
+   "before": {
+    "count": 1,
+    "share": 0.027
+   },
+   "after": {
+    "count": 0,
+    "share": 0.0
+   },
+   "delta_pp": -2.7,
+   "z": -1.01,
+   "trend": "low n",
+   "quotes": [
+    {
+     "review_id": "160464178",
+     "quote": "good way to commit war crimes",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "160464178"
+   ]
+  }
+ ],
+ "verification": {
+  "total": 18,
+  "verified": 18,
+  "unverified": 0,
+  "unverified_items": []
+ },
+ "elapsed_s": 8086.5,
+ "token_usage": {
+  "prompt_tokens": 5107,
+  "completion_tokens": 1325,
+  "calls": 7,
+  "cache_hits": 0,
+  "by_model": {
+   "gemini-3.5-flash-lite": 7
+  }
+ }
+}

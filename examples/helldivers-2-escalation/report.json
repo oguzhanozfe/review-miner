@@ -1,0 +1,1082 @@
+{
+ "game": "HELLDIVERS 2",
+ "appid": 553850,
+ "patch": {
+  "gid": "5963413728352726120",
+  "title": "Patch 1.001.002 Escalation of Freedom",
+  "date": 1722934825,
+  "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5963413728352726120",
+  "tags": []
+ },
+ "window_days": {
+  "before": 7,
+  "after": 7
+ },
+ "window_note": "",
+ "source": "IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)",
+ "sampling": {
+  "per_page": 10,
+  "positive_pages_per_day": 1,
+  "negative_pages_per_day": 2
+ },
+ "collected_at": 1794877524,
+ "backend": "gemini:gemini-3.1-flash-lite, gemini-3.5-flash-lite, gemma-4-31b-it + gemini-embedding-001",
+ "volume": {
+  "before": {
+   "days": 7,
+   "positive": 931,
+   "negative": 156,
+   "negative_share": 0.1435,
+   "per_day": 155.3
+  },
+  "after": {
+   "days": 7,
+   "positive": 2997,
+   "negative": 2364,
+   "negative_share": 0.441,
+   "per_day": 765.9
+  }
+ },
+ "stats": {
+  "raw": 417,
+  "duplicates_removed": 2,
+  "detected_languages": {
+   "english": 355,
+   "unknown": 57,
+   "japanese": 1,
+   "french": 1,
+   "thai": 1
+  },
+  "tag_mismatches": 3,
+  "tag_mismatch_examples": [
+   {
+    "id": "171133329",
+    "steam_tag": "english",
+    "detected": "japanese"
+   },
+   {
+    "id": "171810619",
+    "steam_tag": "english",
+    "detected": "french"
+   },
+   {
+    "id": "172025312",
+    "steam_tag": "english",
+    "detected": "thai"
+   }
+  ],
+  "too_short": 22,
+  "analyzed": 333
+ },
+ "sample_sizes": {
+  "negative": {
+   "before": 122,
+   "after": 128
+  },
+  "positive": {
+   "before": 37,
+   "after": 46
+  }
+ },
+ "themes": [
+  {
+   "id": "neg-1",
+   "polarity": "negative",
+   "category": "other",
+   "theme": "Developer incompetence and hostility toward players",
+   "summary": "Players express deep frustration with Arrowhead's management, communication, and perceived hostility toward the community.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 54,
+   "before": {
+    "count": 27,
+    "share": 0.2213
+   },
+   "after": {
+    "count": 27,
+    "share": 0.2109
+   },
+   "delta_pp": -1.0,
+   "z": -0.2,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171944323",
+     "quote": "I have never seen a dev team so inept at everything and actively hostile towards their player base",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "172022391",
+     "quote": "This is the first time i see a dev team with voracious hunger for failure.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Total re-evaluation of priorities and sacking of all community managers",
+     "review_id": "171947109",
+     "quote": "Nothing short of the sacking of all community managers and a total re-evaluation of priorities can fix this level of decay.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "review_ids": [
+    "172022391",
+    "171276841",
+    "171944323",
+    "171947109",
+    "172016863",
+    "171944715",
+    "171880441",
+    "171324385",
+    "171534146",
+    "171809067",
+    "171666409",
+    "171286988",
+    "171209175",
+    "171733240",
+    "171947967",
+    "171878134",
+    "171601787",
+    "171601460",
+    "171317423",
+    "171399705",
+    "171135167",
+    "171505269",
+    "171411663",
+    "171602371",
+    "171808010",
+    "172017698",
+    "171142693",
+    "171339975",
+    "171320824",
+    "171468222",
+    "171500349",
+    "171602266",
+    "171393623",
+    "172016262",
+    "171809922",
+    "171406135",
+    "171388166",
+    "171601511",
+    "171322560",
+    "171874972",
+    "171385084",
+    "171601781",
+    "172027560",
+    "171879279",
+    "171456757",
+    "171951468",
+    "171949176",
+    "171733112",
+    "171469585",
+    "171203569",
+    "171264934",
+    "171137978",
+    "171381337",
+    "171262805"
+   ]
+  },
+  {
+   "id": "neg-2",
+   "polarity": "negative",
+   "category": "bug",
+   "theme": "Technical issues, bugs, and game crashes",
+   "summary": "Reviewers are frustrated by constant crashes, bugs, and network disconnects introduced in recent patches that make the game unplayable.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 54,
+   "before": {
+    "count": 39,
+    "share": 0.3197
+   },
+   "after": {
+    "count": 15,
+    "share": 0.1172
+   },
+   "delta_pp": -20.2,
+   "z": -3.89,
+   "trend": "fell",
+   "quotes": [
+    {
+     "review_id": "171735822",
+     "quote": "every updates comes with a load of bugs that makes the game unplayable",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171468005",
+     "quote": "Incredibly unstable, the game continuously crashes during play.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171881307",
+     "quote": "Crashes, performance issues, even crashed my entire PC on multiple occassions.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Perform a quality control update to fix game and network stability",
+     "review_id": "171112186",
+     "quote": "I gotta thumb down til the devs do a quality control update on game and network stability",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "review_ids": [
+    "171735822",
+    "171484613",
+    "171336725",
+    "171112186",
+    "171733934",
+    "171468005",
+    "171190694",
+    "171466658",
+    "171489671",
+    "171667293",
+    "171247265",
+    "171881307",
+    "171518440",
+    "171250855",
+    "171120023",
+    "171666419",
+    "171188206",
+    "171950773",
+    "171477018",
+    "171251723",
+    "171463101",
+    "172019121",
+    "171239914",
+    "171390740",
+    "171396624",
+    "171248743",
+    "171302447",
+    "172018768",
+    "171212952",
+    "171466291",
+    "171408021",
+    "171467703",
+    "171216371",
+    "171880323",
+    "171436988",
+    "171532125",
+    "171454155",
+    "172019135",
+    "171196011",
+    "171144954",
+    "171119406",
+    "171533256",
+    "171876002",
+    "171191667",
+    "171170805",
+    "171381514",
+    "171733004",
+    "171249366",
+    "171238859",
+    "171112047",
+    "171246827",
+    "171807776",
+    "171950494",
+    "171735343"
+   ]
+  },
+  {
+   "id": "neg-4",
+   "polarity": "negative",
+   "category": "balance",
+   "theme": "Developer nerfs and balancing ruining fun",
+   "summary": "Reviewers express deep frustration with continuous weapon nerfs and poor balance decisions by the developers, which they feel ruin the enjoyment of the game.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 50,
+   "before": {
+    "count": 20,
+    "share": 0.1639
+   },
+   "after": {
+    "count": 30,
+    "share": 0.2344
+   },
+   "delta_pp": 7.0,
+   "z": 1.39,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171880049",
+     "quote": "it is insanely unfair for the players with the massive amounts of nerfs to the Helldivers arsenal",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171668373",
+     "quote": "Stop nerfing everything based on its popularity, this is not an eSports PvP shooter.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171731973",
+     "quote": "remove all of the fun aspects of the game with every \"major\" update",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Let players have weaponry that works properly without constant nerfs",
+     "review_id": "171668373",
+     "quote": "Arrowhead, for the love of god let us have weaponry that works properly.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "review_ids": [
+    "171880049",
+    "171601776",
+    "171731253",
+    "171668373",
+    "171731973",
+    "171192404",
+    "171734021",
+    "171388948",
+    "171391560",
+    "171602153",
+    "171808847",
+    "171205320",
+    "171874412",
+    "171945623",
+    "171669136",
+    "171512912",
+    "171874692",
+    "171118893",
+    "171733006",
+    "171875868",
+    "171602151",
+    "171879501",
+    "172019084",
+    "171733670",
+    "171134528",
+    "171341493",
+    "171666895",
+    "172026641",
+    "171733138",
+    "171387956",
+    "171601468",
+    "171528748",
+    "171601176",
+    "171809294",
+    "171418324",
+    "171338183",
+    "171878418",
+    "171320459",
+    "171182376",
+    "171221940",
+    "171311690",
+    "171399199",
+    "171808329",
+    "171731709",
+    "171666902",
+    "171808402",
+    "171108479",
+    "171140168",
+    "171808000",
+    "171393965"
+   ]
+  },
+  {
+   "id": "neg-6",
+   "polarity": "negative",
+   "category": "balance",
+   "theme": "Excessive weapon nerfing in PvE",
+   "summary": "Players are frustrated by frequent weapon nerfs and a balancing philosophy that treats a cooperative PvE game like a competitive PvP game.",
+   "label_parsed": true,
+   "labelled_by": "gemma-4-31b-it",
+   "size": 40,
+   "before": {
+    "count": 3,
+    "share": 0.0246
+   },
+   "after": {
+    "count": 37,
+    "share": 0.2891
+   },
+   "delta_pp": 26.4,
+   "z": 5.7,
+   "trend": "rose",
+   "quotes": [
+    {
+     "review_id": "171667166",
+     "quote": "There is way more nerfs than buffs happening",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "172020840",
+     "quote": "trying to \"Balance\" a PVE game is disadvantageous compared to a PVP game",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171949435",
+     "quote": "Every patch = NERF weapons = Game no longer fun",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Buff unused weapons instead of nerfing fun ones",
+     "review_id": "171600515",
+     "quote": "STOP NERFING FUN WEAPONS AND BUFF THE UNUSED ONES.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "request": "Buff unpopular weapons instead of nerfing popular ones",
+     "review_id": "171667427",
+     "quote": "Can't you just buff the other weapons that are not popular?",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "review_ids": [
+    "171667166",
+    "171880181",
+    "172020840",
+    "171875453",
+    "171878121",
+    "171949435",
+    "171600515",
+    "171667427",
+    "171734708",
+    "172017782",
+    "171875221",
+    "171602204",
+    "172020103",
+    "171600897",
+    "171876167",
+    "172026222",
+    "171809018",
+    "171807893",
+    "171876540",
+    "171439319",
+    "171601583",
+    "171601023",
+    "171601161",
+    "171810711",
+    "171669399",
+    "171667958",
+    "171812047",
+    "171874372",
+    "171811065",
+    "171948849",
+    "171810373",
+    "171669314",
+    "171668686",
+    "171669590",
+    "171601129",
+    "171667278",
+    "172018032",
+    "171134139",
+    "171386840",
+    "171808700"
+   ]
+  },
+  {
+   "id": "neg-5",
+   "polarity": "negative",
+   "category": "balance",
+   "theme": "Decline due to poor balancing updates",
+   "summary": "Players feel the game has become miserable and unsatisfying due to poor developer decisions and aggressive balancing updates.",
+   "label_parsed": true,
+   "labelled_by": "gemma-4-31b-it",
+   "size": 31,
+   "before": {
+    "count": 21,
+    "share": 0.1721
+   },
+   "after": {
+    "count": 10,
+    "share": 0.0781
+   },
+   "delta_pp": -9.4,
+   "z": -2.25,
+   "trend": "fell",
+   "quotes": [
+    {
+     "review_id": "171466471",
+     "quote": "changed exactly what the community enjoyed to make it dramatically less enjoyable in every way",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171667371",
+     "quote": "Broken nerfing simulator. What a shame.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171212819",
+     "quote": "with the update they also nerfed some weapons ammo",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "172020567",
+    "171945715",
+    "171198086",
+    "171466471",
+    "171212819",
+    "171196579",
+    "171600334",
+    "171282655",
+    "171950753",
+    "171518963",
+    "171411155",
+    "171667371",
+    "172026548",
+    "171535692",
+    "171113287",
+    "171531785",
+    "171946600",
+    "171239004",
+    "171300998",
+    "171147554",
+    "171666874",
+    "171734425",
+    "171145859",
+    "171325244",
+    "171668317",
+    "171459189",
+    "171167718",
+    "171182647",
+    "171292570",
+    "171395241",
+    "171117310"
+   ]
+  },
+  {
+   "id": "neg-0",
+   "polarity": "negative",
+   "category": "balance",
+   "theme": "Excessive weapon nerfs and balance issues",
+   "summary": "Players are expressing severe frustration over frequent and heavy-handed weapon nerfs by the developers, demanding better balancing decisions.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 14,
+   "before": {
+    "count": 5,
+    "share": 0.041
+   },
+   "after": {
+    "count": 9,
+    "share": 0.0703
+   },
+   "delta_pp": 2.9,
+   "z": 1.01,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171945558",
+     "quote": "Evil arrowhead be like we will not nerf every good weapon",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171734804",
+     "quote": "Don't nerf the best. \nJust buff the rest.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171387128",
+     "quote": "Give us a Balance Team or give us Death",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Provide a competent balance team",
+     "review_id": "171387128",
+     "quote": "Give us a Balance Team or give us Death",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "request": "Buff underperforming weapons instead of nerfing the best ones",
+     "review_id": "171734804",
+     "quote": "Don't nerf the best.\nJust buff the rest.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "review_ids": [
+    "171509677",
+    "171387128",
+    "171945558",
+    "171667396",
+    "171734804",
+    "171734194",
+    "171809216",
+    "171946384",
+    "171808417",
+    "171474839",
+    "171812008",
+    "171522575",
+    "172016621",
+    "171218532"
+   ]
+  },
+  {
+   "id": "neg-3",
+   "polarity": "negative",
+   "category": "content",
+   "theme": "Repetitive gameplay loop and content fatigue",
+   "summary": "Players find the game gets stale and repetitive quickly due to a lack of mission variety and new content updates.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.5-flash-lite",
+   "size": 7,
+   "before": {
+    "count": 7,
+    "share": 0.0574
+   },
+   "after": {
+    "count": 0,
+    "share": 0.0
+   },
+   "delta_pp": -5.7,
+   "z": -2.75,
+   "trend": "low n",
+   "quotes": [
+    {
+     "review_id": "171491001",
+     "quote": "gets stale due to a lack of updates and new content",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171428854",
+     "quote": "The core gameplay loop quickly becomes repetitive after a few hours.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171257675",
+     "quote": "Every mission feels the same",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "171491001",
+    "171119193",
+    "171290658",
+    "171428854",
+    "171175609",
+    "171257675",
+    "171329120"
+   ]
+  },
+  {
+   "id": "pos-0",
+   "polarity": "positive",
+   "category": "balance",
+   "theme": "Weapon Balancing and Gameplay Fun",
+   "summary": "Players generally love the chaotic cooperative gameplay but express conflicting views on the developers' approach to weapon balancing and nerfs.",
+   "label_parsed": true,
+   "labelled_by": "gemma-4-31b-it",
+   "size": 28,
+   "before": {
+    "count": 7,
+    "share": 0.1892
+   },
+   "after": {
+    "count": 21,
+    "share": 0.4565
+   },
+   "delta_pp": 26.7,
+   "z": 2.56,
+   "trend": "rose",
+   "quotes": [
+    {
+     "review_id": "171812280",
+     "quote": "trying vehemently to avoid having a meta set that people use by nerfing whatever the playerbase is currently using",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171734680",
+     "quote": "It's an amazing ride with every dive, blowing up bugs and bots en masse, barely making it out",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171947796",
+     "quote": "the last patch update definitely made more weapon kits viable and fun along with addressing a lot of community issues",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Focus on making all weapons viable rather than nerfing the powerful ones.",
+     "review_id": "171812280",
+     "quote": "Focus your efforts more on making everything fun and viable rather than working it in reverse.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "request": "Add a third faction to the game.",
+     "review_id": "171337152",
+     "quote": "im still waiting for the third faction btw",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "review_ids": [
+    "171408288",
+    "171812280",
+    "171947796",
+    "171734680",
+    "171734097",
+    "171468997",
+    "171882262",
+    "171668250",
+    "171534622",
+    "171881482",
+    "171668218",
+    "171602177",
+    "171668992",
+    "171951092",
+    "171669175",
+    "171734576",
+    "171882660",
+    "171600997",
+    "171210254",
+    "171881226",
+    "171601360",
+    "171810401",
+    "171669550",
+    "171470638",
+    "171337152",
+    "171950920",
+    "171405908",
+    "172028400"
+   ]
+  },
+  {
+   "id": "pos-2",
+   "polarity": "positive",
+   "category": "content",
+   "theme": "General praise and positive updates",
+   "summary": "Players are highly satisfied with the gameplay, graphics, and the developers' commitment to frequent updates and fair monetization.",
+   "label_parsed": true,
+   "labelled_by": "gemma-4-31b-it",
+   "size": 23,
+   "before": {
+    "count": 14,
+    "share": 0.3784
+   },
+   "after": {
+    "count": 9,
+    "share": 0.1957
+   },
+   "delta_pp": -18.3,
+   "z": -1.85,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171949002",
+     "quote": "dedicated dev team with frequent and high quality content updates.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    },
+    {
+     "review_id": "171271389",
+     "quote": "a live service model that finally feels pro-consumer, and a living narrative influenced by the players",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171813121",
+     "quote": "I extremely recommend this game to everyone. It's so damn fun to play single or coop of 4.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [
+    {
+     "request": "Release the game on Xbox to enable cross-platform play across all systems.",
+     "review_id": "171341641",
+     "quote": "really wish it was on xbox so all gaming systems could play together.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    }
+   ],
+   "review_ids": [
+    "171536320",
+    "171812100",
+    "171813121",
+    "171535666",
+    "172025035",
+    "171669586",
+    "171150713",
+    "171341641",
+    "171271389",
+    "171949002",
+    "171471201",
+    "171473940",
+    "171812158",
+    "171535954",
+    "171271966",
+    "171668654",
+    "172027192",
+    "171536113",
+    "171341497",
+    "171809625",
+    "171148402",
+    "171340375",
+    "171210100"
+   ]
+  },
+  {
+   "id": "pos-3",
+   "polarity": "positive",
+   "category": "content",
+   "theme": "General praise for cooperative gameplay",
+   "summary": "Reviewers highly praise the game as a high-quality cooperative horde shooter with engaging thematic elements and strong replayability.",
+   "label_parsed": true,
+   "labelled_by": "gemma-4-31b-it",
+   "size": 14,
+   "before": {
+    "count": 8,
+    "share": 0.2162
+   },
+   "after": {
+    "count": 6,
+    "share": 0.1304
+   },
+   "delta_pp": -8.6,
+   "z": -1.04,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171147846",
+     "quote": "Fantastic horde shooter, whether solo or with friends.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171408122",
+     "quote": "Truly a masterpiece from a small team of dedicated developers.",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171601731",
+     "quote": "Helldivers 2 is an absolutely incredible game and I have had nothing but positive experiences",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "171948169",
+    "171147846",
+    "171268699",
+    "171408122",
+    "171213019",
+    "171601731",
+    "171602072",
+    "171342009",
+    "171668054",
+    "171668649",
+    "171150454",
+    "171881844",
+    "171207665",
+    "171268327"
+   ]
+  },
+  {
+   "id": "pos-4",
+   "polarity": "positive",
+   "category": "other",
+   "theme": "enthusiastic support for democratic gameplay",
+   "summary": "Players express high satisfaction with the game's core loop, thematic immersion, and overall fun factor.",
+   "label_parsed": true,
+   "labelled_by": "gemini-3.1-flash-lite",
+   "size": 10,
+   "before": {
+    "count": 5,
+    "share": 0.1351
+   },
+   "after": {
+    "count": 5,
+    "share": 0.1087
+   },
+   "delta_pp": -2.6,
+   "z": -0.37,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171534755",
+     "quote": "I love this game with all my heart! MOST DEMOCRATIC GAME EVER!",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171269515",
+     "quote": "Fun shooter, blow stuff up kill aliens and robots. What's no to love!",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171948676",
+     "quote": "10/10 would serve democracy again",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "171534755",
+    "171881940",
+    "171535038",
+    "171209720",
+    "171269515",
+    "171948676",
+    "171275159",
+    "172025362",
+    "171733048",
+    "171733047"
+   ]
+  },
+  {
+   "id": "pos-1",
+   "polarity": "positive",
+   "category": "other",
+   "theme": "Roleplaying as Super Earth citizens",
+   "summary": "Players are enthusiastically embracing the game's satirical theme of spreading democracy and freedom.",
+   "label_parsed": true,
+   "labelled_by": "gemma-4-31b-it",
+   "size": 8,
+   "before": {
+    "count": 3,
+    "share": 0.0811
+   },
+   "after": {
+    "count": 5,
+    "share": 0.1087
+   },
+   "delta_pp": 2.8,
+   "z": 0.42,
+   "trend": "flat",
+   "quotes": [
+    {
+     "review_id": "171206368",
+     "quote": "Finally every diver around the world can finally spread democracy",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171469846",
+     "quote": "I recommend in the name of freedom, democracy, and super earth",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "before"
+    },
+    {
+     "review_id": "171949932",
+     "quote": "I EAT FREEDOM FOR BREAKFAST AND DEMOCRACY FOR DINNER!!!",
+     "verified": true,
+     "reason": "verbatim",
+     "side": "after"
+    }
+   ],
+   "feature_requests": [],
+   "review_ids": [
+    "171949932",
+    "171206368",
+    "171469846",
+    "171734355",
+    "172028484",
+    "171338893",
+    "171733556",
+    "171882230"
+   ]
+  }
+ ],
+ "verification": {
+  "total": 45,
+  "verified": 45,
+  "unverified": 0,
+  "unverified_items": []
+ },
+ "elapsed_s": 568.6,
+ "token_usage": {
+  "prompt_tokens": 6891,
+  "completion_tokens": 1508,
+  "calls": 6,
+  "cache_hits": 6,
+  "by_model": {
+   "gemini-3.5-flash-lite": 5,
+   "gemma-4-31b-it": 6,
+   "gemini-3.1-flash-lite": 1
+  },
+  "model_failures": [
+   "gemini-3.5-flash-lite: HTTP Error 503: Service Unavailable",
+   "gemma-4-31b-it: HTTP Error 503: Service Unavailable"
+  ]
+ }
+}
