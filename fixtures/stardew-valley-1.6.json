@@ -1,0 +1,1812 @@
+{
+ "appid": 413150,
+ "name": "Stardew Valley",
+ "patch": {
+  "gid": "7309977427453935016",
+  "title": "Stardew Valley 1.6 Update Available now!",
+  "date": 1710874250,
+  "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/7309977427453935016",
+  "tags": []
+ },
+ "window_days": {
+  "before": 7,
+  "after": 7
+ },
+ "note": "",
+ "source": "IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)",
+ "sampling": {
+  "per_page": 10,
+  "positive_pages_per_day": 1,
+  "negative_pages_per_day": 2
+ },
+ "days": [
+  {
+   "side": "before",
+   "start": 1710269450,
+   "total_positive": 129,
+   "total_negative": 3
+  },
+  {
+   "side": "before",
+   "start": 1710355850,
+   "total_positive": 120,
+   "total_negative": 0
+  },
+  {
+   "side": "before",
+   "start": 1710442250,
+   "total_positive": 119,
+   "total_negative": 2
+  },
+  {
+   "side": "before",
+   "start": 1710528650,
+   "total_positive": 160,
+   "total_negative": 2
+  },
+  {
+   "side": "before",
+   "start": 1710615050,
+   "total_positive": 193,
+   "total_negative": 0
+  },
+  {
+   "side": "before",
+   "start": 1710701450,
+   "total_positive": 213,
+   "total_negative": 0
+  },
+  {
+   "side": "before",
+   "start": 1710787850,
+   "total_positive": 925,
+   "total_negative": 3
+  },
+  {
+   "side": "after",
+   "start": 1710874250,
+   "total_positive": 1089,
+   "total_negative": 8
+  },
+  {
+   "side": "after",
+   "start": 1710960650,
+   "total_positive": 722,
+   "total_negative": 9
+  },
+  {
+   "side": "after",
+   "start": 1711047050,
+   "total_positive": 545,
+   "total_negative": 4
+  },
+  {
+   "side": "after",
+   "start": 1711133450,
+   "total_positive": 624,
+   "total_negative": 5
+  },
+  {
+   "side": "after",
+   "start": 1711219850,
+   "total_positive": 624,
+   "total_negative": 3
+  },
+  {
+   "side": "after",
+   "start": 1711306250,
+   "total_positive": 531,
+   "total_negative": 5
+  },
+  {
+   "side": "after",
+   "start": 1711392650,
+   "total_positive": 519,
+   "total_negative": 5
+  }
+ ],
+ "collected_at": 1794877472,
+ "reviews": [
+  {
+   "id": "160465090",
+   "language": "english",
+   "review": "elliott naked pls",
+   "created": 1710355833,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 4564
+  },
+  {
+   "id": "160464943",
+   "language": "english",
+   "review": "my fav game to relax with... till its 1:40am and im still in the mines",
+   "created": 1710355641,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 12202
+  },
+  {
+   "id": "160464827",
+   "language": "english",
+   "review": "This is my all time favourite game, I've played this for 409 hours so far and I still find new things in the game I want to do. The character stories are incredible and help you feel engaged in the game. Could not reccommend enough. So so so excited for the update!",
+   "created": 1710355503,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 24567
+  },
+  {
+   "id": "160464569",
+   "language": "english",
+   "review": "Absolutely amazing, best game ever, everyone should play it",
+   "created": 1710355188,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 21022
+  },
+  {
+   "id": "160464178",
+   "language": "english",
+   "review": "good way to commit war crimes",
+   "created": 1710354772,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2788
+  },
+  {
+   "id": "160464070",
+   "language": "english",
+   "review": "GET IT \r\n",
+   "created": 1710354649,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 798
+  },
+  {
+   "id": "160463828",
+   "language": "english",
+   "review": "A nice relaxing game.",
+   "created": 1710354377,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1885
+  },
+  {
+   "id": "160463255",
+   "language": "english",
+   "review": "nice",
+   "created": 1710353667,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5693
+  },
+  {
+   "id": "160462586",
+   "language": "english",
+   "review": "awesome game",
+   "created": 1710352895,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3819
+  },
+  {
+   "id": "160462152",
+   "language": "english",
+   "review": "music, art, gameplay loop, and engagement are all top notch. There is always things to do to the point where I often find myself pausing to think about what i need to do next.",
+   "created": 1710352375,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5843
+  },
+  {
+   "id": "160446842",
+   "language": "english",
+   "review": ".",
+   "created": 1710335176,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 50
+  },
+  {
+   "id": "160427859",
+   "language": "english",
+   "review": "its a trap! dontt BUUY",
+   "created": 1710300620,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 515
+  },
+  {
+   "id": "160424915",
+   "language": "english",
+   "review": "Ehhh, it's probably just not my thing, but personally my major issue is that the game relies on nearly every task being overtly tedious in order to make finishing them more satisfying. The problem with this is that, in general, a lot of things you do in this game are very simple and usually not that engaging as a result of it, basically removing most of the satisfaction you would get from finishing it.\n\nEdit: I should've specified that while I do not like this game, it is [b]definitely[/b] well made.",
+   "created": 1710295674,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 933
+  },
+  {
+   "id": "160530585",
+   "language": "english",
+   "review": "Pros:\n\n1. You can kill your own children\n2. You can marry both genders\n3. Krobus\n\nCons:\n\n1. You can't marry Robin",
+   "created": 1710442065,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5222
+  },
+  {
+   "id": "160529758",
+   "language": "english",
+   "review": "I really love this game. Currently, I am running the compatibility mode until I get a better desktop and monitor, but its seriously fun and one of the best games that I have played. There is only one thing that bugs me, but its because of my monitor not the ACTUAL game. Besides that, its good.",
+   "created": 1710441222,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 220
+  },
+  {
+   "id": "160529634",
+   "language": "english",
+   "review": "Avid story of seasons/ harvest moon fans here. Stardew is breath of a fresh air while still paying respectful homage to their predecessor. Love it!!!",
+   "created": 1710441103,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 419
+  },
+  {
+   "id": "160529149",
+   "language": "english",
+   "review": "Really fun game that can be exciting and relaxing; up to you to decide how each day goes. It just gets better as you discover all the interesting little details and big surprises!",
+   "created": 1710440606,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 73172
+  },
+  {
+   "id": "160528534",
+   "language": "english",
+   "review": "Best game of this genre you'll find out there <3",
+   "created": 1710440013,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6362
+  },
+  {
+   "id": "160528526",
+   "language": "english",
+   "review": "very interested, enjoy and feeling good to playing stardew valley, can anything like farming, fishing, mining, and any quest mind blowed in this game, honestly stardew valley is addict! 😍💕",
+   "created": 1710440008,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1573
+  },
+  {
+   "id": "160527971",
+   "language": "english",
+   "review": "FUN !",
+   "created": 1710439434,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 14658
+  },
+  {
+   "id": "160525668",
+   "language": "english",
+   "review": "its an amazingly nostalgic game that makes me so happy!!!",
+   "created": 1710437475,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 908
+  },
+  {
+   "id": "160525124",
+   "language": "english",
+   "review": "One of my favorite games. :) I own it on Steam and Switch and it just never gets old.",
+   "created": 1710436971,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 18036
+  },
+  {
+   "id": "160524951",
+   "language": "english",
+   "review": "I Think you farm in this game",
+   "created": 1710436795,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1343
+  },
+  {
+   "id": "160604401",
+   "language": "english",
+   "review": "so cool\r\n",
+   "created": 1710527701,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2745
+  },
+  {
+   "id": "160603441",
+   "language": "english",
+   "review": "The game's combat is impressively janky... \nEverything else rocks, just can't get over my skill issues...",
+   "created": 1710526777,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2583
+  },
+  {
+   "id": "160602550",
+   "language": "english",
+   "review": "so fun and indie",
+   "created": 1710526018,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 339
+  },
+  {
+   "id": "160602406",
+   "language": "english",
+   "review": "okej",
+   "created": 1710525897,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 586
+  },
+  {
+   "id": "160601660",
+   "language": "english",
+   "review": "Best farming game on Steam currently imo.",
+   "created": 1710525204,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 17204
+  },
+  {
+   "id": "160600899",
+   "language": "english",
+   "review": "good",
+   "created": 1710524463,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5339
+  },
+  {
+   "id": "160600613",
+   "language": "english",
+   "review": "░░░░░░░░░░░░░▄███▄▄▄░░░░░░░\n░░░░░░░░░▄▄▄██▀▀▀▀███▄░░░░░\n░░░░░░░▄▀▀░░░░░░░░░░░▀█░░░░\n░░░░▄▄▀░░░░░░░░░░░░░░░▀█░░░\n░░░█░░░░░▀▄░░▄▀░░░░░░░░█░░░\n░░░▐██▄░░▀▄▀▀▄▀░░▄██▀░▐▌░░░\n░░░█▀█░▀░░░▀▀░░░▀░█▀░░▐▌░░░\n░░░█░░▀▐░░░░░░░░▌▀░░░░░█░░░\n░░░█░░░░░░░░░░░░░░░░░░░█░░░\n░░░░█░░▀▄░░░░▄▀░░░░░░░░█░░░\n░░░░█░░░░░░░░░░░▄▄░░░░█░░░░\n░░░░░█▀██▀▀▀▀██▀░░░░░░█░░░░\n░░░░░█░░▀████▀░░░░░░░█░░░░░\n░░░░░░█░░░░░░░░░░░░▄█░░░░░░\n░░░░░░░██░░░░░█▄▄▀▀░█░░░░░░\n░░░░░░░░▀▀█▀▀▀▀░░░░░░█░░░░░\n░░░░░░░░░█░░░░░░░░░░░░█░░░░\n\nYee\n",
+   "created": 1710524193,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 341
+  },
+  {
+   "id": "160600318",
+   "language": "english",
+   "review": "this is the only game that i've purchased multiple times on multiple platforms (pc, ps4, switch, and phone). play it, it slaps so hard",
+   "created": 1710523920,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 41352
+  },
+  {
+   "id": "160599785",
+   "language": "english",
+   "review": "this game is beautiful and eric barone is an inspiration and legend",
+   "created": 1710523400,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 29547
+  },
+  {
+   "id": "160598666",
+   "language": "english",
+   "review": "Have a beautiful garden, find love, have fun with your friends, Steam friends and NPCs alike. This game has something for everyone. It's a masterpiece.",
+   "created": 1710522352,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 856
+  },
+  {
+   "id": "160594089",
+   "language": "english",
+   "review": "i left my dog alone for one second and it stood on its hind legs and started speaking amharic ♪",
+   "created": 1710518224,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 1009
+  },
+  {
+   "id": "160534040",
+   "language": "english",
+   "review": "coop, connection failed, not fix from 2021",
+   "created": 1710445413,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 4718
+  },
+  {
+   "id": "160691961",
+   "language": "english",
+   "review": "100 years later if I still alive I'll still play this game",
+   "created": 1710614283,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 936
+  },
+  {
+   "id": "160691840",
+   "language": "english",
+   "review": "Zjbs",
+   "created": 1710614200,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2799
+  },
+  {
+   "id": "160691508",
+   "language": "english",
+   "review": "LOVE THIS GAME!!!!!!!!!!!!!!1",
+   "created": 1710613941,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1940
+  },
+  {
+   "id": "160691410",
+   "language": "english",
+   "review": "ive never been so mad about not having a single fruit in my lifetime",
+   "created": 1710613862,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 3316
+  },
+  {
+   "id": "160691266",
+   "language": "english",
+   "review": "Probably one of the most interesting games I've ever played. This is not an ordinary farm simulator. The plot lines are interesting. I've been playing this game for a very long time and I'm constantly finding new things and interesting facts. I can't wait for update 1.6. I love this game.",
+   "created": 1710613728,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 14799
+  },
+  {
+   "id": "160691054",
+   "language": "english",
+   "review": "Loved it on xbox, couldnt stop myself from getting it again. Nice little town, you manage the farm and do tasks for the townspeople. There is fishing, mining, monsters to kill, multiple areas to unlock, romance/marraige of sort, crafting if it wasnt obvious, and even different farm options (as well as 2 different end game paths) so there is some reason to play again lol\r\nAlso - not 100% sure, but idk if there is an 'end' so you could just live your farm life via this game despite maybe living in the middle of a city :)",
+   "created": 1710613570,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 10794
+  },
+  {
+   "id": "160689937",
+   "language": "english",
+   "review": "☺️",
+   "created": 1710612658,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 16260
+  },
+  {
+   "id": "160689930",
+   "language": "english",
+   "review": "yus",
+   "created": 1710612655,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 833
+  },
+  {
+   "id": "160689915",
+   "language": "english",
+   "review": "Tiptop",
+   "created": 1710612643,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3024
+  },
+  {
+   "id": "160688833",
+   "language": "english",
+   "review": "Probably one of the most relaxing and joyful game I've ever played, the game is super in depth with so much to explore and to do. It's also a extremely fun game play co-op with friends.",
+   "created": 1710611797,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 9035
+  },
+  {
+   "id": "160687006",
+   "language": "english",
+   "review": "it got borring after a bit",
+   "created": 1710610327,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 1535
+  },
+  {
+   "id": "160678363",
+   "language": "english",
+   "review": "stupid game",
+   "created": 1710603819,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 1308
+  },
+  {
+   "id": "160787650",
+   "language": "english",
+   "review": "epic timeless game",
+   "created": 1710701254,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 293
+  },
+  {
+   "id": "160787510",
+   "language": "english",
+   "review": "im such a fat chud",
+   "created": 1710701152,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6264
+  },
+  {
+   "id": "160787345",
+   "language": "english",
+   "review": "farming is for nerds i fish",
+   "created": 1710701013,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 216
+  },
+  {
+   "id": "160787196",
+   "language": "english",
+   "review": "If you grew up on Harvest Moon, then you will probably enjoy this game as well. God Bless! Jesus Saves!",
+   "created": 1710700887,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1980
+  },
+  {
+   "id": "160787010",
+   "language": "english",
+   "review": "Enough said with the other reviews, After +100 hours on switch, I decided to buy it on steam as well",
+   "created": 1710700722,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 338
+  },
+  {
+   "id": "160786750",
+   "language": "english",
+   "review": "Thank You Based ConcernedApe",
+   "created": 1710700488,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2390
+  },
+  {
+   "id": "160785640",
+   "language": "english",
+   "review": "amazing as ever",
+   "created": 1710699600,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6559
+  },
+  {
+   "id": "160785484",
+   "language": "english",
+   "review": "it gud",
+   "created": 1710699471,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 10005
+  },
+  {
+   "id": "160784835",
+   "language": "english",
+   "review": "As stress free or as stressful as you would like to play. Amazingly loving developer.",
+   "created": 1710698943,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 60753
+  },
+  {
+   "id": "160784777",
+   "language": "english",
+   "review": "aser;'.m,kdabrvgn",
+   "created": 1710698890,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1934
+  },
+  {
+   "id": "160863263",
+   "language": "english",
+   "review": "Easily one of the best games EVER.",
+   "created": 1710787143,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 24997
+  },
+  {
+   "id": "160862705",
+   "language": "english",
+   "review": "I really love the cute aesthetic\r\n",
+   "created": 1710786591,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 710
+  },
+  {
+   "id": "160862692",
+   "language": "english",
+   "review": "This is my favorite game its so calming all my friends love it as well",
+   "created": 1710786579,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 718
+  },
+  {
+   "id": "160862682",
+   "language": "english",
+   "review": "its an addicting game",
+   "created": 1710786571,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1129
+  },
+  {
+   "id": "160862518",
+   "language": "english",
+   "review": "100% Completed\r\n100% would play again",
+   "created": 1710786446,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 23325
+  },
+  {
+   "id": "160862502",
+   "language": "english",
+   "review": "My favorite game.",
+   "created": 1710786427,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 442
+  },
+  {
+   "id": "160862486",
+   "language": "english",
+   "review": "Best game ever!!!!!!!!!!!!! Genuinely. I have around 1,000 hours on PS, and recently got a Macbook. Already 100 hours in on Mac, and it just never gets old. Thank you, CA!",
+   "created": 1710786411,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6641
+  },
+  {
+   "id": "160862380",
+   "language": "english",
+   "review": "Hampter",
+   "created": 1710786321,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 20254
+  },
+  {
+   "id": "160862167",
+   "language": "english",
+   "review": "good game",
+   "created": 1710786102,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 42757
+  },
+  {
+   "id": "160861644",
+   "language": "english",
+   "review": "since a new major update is upon us, i think it's about time i shared my thoughts about this game.\n\nI absolutely LOVE and HATE this game. \nIt's fun at the beginning, when you learn everything- the farming, mining, fishing, story etc. It's all easy and relaxing. It's not about skill or fighting- which is refreshing. Kept me happy during the pandemic.\nBut then you get bored since everything is soo easy and repetative. Well, unless you're more creative than i am, seen people making impressive farm layouts or decorate the town... or just spreading mischief.\nSo if you're eager to try something more peaceful and easy, go ahead, but it can AND WILL eat you time like snacks.",
+   "created": 1710785607,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 53964
+  },
+  {
+   "id": "160936508",
+   "language": "english",
+   "review": ":p",
+   "created": 1710874198,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 4569
+  },
+  {
+   "id": "160936448",
+   "language": "english",
+   "review": "fun",
+   "created": 1710874140,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 25560
+  },
+  {
+   "id": "160936370",
+   "language": "english",
+   "review": "vcery nice\r\n",
+   "created": 1710874049,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 689
+  },
+  {
+   "id": "160936365",
+   "language": "english",
+   "review": "With well over 1k hours into the game, I think I may be obsessed and need more of this game or others like it. Amazing and fun to relax to.",
+   "created": 1710874044,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 79787
+  },
+  {
+   "id": "160936361",
+   "language": "english",
+   "review": "Best game in the world",
+   "created": 1710874040,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 53987
+  },
+  {
+   "id": "160936333",
+   "language": "english",
+   "review": "I likE it alot after a while i suggest adding mods to spice it up :)",
+   "created": 1710874021,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 279
+  },
+  {
+   "id": "160936303",
+   "language": "english",
+   "review": "good game",
+   "created": 1710873996,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 16288
+  },
+  {
+   "id": "160936241",
+   "language": "english",
+   "review": "love love LOVE",
+   "created": 1710873940,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 25679
+  },
+  {
+   "id": "160936108",
+   "language": "english",
+   "review": "YESSS YESS YESS",
+   "created": 1710873804,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 23226
+  },
+  {
+   "id": "160936094",
+   "language": "english",
+   "review": "i really enjoy it",
+   "created": 1710873791,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 17067
+  },
+  {
+   "id": "160934992",
+   "language": "english",
+   "review": "Stop making me write shit to fucking press NO button so I wouldn't get this recommend shit again.",
+   "created": 1710872764,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 2404
+  },
+  {
+   "id": "160892887",
+   "language": "english",
+   "review": "can't homewreck families and steal wives",
+   "created": 1710822214,
+   "voted_up": false,
+   "votes_up": 9,
+   "playtime_at_review_min": 2502
+  },
+  {
+   "id": "160872065",
+   "language": "english",
+   "review": "I would like a refund i'm not say its bad just not my style",
+   "created": 1710795905,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 134
+  },
+  {
+   "id": "161013333",
+   "language": "english",
+   "review": "best boy",
+   "created": 1710960483,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 18984
+  },
+  {
+   "id": "161013325",
+   "language": "english",
+   "review": "easy game to enjoy and farm away with",
+   "created": 1710960468,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 8032
+  },
+  {
+   "id": "161013273",
+   "language": "english",
+   "review": "im normal about this game",
+   "created": 1710960431,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 21463
+  },
+  {
+   "id": "161013169",
+   "language": "english",
+   "review": "Yesh",
+   "created": 1710960314,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7300
+  },
+  {
+   "id": "161012922",
+   "language": "english",
+   "review": "Simply a must-play. It's way better than many AAA games in the same genre. Worth much more than it's asked full-price.",
+   "created": 1710960046,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 20156
+  },
+  {
+   "id": "161012849",
+   "language": "english",
+   "review": "if you have a rough day or just want to relax this is the best game for me has been for a few years now i first played mobile but on pc with mods absolute favorite",
+   "created": 1710959976,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2831
+  },
+  {
+   "id": "161012199",
+   "language": "english",
+   "review": "They should add slavery and then it would be a 10/10 but imma give it an 8/10 for now.",
+   "created": 1710959323,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 9156
+  },
+  {
+   "id": "161012066",
+   "language": "english",
+   "review": "I love the small town vibes of this game, as well as the story lines and play style. So excited to explore it more during the new update!",
+   "created": 1710959191,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 942
+  },
+  {
+   "id": "161011914",
+   "language": "english",
+   "review": "MAYONNAISE WOW",
+   "created": 1710959049,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 13445
+  },
+  {
+   "id": "161011873",
+   "language": "english",
+   "review": "Leah is the best marriage candidate and no one can change my mind, except maybe Evelyn",
+   "created": 1710959021,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 247
+  },
+  {
+   "id": "160981528",
+   "language": "english",
+   "review": "ive played my fair share of 90 hours and kinda boring tbh\r\n",
+   "created": 1710932153,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 5415
+  },
+  {
+   "id": "160981410",
+   "language": "english",
+   "review": "i have such little time for a reason",
+   "created": 1710932065,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 28399
+  },
+  {
+   "id": "160969095",
+   "language": "english",
+   "review": "I really don't like leaving a bad review for games seemingly everyone likes, but I've tried countless times to enjoy this game and I simply can't do it. Even alcohol was no help in enjoying this game. It's unbearably dull, and frankly I think an actual sedative pill would be both cheaper and more effective than playing this game.\n\nThe game punishes me if I work too much by taking my money, time, and stamina, but then makes every other option equally as monotonous as farming with none of the charm. It somehow makes relaxing hobbies like fishing mind-numbing and obnoxious, and exciting hobbies like adventuring tedious and boring. Everything important other than seeds is worth the price of a small house, and an astoundingly large portion of the game was interrupted by waiting on my phone for stores to open. I even considered that the game wanted to be played as a visual novel and started to focus on talking to characters, only to find that the mayor is the only one willing to give me more than two unique dialogues and the cutscenes almost put me to sleep several times. On top of that, I got a cat that glitched into my bed and prevented me from ending the day the same day I got him, and the game crashed two separate times in one sitting. The farthest I could bring myself to play was day 20 singleplayer.\n\nPlaying with friends has always been people who enjoy the game going crazy doing everything in a few days or so and then throwing me at endgame mechanics they think I would enjoy without telling me anything or even letting me do anything at all. I usually built a small garden that was summarily taken down because I was doing it wrong, and was essentially sitting in my bed on my phone for hours while my friends played the game. Perhaps this is my fault, and I may be generalizing here, but I don't see a reason why playing with randoms would be any better, and I'm not subjecting myself to this game again just to find out. At any rate, the farthest I could bring myself to play was day 5-6 multiplayer.\n\nClearly there's a way to enjoy this game, since everyone I've ever met has loved this game, but the only enjoyment I've ever gotten out of it each time I've played has been listening to the soundtrack, which, hilariously, makes an hour of Spotify and the sedative pill a better experience than this game has been for me.",
+   "created": 1710913081,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 275
+  },
+  {
+   "id": "160966204",
+   "language": "english",
+   "review": "Willy isn't dateable",
+   "created": 1710908782,
+   "voted_up": false,
+   "votes_up": 117,
+   "playtime_at_review_min": 13250
+  },
+  {
+   "id": "160965274",
+   "language": "english",
+   "review": "its stressfull with very little feeling of reward for what you do, with too many restrictions of having to worry about time AND stamina.",
+   "created": 1710907379,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 496
+  },
+  {
+   "id": "160954686",
+   "language": "english",
+   "review": "boring",
+   "created": 1710893525,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 10185
+  },
+  {
+   "id": "160953672",
+   "language": "english",
+   "review": "junimo kart",
+   "created": 1710892275,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 3724
+  },
+  {
+   "id": "160941523",
+   "language": "english",
+   "review": "I LIED",
+   "created": 1710879021,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 3787
+  },
+  {
+   "id": "161086410",
+   "language": "english",
+   "review": "Fecking awesome",
+   "created": 1711047027,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 23161
+  },
+  {
+   "id": "161086369",
+   "language": "english",
+   "review": "I LIKE FARMING\r\n",
+   "created": 1711046983,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1325
+  },
+  {
+   "id": "161086256",
+   "language": "english",
+   "review": "Thank you Eric, you're the King for create this, alone.",
+   "created": 1711046872,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 33242
+  },
+  {
+   "id": "161086109",
+   "language": "english",
+   "review": "sooooooo fricking fun",
+   "created": 1711046711,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1931
+  },
+  {
+   "id": "161085914",
+   "language": "english",
+   "review": "Great cozy game",
+   "created": 1711046496,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 11596
+  },
+  {
+   "id": "161085831",
+   "language": "english",
+   "review": "A super fun and loveable game that I have purchased at least 3 times and would absolutely purchase it like 5 more just to support the dev!",
+   "created": 1711046419,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 4038
+  },
+  {
+   "id": "161085664",
+   "language": "english",
+   "review": "yay",
+   "created": 1711046258,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1170
+  },
+  {
+   "id": "161084778",
+   "language": "english",
+   "review": "best game ever",
+   "created": 1711045377,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 219
+  },
+  {
+   "id": "161084581",
+   "language": "english",
+   "review": "es buen juego",
+   "created": 1711045190,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 8957
+  },
+  {
+   "id": "161084563",
+   "language": "english",
+   "review": "hatmouse",
+   "created": 1711045159,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2850
+  },
+  {
+   "id": "161085761",
+   "language": "english",
+   "review": "nao da pra casar com a Robin",
+   "created": 1711046353,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 9654
+  },
+  {
+   "id": "161069395",
+   "language": "english",
+   "review": "needs more hot men",
+   "created": 1711031016,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 11684
+  },
+  {
+   "id": "161052096",
+   "language": "english",
+   "review": "haley doesnt want me",
+   "created": 1711008198,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 593
+  },
+  {
+   "id": "161037161",
+   "language": "english",
+   "review": "Its Ok at best",
+   "created": 1710986072,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 97865
+  },
+  {
+   "id": "161033426",
+   "language": "english",
+   "review": "It's a good game I just have the freedom of choice to put no. (Why? Cause f@#k em that's why)",
+   "created": 1710981265,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 229
+  },
+  {
+   "id": "161032122",
+   "language": "english",
+   "review": "Me when I fall asleep",
+   "created": 1710979672,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 811
+  },
+  {
+   "id": "161031242",
+   "language": "english",
+   "review": "not even disliking cause i hate the game, but because being a hater is running through my veins",
+   "created": 1710978538,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 2117
+  },
+  {
+   "id": "161028934",
+   "language": "english",
+   "review": "my gf broke up",
+   "created": 1710975876,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 661
+  },
+  {
+   "id": "161027682",
+   "language": "english",
+   "review": "cant drink vinegar",
+   "created": 1710974402,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 454
+  },
+  {
+   "id": "161181723",
+   "language": "english",
+   "review": "This game is so cute. It missing some features that I miss from games like harvest moon for instance my babies dont look or act like my spouse which makes them feel a little like an afterthought however i know concerned ape made this game himself and for that it is a masterpiece that he is constantly updating for free. Cant ask for more then that! Its cute and cozy and i have replayed it too many times to count. <3",
+   "created": 1711133413,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 8692
+  },
+  {
+   "id": "161181457",
+   "language": "english",
+   "review": "Best Framing Game Ever",
+   "created": 1711133206,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 266
+  },
+  {
+   "id": "161181222",
+   "language": "english",
+   "review": "I would like to thank Eric for his dedication to Stardew Valley. The update added so many things, and I'm really loving all that has been added and modified! I would also like to ask Eric to consider a future update with the addition of new marriageable and friendly NPCs and more things to explore! I hope Stardew Valley continues to grow even more.",
+   "created": 1711133032,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 448
+  },
+  {
+   "id": "161181166",
+   "language": "english",
+   "review": "best game its like ac and mc put together",
+   "created": 1711132985,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 299
+  },
+  {
+   "id": "161181136",
+   "language": "english",
+   "review": "Chimken",
+   "created": 1711132965,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 11625
+  },
+  {
+   "id": "161181070",
+   "language": "english",
+   "review": "good game :)",
+   "created": 1711132902,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1447
+  },
+  {
+   "id": "161180727",
+   "language": "english",
+   "review": "While my hours might indicate otherwise this is definitely a game I enjoy revisiting every now and then.\n\nRecently I've tried this out on Steam Deck and I'm pleasantly surprised with how intuitive controller controls are with this game, I expected some annoyance compared to playing it on KBM.\n\nThis game is worth every dollar, especially if you're into farming/life sims.",
+   "created": 1711132630,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2062
+  },
+  {
+   "id": "161180182",
+   "language": "english",
+   "review": "LOVE this game more than anything its so sweet and wholesome",
+   "created": 1711132221,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2077
+  },
+  {
+   "id": "161180112",
+   "language": "english",
+   "review": "Good game, farm",
+   "created": 1711132169,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6084
+  },
+  {
+   "id": "161179942",
+   "language": "english",
+   "review": "good game",
+   "created": 1711132043,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 491
+  },
+  {
+   "id": "161177012",
+   "language": "english",
+   "review": "this game is hot ASS",
+   "created": 1711129877,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 1379
+  },
+  {
+   "id": "161113925",
+   "language": "english",
+   "review": "Amazing soundtrack and charming artstyle, but I find the short amount of time available in a given day just ends up stressing me out. I can't see how people find this relaxing",
+   "created": 1711076640,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 378
+  },
+  {
+   "id": "161105524",
+   "language": "english",
+   "review": "I needed mods to have any fun.\n\nQuite the paradox given I have put over 130 hours into this game. It started out fun from what I saw in the trailers and gameplay. But the more I played the more I could tell this game was a great idea for me, it just didn't pan out in the grooling end. I pushed myself to give this game a chance which turned into a chore rather than fun.\n\nMajor flaw is that Stardew Valley wants to be a slow burn game, which it is. It's just the wick had already run it's course when you start to see the gameplay loop and the insufferable, unnecessary grind. Which leads me to believe the greatest villain in the game is not the monsters in the mine that you savagely brutalize for your own gain. It's Stardew Valley itself. It wants to consume your free time much like social media corporations.\n\nThere's 0.01% drop rates for certain items that you can only find in certain seasons, in specific weather conditions, at just the right time of day and if you miss it that's it. And this is a single player game. I propose being more creative with a situation such as this. Adding special story behind why this is such a rare thing, including unique game play tailored to finding it or coming across it in the wild building up intrigue, mystique, and maybe even tension if it's horror related.\n\nInstead you have to pass all these mediocre checks and balances, go to point A, grind forever and ever doing the same monotonous activity hoping machine generated luck is on your side this time. Head to point B to sleep because you have a stamina system. Rinse, repeat.\n\nBut I am glad others are enjoying it! It just wasn't for me.",
+   "created": 1711067554,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 7963
+  },
+  {
+   "id": "161102664",
+   "language": "english",
+   "review": "game will not let me play.",
+   "created": 1711063783,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 333
+  },
+  {
+   "id": "161283287",
+   "language": "english",
+   "review": "Highly recommend 👌\nVery addictive every time i come back to this game... get sucked in for HOURS.",
+   "created": 1711219821,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 14359
+  },
+  {
+   "id": "161283171",
+   "language": "english",
+   "review": "lOVE THIS GAME",
+   "created": 1711219734,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 401
+  },
+  {
+   "id": "161282750",
+   "language": "english",
+   "review": "i cheated on every npc",
+   "created": 1711219398,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3267
+  },
+  {
+   "id": "161282729",
+   "language": "english",
+   "review": "AMAAZING",
+   "created": 1711219385,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 8744
+  },
+  {
+   "id": "161282653",
+   "language": "english",
+   "review": "AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH",
+   "created": 1711219325,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 15018
+  },
+  {
+   "id": "161282602",
+   "language": "english",
+   "review": "the coziest game, and so fun with others. and the community around it is fantastic.",
+   "created": 1711219288,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3045
+  },
+  {
+   "id": "161282470",
+   "language": "english",
+   "review": "many fish",
+   "created": 1711219182,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1568
+  },
+  {
+   "id": "161281909",
+   "language": "english",
+   "review": "Leah best girl",
+   "created": 1711218748,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 8115
+  },
+  {
+   "id": "161281842",
+   "language": "english",
+   "review": "it's a cool and cute game to play if you're bored !",
+   "created": 1711218684,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 1768
+  },
+  {
+   "id": "161281745",
+   "language": "english",
+   "review": "N/A",
+   "created": 1711218602,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7291
+  },
+  {
+   "id": "161236048",
+   "language": "english",
+   "review": "Game rushes you to do literally everything, time passes extremely fast and NPCs have extremely annoying \"realistic\" schedules that only serve to make the game artificially more difficult with it's stupid time management system.\n\nQuests from outside Pierre's and the bulletin board give you barely enough time to complete them if you don't already have the needed items, because NPCs all have schedules and all lock their doors at 6pm (some even sooner), even though days go until 2am. \nSpeaking of which, you instantly fall unconscious at 2am and lose ten percent of your money. Early-midgame this can be devastating. There are TONS of \"OH CRAP\" moments where you look at the time and start rushing back from the beach or somewhere far away only to pass out on your farm and lose a ton of money. It is extremely unforgiving, doesn't matter how much energy you have you WILL fall unconscious at 2am.\nWant to go fishing and level up your skill? Gotta water all your plants first and take care of your animals. Oh, now it's hours later and you barely have enough time to catch 4 fish before you need to RUSH back or pass out and lose ten percent of your money.\n\nThere was a time when I got a quest to collect and deliver 100 bone fragments to the museum within 6 days.\n6 days. Meanwhile I have to water all my plants and also take care of the animals. Oh, and you can only get bone fragments from very specific levels of the mine from specific enemies that only drop 0-1 per kill. ZERO to ONE. I worked SUPER hard to get all these bone fragments and actually had to let myself pass out in the mines a few times to do it, only to get right next to the museum doors and have them close on me as it turned 6pm on the 6th and final day, failing the quest. Ridiculous.\n\nIf you enjoy feeling rushed, feeling anxious, not ever having enough time to do everything you want, NPCs having extremely irritating \"realistic\" schedules where you'll fail a quest because today is Robin's \"lock my door at 2pm and watch tv all day\" day, then you'll like this game.\nGreat farming sim similar to Harvest Moon, but the time management system and the \"realistic NPC schedules\" system is absolutely atrocious and not at all enjoyable.\nOh, and there's also no point in doing anything other than planting and selling crops. Mining, fishing and the other things you can do and get proficient in only make a small percentage of what selling crops do.",
+   "created": 1711182605,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 2315
+  },
+  {
+   "id": "161224902",
+   "language": "english",
+   "review": "not HOTLINE MIAMI",
+   "created": 1711171564,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 455
+  },
+  {
+   "id": "161220236",
+   "language": "english",
+   "review": "Stardew Valley... what a colossal waste of time! This game is like a black hole sucking away any semblance of productivity from your life.\n\nFirst off, the graphics are reminiscent of something from the stone age. Are we supposed to be impressed by these pixelated blobs pretending to be characters? It's like playing a game from the 1980s, but without the charm. And don't even get me started on the animation. It's so stiff and lifeless; I've seen more lively animations in a PowerPoint presentation.\n\nThe gameplay? Oh, where do I begin? It's a mind-numbing loop of planting crops, watering crops, and waiting... and waiting... and waiting. Congratulations, you've just spent your precious real-life hours pretending to be a virtual farmer. And don't even think about escaping to the mines for some excitement. It's just mindless clicking and swinging your pickaxe at the same old rocks.\n\nThe characters in this game are about as interesting as watching paint dry. They spout off the same tired lines day after day, and good luck trying to form any meaningful relationships with them. It's like trying to bond with cardboard cutouts. And let's not forget about the so-called \"romance\" options. They're as shallow as a puddle in a desert.\n\nAnd the music... ugh! It's like a never-ending loop of elevator music that drills into your skull. It's like the game developers wanted to punish you for even daring to play their game.\n\nIn conclusion, Stardew Valley is a soul-sucking abyss that will devour your time and leave you feeling emptier than when you started. Do yourself a favor and steer clear of this digital monstrosity. You'll thank me later.",
+   "created": 1711166783,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 44
+  },
+  {
+   "id": "161210484",
+   "language": "english",
+   "review": "i want to pet the racoon",
+   "created": 1711157494,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 8259
+  },
+  {
+   "id": "161188692",
+   "language": "english",
+   "review": "Mid",
+   "created": 1711138557,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 46
+  },
+  {
+   "id": "161376482",
+   "language": "english",
+   "review": "good",
+   "created": 1711305993,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7643
+  },
+  {
+   "id": "161376400",
+   "language": "english",
+   "review": "great game   gen up       cannot recomend enough",
+   "created": 1711305932,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 16763
+  },
+  {
+   "id": "161376376",
+   "language": "english",
+   "review": "100%",
+   "created": 1711305916,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7642
+  },
+  {
+   "id": "161376355",
+   "language": "english",
+   "review": "spent more time on this game because unlike real people when your in a relationship they don't change their mind about how they feel about you 10/10 would recomend",
+   "created": 1711305902,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 30391
+  },
+  {
+   "id": "161376051",
+   "language": "english",
+   "review": "i love you stardew valley",
+   "created": 1711305656,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7018
+  },
+  {
+   "id": "161376012",
+   "language": "english",
+   "review": "I love the cozy vibes and how chill the atmosphere is",
+   "created": 1711305620,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 236
+  },
+  {
+   "id": "161375977",
+   "language": "english",
+   "review": "GREAT GAME",
+   "created": 1711305597,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 30327
+  },
+  {
+   "id": "161375809",
+   "language": "english",
+   "review": "I love taking care of my little farm, best game ever! <3",
+   "created": 1711305472,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1457
+  },
+  {
+   "id": "161375794",
+   "language": "english",
+   "review": "awesome sauce",
+   "created": 1711305461,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5745
+  },
+  {
+   "id": "161375776",
+   "language": "english",
+   "review": "Fantastic game to play for hours!",
+   "created": 1711305447,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7956
+  },
+  {
+   "id": "161319655",
+   "language": "english",
+   "review": "I downloaded the sex mod for the old lady and it went all downhill from there...",
+   "created": 1711254211,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 9921
+  },
+  {
+   "id": "161311263",
+   "language": "english",
+   "review": "games mid",
+   "created": 1711245635,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 2125
+  },
+  {
+   "id": "161297959",
+   "language": "english",
+   "review": "I hate this game so flipping much that I want to burst",
+   "created": 1711232207,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 22026
+  },
+  {
+   "id": "161452068",
+   "language": "english",
+   "review": "FARMMMMM!!!! FARMING, don't forget to randomly bomb the cave crabs for zero reason too!",
+   "created": 1711392566,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 484
+  },
+  {
+   "id": "161452063",
+   "language": "english",
+   "review": "cute\r\n",
+   "created": 1711392562,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1393
+  },
+  {
+   "id": "161452053",
+   "language": "english",
+   "review": "chimkin",
+   "created": 1711392555,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 14726
+  },
+  {
+   "id": "161451957",
+   "language": "english",
+   "review": "I bought this game impulsively during my freshman year of college when I was going through a lot at the time and honestly- BEST. DECISION. EVER. \n\nNot only does this game help me cope with my struggles in life, but it's also incredibly addicting and so much fun to play with. During my first playthrough, I spent around 140 hours in total and still haven't fully reached 100% of the game because the grinding aspect does take quite some time. I didn't mind the grinding aspect of it because it felt rewarding to see how much your farm has changed over the few years I played through and grinding was also pretty fun for me (especially with all the sound effects when you cut trees or smash rocks). \n\nAnd now, I'm on my second playthrough (to try out the 1.6 patch update) and it's as if I'm playing the game as a new player because there are many ways with how you want to play and/or progress through with the game. I first fell in love with Sebastian in my first playthrough and even had two kids with him, so I decided to romance Elliott on my second and I love him just as much as I love Sebastian. If possible, I might even create different game files to romance other bachelors/bachelorettes because I don't want to divorce them :') I'd rather start all over again because I think it's fun that way.\n\nStardew Valley also definitely deserves the hype it gets, especially as it is created by a solo developer. I think that's such an inspiration and I see it as a motivational force since I am currently studying to be a game developer. I also wish that i can create a game that many people would love.\n\nSo, if you're ever looking for a chill yet also challenging game to play during your spare time, then you should definitely try this game out!",
+   "created": 1711392478,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 12557
+  },
+  {
+   "id": "161451928",
+   "language": "english",
+   "review": "A little bit of Everything bundled in a cozy Game.",
+   "created": 1711392448,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 11744
+  },
+  {
+   "id": "161451801",
+   "language": "english",
+   "review": "great game",
+   "created": 1711392328,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 2297
+  },
+  {
+   "id": "161451768",
+   "language": "english",
+   "review": "Very fun game, absolutely tonnes of hidden details and things to do/ways to progress. Always a go to for me when I want to relax.",
+   "created": 1711392301,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 36840
+  },
+  {
+   "id": "161451637",
+   "language": "english",
+   "review": "well, yes. I do recommend it.",
+   "created": 1711392180,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 72876
+  },
+  {
+   "id": "161451627",
+   "language": "english",
+   "review": "Our family owns this game 6 times across 4 platforms, it is installed and actively being used on 2 consoles, 4 tablets/phones, 2 desktop computers and 2 Steam Deck. If this came out for my kitchen scale, I would buy it there as well. Stardew Valley is life!",
+   "created": 1711392176,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3799
+  },
+  {
+   "id": "161451286",
+   "language": "english",
+   "review": "FUN",
+   "created": 1711391878,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 17196
+  },
+  {
+   "id": "161444968",
+   "language": "english",
+   "review": "...",
+   "created": 1711386280,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 381
+  },
+  {
+   "id": "161421392",
+   "language": "english",
+   "review": "Worst game of ALL TIME! \n\ncant even have sex with my dog in game..",
+   "created": 1711360761,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 4562
+  },
+  {
+   "id": "161413754",
+   "language": "english",
+   "review": "boring brainrot rizz gyatt:\nclick the farm tile again \ngrind dungeon again\nrun around town and pick stuff up again\nplant the plants again\nclick on the animals and eggs again\ntalk to the villagers again and again\n\nIS this supposed to be fun?\n",
+   "created": 1711348191,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 2496
+  },
+  {
+   "id": "161397833",
+   "language": "english",
+   "review": "Its the most mid game I've ever played.",
+   "created": 1711326175,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 4671
+  },
+  {
+   "id": "161393907",
+   "language": "english",
+   "review": "Farms get deleted when game crashes sometimes. Just lost my Perfection farm of about 200 hours. Would recommend for game but not for technical issues",
+   "created": 1711321844,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 71026
+  },
+  {
+   "id": "161528309",
+   "language": "english",
+   "review": "meow",
+   "created": 1711478977,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 1523
+  },
+  {
+   "id": "161528047",
+   "language": "english",
+   "review": "idk what to write here. 100/10 game.",
+   "created": 1711478731,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 28429
+  },
+  {
+   "id": "161527859",
+   "language": "english",
+   "review": "Such an adorable game to play alone or with others. Really cute characters, and moments that happen. And you can be pretty overall creative with how you play your character and what interactions you wish to happen.",
+   "created": 1711478567,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 10246
+  },
+  {
+   "id": "161527691",
+   "language": "english",
+   "review": "Amazing game!",
+   "created": 1711478422,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7779
+  },
+  {
+   "id": "161527230",
+   "language": "english",
+   "review": "really fun farming game for free? now thats a yes really relaxing st the same time action packed\r\n",
+   "created": 1711478019,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 23734
+  },
+  {
+   "id": "161526495",
+   "language": "english",
+   "review": "I have been stuck on this game ever since it got released in 2016, it brings me so much joy and happiness.\nAlso Sebastian is the best Bachelor.",
+   "created": 1711477342,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6690
+  },
+  {
+   "id": "161525929",
+   "language": "english",
+   "review": "Great game you'll find yourself coming back for more. trying out new farms, romancing someone else, lots to do and explore",
+   "created": 1711476887,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5675
+  },
+  {
+   "id": "161525838",
+   "language": "english",
+   "review": "This game keeps giving more and more content.",
+   "created": 1711476809,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 25903
+  },
+  {
+   "id": "161525501",
+   "language": "english",
+   "review": "It is simeler to animal crossing in as in it's grind y but fun at the same time! 8/10",
+   "created": 1711476531,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2100
+  },
+  {
+   "id": "161525321",
+   "language": "english",
+   "review": "very fun",
+   "created": 1711476373,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5033
+  },
+  {
+   "id": "161527341",
+   "language": "english",
+   "review": "repetitive watering of crops till you get enough cash. while there's lots to do, it's too boring/slow for my taste",
+   "created": 1711478110,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 6276
+  },
+  {
+   "id": "161524997",
+   "language": "english",
+   "review": "sucks",
+   "created": 1711476107,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 109
+  },
+  {
+   "id": "161483698",
+   "language": "english",
+   "review": "how da fuq a fella update",
+   "created": 1711426650,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 4043
+  },
+  {
+   "id": "161482118",
+   "language": "english",
+   "review": "It's a lame Harvest Moon knock off with a pro same sex orientation to it. The community around this game on ConcernedApe's forum site is so toxic they attack you with the moderators in on it. I will not buy any more of ConcernedApe's games. I used to like farm sims but He took care of that problem. Then he went and made this game so massive with more of the lame grind stuff! Seriously, each addition is just the same stuff with new skins on them! He should have just made a new game instead of adding random junk to this one.\n\nIf you can ignore the constant grind and keep away from the community, then you need to ignore the baked in ideology which you can see in most of the character events. Yes, he didn't bake it in every event but it is in most of the characters, especially the ones' you can marry. By the way you can't 10 heart everyone because the last few hearts of marriage candidates are locked until you marry them, and re-locked if you divorce them.",
+   "created": 1711424515,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 22136
+  },
+  {
+   "id": "161479102",
+   "language": "english",
+   "review": "I did not know what to do at all instructions were unclear I thought it would be better...",
+   "created": 1711420457,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 19
+  }
+ ]
+}

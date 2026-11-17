@@ -1,0 +1,9 @@
+[
+  {"slug": "stardew-valley-1.6", "appid": 413150, "name": "Stardew Valley",
+   "patch_gid": "7309977427453935016", "approx_date": 1710853200, "days_before": 7, "days_after": 7},
+  {"slug": "cyberpunk-2077-2.0", "appid": 1091500, "name": "Cyberpunk 2077",
+   "patch_gid": "5219165352624021366", "approx_date": 1695290000, "days_before": 7, "days_after": 4,
+   "note": "after-window stops at 4 days because Phantom Liberty launched 5 days after Update 2.0"},
+  {"slug": "helldivers-2-escalation", "appid": 553850, "name": "HELLDIVERS 2",
+   "patch_gid": "5963413728352726120", "approx_date": 1722940000, "days_before": 7, "days_after": 7}
+]

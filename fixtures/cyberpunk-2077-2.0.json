@@ -1,0 +1,2199 @@
+{
+ "appid": 1091500,
+ "name": "Cyberpunk 2077",
+ "patch": {
+  "gid": "5219165352624021366",
+  "title": "Update 2.0",
+  "date": 1695308559,
+  "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5219165352624021366",
+  "tags": []
+ },
+ "window_days": {
+  "before": 7,
+  "after": 4
+ },
+ "note": "after-window stops at 4 days because Phantom Liberty launched 5 days after Update 2.0",
+ "source": "IUserReviewsService/GetAppReviews/v1 (filter=Recent, purchase_type=All, languages=english, per day: newest positive + newest negative pages)",
+ "sampling": {
+  "per_page": 10,
+  "positive_pages_per_day": 1,
+  "negative_pages_per_day": 2
+ },
+ "days": [
+  {
+   "side": "before",
+   "start": 1694703759,
+   "total_positive": 81,
+   "total_negative": 10
+  },
+  {
+   "side": "before",
+   "start": 1694790159,
+   "total_positive": 96,
+   "total_negative": 7
+  },
+  {
+   "side": "before",
+   "start": 1694876559,
+   "total_positive": 94,
+   "total_negative": 4
+  },
+  {
+   "side": "before",
+   "start": 1694962959,
+   "total_positive": 96,
+   "total_negative": 6
+  },
+  {
+   "side": "before",
+   "start": 1695049359,
+   "total_positive": 90,
+   "total_negative": 4
+  },
+  {
+   "side": "before",
+   "start": 1695135759,
+   "total_positive": 88,
+   "total_negative": 4
+  },
+  {
+   "side": "before",
+   "start": 1695222159,
+   "total_positive": 234,
+   "total_negative": 9
+  },
+  {
+   "side": "after",
+   "start": 1695308559,
+   "total_positive": 511,
+   "total_negative": 75
+  },
+  {
+   "side": "after",
+   "start": 1695394959,
+   "total_positive": 475,
+   "total_negative": 63
+  },
+  {
+   "side": "after",
+   "start": 1695481359,
+   "total_positive": 492,
+   "total_negative": 55
+  },
+  {
+   "side": "after",
+   "start": 1695567759,
+   "total_positive": 513,
+   "total_negative": 45
+  }
+ ],
+ "collected_at": 1794877422,
+ "reviews": [
+  {
+   "id": "146338851",
+   "language": "english",
+   "review": "yes good.",
+   "created": 1694788851,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 2447
+  },
+  {
+   "id": "146337808",
+   "language": "english",
+   "review": "great game, lots of things to do and much fun to be had.",
+   "created": 1694787719,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2986
+  },
+  {
+   "id": "146336510",
+   "language": "english",
+   "review": "Great game",
+   "created": 1694786367,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 5226
+  },
+  {
+   "id": "146336220",
+   "language": "english",
+   "review": "Panam...",
+   "created": 1694786035,
+   "voted_up": true,
+   "votes_up": 4,
+   "playtime_at_review_min": 1528
+  },
+  {
+   "id": "146335717",
+   "language": "english",
+   "review": "There's still bugs, but that's the fun of it. Think of it as another bethesda game, only its not made by them and its more RR rated.",
+   "created": 1694785447,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 1085
+  },
+  {
+   "id": "146335485",
+   "language": "english",
+   "review": "[h3] Warning: Spoilers! [/h3]\n\nNot sure why I’m writing this since there are so many reviews. Just completed the game and needed to express a few thoughts about the story.\n\nThe story is so, so good. The game does a good job of making you feel like the city is real and the characters are real. I was shocked by the strength of the dialogue and voice acting. The story is a well-written novel come to life with you in the driver’s seat. The side quests add a lot too. I can’t believe how immersive games are becoming. This game really gets its hooks in you. Even after finishing everything, I was hungry for more. More story, more NPC interactions, more exploration. I’m done, but it feels like I’m not done. Like there’s more to do. Like I missed something. That’s the mark of a good game.\n\nI was let down by the endings though. This is partly because I was expecting something like a big twist or “rug-pull” moment, as for example in Fallout 4. This is because Cyberpunk is constantly exploring the nature of existence and reality. The braindances, the idea of existing in cyberspace, cyberpsychosis, alcohol and drug use, flashbacks to the past. The fact that Johnny’s “consciousness” is replacing yours. Not to mention the game’s visual allusions to Blade Runner and the Matrix, two films that deal with the main character having some doubts about their reality. In fact, there’s an awesome detail in the last mission: when you walk up the apartment steps to the rooftop the second time, you’ll see Misty’s cat appear on the stairwell twice, like the black dejavu cat from the Matrix.\n\nSo I thought the game was heading to some crazy twist or reversal. Maybe it was all a braindance, or Johnny was not who he claimed to be, or V was not who they claimed to be. I don’t know, something. But nothing like that happens. The game plays it straight and sticks to the main plot point: removing the relic. You can choose different ways to play out this objective, and you can even give up and hand over your body to Johnny. But all the endings are the same: V gets the relic removed but has six months to live. (Or is uploaded to Mikoshi if you sided with Hanako). The only real twist, if you can call it that, is the revelation that Johnny knows he’s a copy. \n\nI’m not saying there always needs to be a twist or that a twist makes a story better. I do appreciate the story for what it is. I guess the reference to the dejavu cat is a meta-commentary on the player’s desire to experience the story multiple times and to effect the outcome. There’s a lot of references to fate and decision making and life paths, so maybe the point of the story is that there are some things you can’t change and just have to accept. \n\nNevertheless, I’d become attached to V and was hoping for a satisfying and positive ending for both Johnny and V. Maybe in Phantom Liberty. We’ll see!",
+   "created": 1694785170,
+   "voted_up": true,
+   "votes_up": 3,
+   "playtime_at_review_min": 6048
+  },
+  {
+   "id": "146331179",
+   "language": "english",
+   "review": "like",
+   "created": 1694779964,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 7214
+  },
+  {
+   "id": "146330740",
+   "language": "english",
+   "review": "。。。。。。。。。。。。。。。。",
+   "created": 1694779399,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 7678
+  },
+  {
+   "id": "146329771",
+   "language": "english",
+   "review": "good game, ready for the phantom liberty DLC",
+   "created": 1694778094,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 6695
+  },
+  {
+   "id": "146327375",
+   "language": "english",
+   "review": "cyberpeak",
+   "created": 1694774364,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 12740
+  },
+  {
+   "id": "146337846",
+   "language": "english",
+   "review": "Seriously the worse game I wasted my money for it. Every 30-45 minutes the game is crashing or some other issues make it unplayable. The basic thought was maybe good when they started the game, but in god sake what is this for a mess...\n\nEven the story and all the things which are \"required\" to know arent explained well. Storage system is a ridiculous attempt of something and and and - even Pokemon 20 years ago was better, than this crap.\n\n",
+   "created": 1694787756,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 2854
+  },
+  {
+   "id": "146332475",
+   "language": "english",
+   "review": "After buying it I found out there is no ADS toggle.  In 2023 I didn't think I had to search if a game had this before buying it.  Bummer.",
+   "created": 1694781608,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 19
+  },
+  {
+   "id": "146328184",
+   "language": "english",
+   "review": "People Got Scammed for Multiplayer",
+   "created": 1694775661,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 4894
+  },
+  {
+   "id": "146313291",
+   "language": "english",
+   "review": "Weak-sauce",
+   "created": 1694746751,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 6113
+  },
+  {
+   "id": "146310047",
+   "language": "english",
+   "review": "Thumbs down to remind companies to replace games that actually work on launch.",
+   "created": 1694740756,
+   "voted_up": false,
+   "votes_up": 26,
+   "playtime_at_review_min": 1630
+  },
+  {
+   "id": "146308733",
+   "language": "english",
+   "review": "a damn shame",
+   "created": 1694738370,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 11101
+  },
+  {
+   "id": "146303229",
+   "language": "english",
+   "review": "buggie and they still ask you to preorder the addons have they learned nothing\n\nUpdated in 2026 after version 2.5 \n\nwtf have you done now i cant load saved files\n\nstarted a new game played 100% fine, then i died game re loads frozen\nok quit reload the game\nfrozen\n\nok \n\nreboot load back in 2 saves back it works I die, reload frozen\n\nwtf\n\nI played this a year ago same pc no problems",
+   "created": 1694728315,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 1640
+  },
+  {
+   "id": "146298537",
+   "language": "english",
+   "review": "Game is unplayable with a controller on PC. It's not just bad... Unplayable. Years of customer feedback and thousands of threads on the internet about it and the developers have still yet to address this. If you game with a controller do not buy this on Steam. It is unplayable.",
+   "created": 1694721445,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 1814
+  },
+  {
+   "id": "146298238",
+   "language": "english",
+   "review": "story is boring af and there is nothing else you can do for fun except following story missions",
+   "created": 1694721064,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 739
+  },
+  {
+   "id": "146294342",
+   "language": "english",
+   "review": "Game is sexist. CDPR hated men",
+   "created": 1694716144,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 1747
+  },
+  {
+   "id": "146406422",
+   "language": "english",
+   "review": "Excellent game, one of the best RPGs I've played lately, very good and immersive story. The side missions are excellent for the most part. I highly recommend playing.",
+   "created": 1694876503,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 3708
+  },
+  {
+   "id": "146406085",
+   "language": "english",
+   "review": "pretty fun game. i hope more content and story",
+   "created": 1694876203,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7342
+  },
+  {
+   "id": "146405102",
+   "language": "english",
+   "review": "this game really has improved since the start lol, totally recommended,can't wait for the DLC,i'm counting the days",
+   "created": 1694875352,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1640
+  },
+  {
+   "id": "146404685",
+   "language": "english",
+   "review": "Отакот",
+   "created": 1694874976,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2469
+  },
+  {
+   "id": "146404363",
+   "language": "english",
+   "review": "its fun and open world so yea i recommend this",
+   "created": 1694874655,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1894
+  },
+  {
+   "id": "146403417",
+   "language": "english",
+   "review": "its a fun game in the past it was know for its bugs but a few years later the majority/ the worst have been fixed and with v2.0 being released soon its gonna be a breath of new life into the game",
+   "created": 1694873890,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1588
+  },
+  {
+   "id": "146403052",
+   "language": "english",
+   "review": "game is a lot better than release",
+   "created": 1694873627,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 930
+  },
+  {
+   "id": "146402898",
+   "language": "english",
+   "review": "fun game\n",
+   "created": 1694873495,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 463
+  },
+  {
+   "id": "146402031",
+   "language": "english",
+   "review": "best game ever",
+   "created": 1694872617,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 370
+  },
+  {
+   "id": "146401996",
+   "language": "english",
+   "review": "Perhaps the greatest game ever created",
+   "created": 1694872591,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3050
+  },
+  {
+   "id": "146397898",
+   "language": "english",
+   "review": "Still Crashes on Load.",
+   "created": 1694868349,
+   "voted_up": false,
+   "votes_up": 10,
+   "playtime_at_review_min": 2710
+  },
+  {
+   "id": "146391643",
+   "language": "english",
+   "review": "[h1]Keanu Reeves as Johnny Silverhand: A boring character that speaks like a robot using the same tone of voice.[/h1]\n\nI hate how keanu reeves acting is just himself speaking slowly. As a person, the guy is amazing but as a voice actor, he can just play a role or 2 because he is too bad, ruining the game.\n\nHe's there like \"Oh '-' look at me i can only speak on the same tone of voice beep beep boop boop\".\n\nCan't believe people like Johnny Silverhand...\n\nSince he's 50% of the plot, this game is a big no.\nYou'll find better things at this price.\n\nWitcher is much better and even geralt can show more emotions than Johnny.",
+   "created": 1694860848,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 223
+  },
+  {
+   "id": "146381893",
+   "language": "english",
+   "review": "y",
+   "created": 1694847323,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 1497
+  },
+  {
+   "id": "146379788",
+   "language": "english",
+   "review": "It's with such disappointment that I must change my recommendation from \"Recommended\" to \"Not Recommended\" \n\nA bit of my history with this game: I didn't buy this game at launch so I don't feel burned by an early purchase. I waited until 1.5 before I jumped in. I personally had no issues with the game at that point. Then they released 2.0. It was an extremely drastic change to the game, and more than just AI behaviours. The entire skill system was completely redone and I did not like this change. It was a little too drastic in my view and caused quite a bit of frustration to me. It wasn't until after an update that broke my game and it would no longer launch. \n\nSupport from CD Projeck Red was APAULING. In their first point of contact their first suggestion was a destructive wipe of current graphic drivers and re-installation. They didn't ask a single question about the issue, just shotgun to kill a fly. Because of their heavy handed response, I had difficulties and put me in the situation where I had to pay for someone else to fix my computer because support had wiped their hands of the issue. \n\nNow, here I am again, during the fight with Oda and the game is crashing again, over and over. A quick web search of this issue shows it going back for some time, and on multiple platforms, and yet, here we are, March 2024 and the problem STILL is crashing computers. Clearly this game is broken much more deeply than it would seem and it's so disheartening because there absolutely is an amazing experience if you can get it to work properly. \n\n\nOriginal Review:\nAfter an incredibly infamous launch, seeing the game completely pulled from the Playstation Store for months, CD Projekt RED took a turd and turned around and made it a diamond. The game is not perfect as some issues are deep but overall the game is fun and the story is interesting and intriguing. \n\nI felt that choices I made were impactful enough, nothing was too deep where I was concerned I was going to ruin my game but they didn't feel superficial either. \n\nCustomisation is done very well and I liked how they included the ability for \"Vanity\" wear so I can wear the best gear, but look exactly how I want. Best of both worlds. \n\nSkills are great and crafting different play-styles can be really fun. Being able to respec only adds to the freedom to try different builds without having to play through the entire game again. \n\nWhat really shines for me is the city. It's large and truly feels alive and breathing. Nothing seems copypasta'd and there were many times where I was driving and said, oh, this looks exactly like that other place I was only to realise I was actually in that other place after all. \n\nAs a grumpy old man, I can recommend this game with confidence.",
+   "created": 1694844096,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 11165
+  },
+  {
+   "id": "146370410",
+   "language": "english",
+   "review": "I was going to give this game a thumbs up \n\nBut then I saw CohhCarnage soying in night city \n\n",
+   "created": 1694829226,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 155
+  },
+  {
+   "id": "146364178",
+   "language": "english",
+   "review": "its not as fun as i thought but i have a really good pc and my frames still drop so if you do want this game to be fun somehow then get it on console and i cant get a refund now bc its been over 2 hours and thats not even a good enough time to decide for this game because its a really big game but its alright i guess screw it more money for the rich",
+   "created": 1694819179,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 320
+  },
+  {
+   "id": "146361472",
+   "language": "english",
+   "review": "So this game has a lot of pros and cons.  For me, personally, the cons outweigh the pros.  Overall, the game is very Meh.  The game play is OK, and it certainly has SOME entertainment value.  I took the time to 100% it afterall.  Well let me go over some of the pros and cons.\n\n**edit**  Bonus negative points for adding a payed DLC that included more achievements.  I 100%ed it before phantom liberty came out.\n\nCONS\n\nThe difficulty curve is not very well laid out.  I played the game on hardest difficulty and found that the beginning was too hard and the end was too easy.  I had to play the beginning almost entirely through stealth and sneaking up on people, but by the end I could just storm through everything.  And when I say the end, I mean pretty early on.  In fact, most of the quests in the game begin to feel very quickly monotonous and a lot more like a chore than a challenge.  And I could have gone about doing it in multiple ways, whether I wanted to do it through hacking or slashing, pun intended.\n\nAnd this leads to a second con...  The level cap is stupid.  Why design the game so that you can't get everything.  I understand why you can't respec as it would open up too much cheese, but preventing people from experiencing all the possibilities in one play-through is dumb.  Especially considering how repetitive the game becomes.\n\nA third con, the story ending all kind of just plain suck in my opinion.  Like, there really is no happy ending.  There are just some that are less bad.  This, to me, just feels really not good.  If I am going to invest so much time and effort into a story and working for something, for it to end in such a shitty way kind of feels like the whole thing was just a waste of effort.  \"Congratulation, you get a month of kind of happiness before you die\" as the best ending is just crap.  Seriously, F that.\n\nSo when talking about story telling flaws, I have to touch on some personal pet peeves of mine.  The fact that I cannot romance the girl as a guy is just dumb.  Hear me out here.  This is a fantasy game.  A game people play to experience a fantastic or phantasmal reality.  Please, someone explain to me why anyone should be blocked the option to experience what they want to in the fantasy game.  girl on girl, guy on guy, girl on guy... why not just let them all be options?  To purposefully block a relationship option is doing nothing but pandering to the people who like that particular relationship option and blocking out people who prefer different choices.  If you want to put in gay background NPC's, sure... who cares.  Especially in this wold where people can change genitalia and reproductive systems with the sit of a chair.  like true gender swapping, not the lies that exist in the world today.  You can do that kind of stuff in a fantasy game.  So honestly, having a gay romancable NPC that limits her sexuality is actually anti woke really, as she won't even accept a gender swap as ok, because of what?  You voice hasn't changed?  The whole thing is just dumb.  In an attempt to cater to the woke mob, none of it makes sense.  And speaking of over-woke bs that annoys me, how does a \"trans\" character even make sense in this world.  I understand that trans issues are all over the place in our reality, but what the fuck??  This is a world where people are swapping their genders all the fucking time.  Sit in a chair for 5 minutes and get new organs.  How the fuck do trans issues even come up.  It's a FANTASY GAME.  Don't project this worlds issues into it.  Like, if it's not obvious by now, I am super anti-woke... but it's a fantasy game.  LET THE TRANS PEOPLE HAVE A WORLD WHERE THEY CAN GENDER SWAP AT WILL AND IT\"S NOT A BIG CONTROVERSY???  Why project all the drama of our world into the game???  Just let people play out a fantasy.  \n\nHonestly, who fucking goes, \"I want to play a fantasy game.  In that game, I want to be bullied, harassed, and have no love partners that I like return interest in me.  Oh also, I really want the ending for the character I am role-playing as to be super shitty\"  There is no grand satisfying payoff, at least story-wise, and we have this worlds drama shoved in our face.  It's unnecessary, and takes away from the goals of playing a fantasy game.\n\nAlso, all of the cars are dumb.  SO many cars, so much money, all very similar.  Buying new cars, apartments, in general was just a chore that felt overall very dissatisfying.\n\n\n\nPROS\n\n-Interesting skill tree... which is part of why it is so annoying that there are so many limitations on it.\n\n-The game, at the times when the challenge level was OK, was fun.  Unfortunately most of the time it was too hard or too easy.\n\n-It's pretty, if not a little repetitive at times\n\n\n\nAnyway, I feel a little bad leaving a negative review since the company worked so hard to make-up for all of the games other problems it had at launch (bugs and such).  But honestly, overall, if given the chance to wipe my gameplay completely from my mind and know what I know now (like seeing this review) , I would have never played it.  So with that said, I have to mark it down.",
+   "created": 1694815068,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 9519
+  },
+  {
+   "id": "146476829",
+   "language": "english",
+   "review": "A rocky release and CDPR management flubbed it, but then CDPR kept at it and turned CP 2077 into one of my favorite games.",
+   "created": 1694961890,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7008
+  },
+  {
+   "id": "146475929",
+   "language": "english",
+   "review": "I think about this game ALL the time. It's the most fun I've had in a video game since Fallout 4.",
+   "created": 1694961046,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5391
+  },
+  {
+   "id": "146475719",
+   "language": "english",
+   "review": "\nI know it didn't meet people's very high expectations at launch and that it had some significant bugs, but I had a great time with this game. Many of the issues I had with the game's progression systems seem to be on the way to being fixed with the new DLC and the 2.0 patch that is coming out in a few days too.",
+   "created": 1694960847,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 639
+  },
+  {
+   "id": "146475516",
+   "language": "english",
+   "review": "a",
+   "created": 1694960654,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 434
+  },
+  {
+   "id": "146475122",
+   "language": "english",
+   "review": "its cyber and punk",
+   "created": 1694960294,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1469
+  },
+  {
+   "id": "146474847",
+   "language": "english",
+   "review": "less bug fo sho",
+   "created": 1694960021,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2978
+  },
+  {
+   "id": "146472744",
+   "language": "english",
+   "review": "I LIKED IT. 9/10 SO FAR",
+   "created": 1694958071,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 1798
+  },
+  {
+   "id": "146471380",
+   "language": "english",
+   "review": "shit is good",
+   "created": 1694956726,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 8075
+  },
+  {
+   "id": "146471089",
+   "language": "english",
+   "review": "A new thrilling experience.",
+   "created": 1694956463,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 15423
+  },
+  {
+   "id": "146470478",
+   "language": "english",
+   "review": "In my opinion this games story is great, I'm a huge fan of futuristic games, BUT the game engine and how its build is kinda poor... If only it was made better I'd rate it 5/5",
+   "created": 1694955832,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3163
+  },
+  {
+   "id": "146436137",
+   "language": "english",
+   "review": "The game has been out for 3 years and it still the buggiest game out of the box I have ever played. I bought it on sale and not sure it was worth the price. The gameplay is great but frequent crashes make it ultimately more frustrating than entertaining. Even with a fresh vanilla install, no mods, and up to date drivers this game still routinely crashes due to errors that are apparently not a priority to resolve. Some players are probably hopeful that the 2.0 update will fix these issues, but given how much new code is being added I am doubtful the game will be more reliable anytime soon.",
+   "created": 1694909218,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 4106
+  },
+  {
+   "id": "146434216",
+   "language": "english",
+   "review": "однажды Эрнест Хемингуэй сказал, что сможет написать самый короткий рассказ, способный растрогать любого, и написал на салфетке «В киберпанке нельзя романсить blue moon». Он выиграл спор.\n\n\n\nErnest Hemingway once said that he could write the shortest story that could move anyone, and wrote on a napkin \"You can't romance blue moon in cyberpunk.\" He won the argument.",
+   "created": 1694906357,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 3894
+  },
+  {
+   "id": "146425971",
+   "language": "english",
+   "review": "crashes regularly, runs like shit. NPCs wont shut up, it doesnt help that there are uskippable dialogues. gunplay bad. movement is bad. after 3 years it still has an endless amout of bugs. \n\ndont buy this trash.",
+   "created": 1694896272,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 1206
+  },
+  {
+   "id": "146417578",
+   "language": "english",
+   "review": "Just checked the new build planner. OMG did they drop the ball. Complete over haul and linear choices that cripple you if don't use specific weapons and tools. it takes a lot of the freedom away that the old one had.\n\n The only plus i see are some of the new stuff they are adding with Finishers. And some trees got some cool QoL upgrades. The changes to the Cyberwear is interesting, though i still have a serious problem with it based on their retcon of V's ability to handle it. For the uninformed, When asked why V can handle all of the cyberwear without the psychosis, the answer given by the developers was \" V has a high tolerance to cyber modification, as well as the chip helps keep them from suffering the negative effects\". this is being retconned. The new tech tree has skills in it to allow you to mod yourself, up to a cap. Not sure how this will play in game, but i'm not holding high hopes. The game barely performs as is, and now are scrapping everything to make the game more like the tabletop.\n\n Not looking foward to the future of this game, 3 more steps in the wrong direction. I hope someone at CDred is paying attention, cause this is not it.",
+   "created": 1694887416,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 14878
+  },
+  {
+   "id": "146536289",
+   "language": "english",
+   "review": "made me feel like a silly future man. good.",
+   "created": 1695048498,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 1669
+  },
+  {
+   "id": "146536142",
+   "language": "english",
+   "review": "was very rough at launch, couldnt even play it... flash foward 2 years and i cant seem to put the game down! an incredibly immersive world and heavy story themes make it a must play imo",
+   "created": 1695048327,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 19749
+  },
+  {
+   "id": "146535605",
+   "language": "english",
+   "review": "This was fun on PS4, it's even better on PC.",
+   "created": 1695047733,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 3565
+  },
+  {
+   "id": "146535018",
+   "language": "english",
+   "review": "Great game!",
+   "created": 1695047049,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5070
+  },
+  {
+   "id": "146532647",
+   "language": "english",
+   "review": "I really don't get what people like about this game.  It's the same weapon leveling as video games from 25 years ago.  This rifle does 25dps, this one does 50, you can't use this one but it will do 75 when you can.  Zero effort was put into tactics at all.  On one mission the enemy walked to me with no cover as I emptied three mags into him and I was killed with two stabs.  Making enemies bullet sponges is not creative.\n\nIve played it more after the big update.  Its much better but still not good enough to recommend.  Its still a buggy mess and the story has so many holes in it.\n\nLast and final edit.  There are still bugs but after a second playthrough the game has grown on me.  If it's on sale get it.",
+   "created": 1695044197,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 11741
+  },
+  {
+   "id": "146531940",
+   "language": "english",
+   "review": "One of the best games I've played. The story, the city, the characters, the soundtrack, etc there's a lot to love. \n\nStill a few minor bugs here and there, looking forward to playing again with big overhaul coming and the DLC.\n\nAll in all highly recommend it, the story is amazing and the side quests are top notch as they were in the witcher 3.",
+   "created": 1695043304,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 13670
+  },
+  {
+   "id": "146531058",
+   "language": "english",
+   "review": "As of 21st of september 2023 this is the best open world game ever made.",
+   "created": 1695042150,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2837
+  },
+  {
+   "id": "146530507",
+   "language": "english",
+   "review": "I enjoy it",
+   "created": 1695041498,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3936
+  },
+  {
+   "id": "146529733",
+   "language": "english",
+   "review": "Fun Game",
+   "created": 1695040399,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 5394
+  },
+  {
+   "id": "146529610",
+   "language": "english",
+   "review": "njohn wihck",
+   "created": 1695040222,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2468
+  },
+  {
+   "id": "146514319",
+   "language": "english",
+   "review": "Cyberpunk 2077(x)\n3DMark 2077(√)\nTimeSpy 2077(√)\nRT test 2077 (√)\nNVIDIA 2077(√)",
+   "created": 1695008860,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 2314
+  },
+  {
+   "id": "146502922",
+   "language": "english",
+   "review": "Still full of bugs, had to restart every 45ish min to fix many visual bugs, ran into a few gamebreaking ones before giving up.",
+   "created": 1694989853,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 799
+  },
+  {
+   "id": "146495505",
+   "language": "english",
+   "review": "I've owned Cyberpunk for six months. Never played it. It has always crashed before getting into the full game.",
+   "created": 1694980490,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 47
+  },
+  {
+   "id": "146494800",
+   "language": "english",
+   "review": "What a disappointment",
+   "created": 1694979718,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 5429
+  },
+  {
+   "id": "146490763",
+   "language": "english",
+   "review": "i've tried my very best to like it but this game is a big no for me because it is not the game that cd project has promised in its core. Good game bu not the game they advertised at the first place. I don't want to spend my time for another rpg soused fancy shooter.\nMehh..",
+   "created": 1694975590,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 3209
+  },
+  {
+   "id": "146487224",
+   "language": "english",
+   "review": "I waited a long time for them to fix this game before trying, somehow the game still seems unfinished. I wish they'd focus on the fixes in the main game, rather than a new DLC.\n\nI wish they'd pick an artstyle that suits them, like the one on the loading screen; watercolor/marker or even that like dishonoured/bioshock series, I don't know it's an awkward in-between trying to be photorealistic but not and a dull color palette especially when most systems are not able to handle it. Also it doesn't seemed to lead your eye to where you need to go sometimes especially when it's not too obvious, e.g clever use of leading bright colors like yellow etc.  \n\nStory is actually quite interesting, as I know CDPR strength is storytelling but combat could be improved because of the hard detection. I wish the enemies have their own lighting aside from the environment because it's hard to spot them when they fade into the darkness of the environment. They should do an auto detection system highlighting enemies in red immediately like Hitman since it's too hard to see them in the environment. Luckily the AI are not as smart because they will not chase you more than one room away. \n\nMaybe I'm being nitpicky because I played and admired many great single player games and Cyberpunk 2077 definitely have the potential to be that. For what is worth I got it at a discount  but for the full price right now, I think it's not worth it because it just seems pales in comparison to many triple A titles at this price. I would say it's more a neutral than not recommended rating. Like No Man's Sky, they just need a good come back with the right focus and continued fixes.",
+   "created": 1694971920,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 1312
+  },
+  {
+   "id": "146592201",
+   "language": "english",
+   "review": "This is one of the best Sci Fi RPG games on steam.  Great gunplay, interesting story and romance trees.  Decisions matter in this game.",
+   "created": 1695134520,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 35688
+  },
+  {
+   "id": "146591999",
+   "language": "english",
+   "review": "Good game, waiting PL DLC!",
+   "created": 1695134288,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7618
+  },
+  {
+   "id": "146590946",
+   "language": "english",
+   "review": "Title: Cyberpunk 2077 - A Complex Journey Through Night City\n\nCyberpunk 2077, developed by CD Projekt Red, arrived with unprecedented hype and anticipation, promising a sprawling open-world RPG set in a dystopian future. As someone who eagerly awaited its release and immersed myself in Night City's neon-lit streets, I'm here to provide an in-depth review of the game.\n\nGameplay (3.5/5):\nCyberpunk 2077 offers an immersive and vast open world that's a playground for exploration and adventure. The ability to customize your character, enhance cyberware, and select from various skills and abilities allows for a personalized experience. The combat system offers a mix of gunplay, melee combat, and hacking, providing diverse options for approaching encounters.\n\nHowever, the gameplay is a mixed bag. While some moments deliver exhilarating action and choices with meaningful consequences, others fall short. The AI can be inconsistent, and the driving mechanics leave much to be desired. Bugs and technical issues, particularly at launch, hindered the overall experience, leading to frustration.\n\nGraphics and Sound (4.5/5):\nVisually, Cyberpunk 2077 is a triumph. Night City is a breathtaking and meticulously detailed urban sprawl, with towering skyscrapers, neon signs, and a cyberpunk aesthetic that oozes style. The character models, animations, and facial expressions are impressive, lending authenticity to the game's world. The day-night cycle and weather effects further enhance the immersion.\n\nThe game's soundtrack, featuring tracks from artists like Refused and Grimes, is a standout. It complements the dystopian atmosphere and cyberpunk theme perfectly. The voice acting is generally strong, with Keanu Reeves' portrayal of Johnny Silverhand being a highlight.\n\nStory and Worldbuilding (4/5):\nThe narrative in Cyberpunk 2077 is one of its strongest aspects. The main story, filled with intrigue, moral dilemmas, and memorable characters, is engaging and thought-provoking. The worldbuilding is exceptional, immersing players in a gritty and believable future where corporations wield immense power and personal identity is fluid.\n\nSide quests and character interactions are where the game truly shines. The depth and complexity of the supporting cast add layers to the story, and the choices you make can have far-reaching consequences. Night City feels alive, with its citizens and factions contributing to the immersive experience.\n\nControversies and Launch Issues (2.5/5):\nCyberpunk 2077's launch was marred by numerous controversies and technical issues, especially on last-generation consoles. CD Projekt Red faced criticism for the game's performance, bugs, and missing features. While the company has since worked on patches and improvements, the initial launch left a sour taste for many players.\n\nConclusion (3.5/5):\nCyberpunk 2077 is a game of incredible ambition and potential, with a captivating narrative, stunning visuals, and an immersive world. However, its launch issues, technical shortcomings, and uneven gameplay experiences were disappointments for many players, including myself. The game's future may hold promise as CD Projekt Red continues to address its flaws, but as of my last knowledge update in September 2021, it remains a title that falls short of the immense expectations it carried. If you can look past the technical issues and appreciate the story and world, it still offers a unique and memorable experience, especially on more capable gaming platforms.",
+   "created": 1695133059,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 4687
+  },
+  {
+   "id": "146590646",
+   "language": "english",
+   "review": "Fixed from date released, now is a whole new different experiences amazing game CDPR delivers  what they promised",
+   "created": 1695132718,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2161
+  },
+  {
+   "id": "146589184",
+   "language": "english",
+   "review": "theres hot babes",
+   "created": 1695130966,
+   "voted_up": true,
+   "votes_up": 4,
+   "playtime_at_review_min": 5496
+  },
+  {
+   "id": "146588172",
+   "language": "english",
+   "review": "Monowire chopping is to satisfying",
+   "created": 1695129755,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5317
+  },
+  {
+   "id": "146587568",
+   "language": "english",
+   "review": "ALRIGHT!",
+   "created": 1695129023,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 385
+  },
+  {
+   "id": "146581675",
+   "language": "english",
+   "review": "good\n",
+   "created": 1695119545,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 2134
+  },
+  {
+   "id": "146580584",
+   "language": "english",
+   "review": "nice head chopping",
+   "created": 1695117282,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 9544
+  },
+  {
+   "id": "146580197",
+   "language": "english",
+   "review": "Choomers",
+   "created": 1695116514,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 984
+  },
+  {
+   "id": "146590788",
+   "language": "english",
+   "review": "you losers can fix as many bugs as you want, the game is painfully stale",
+   "created": 1695132872,
+   "voted_up": false,
+   "votes_up": 7,
+   "playtime_at_review_min": 271
+  },
+  {
+   "id": "146576379",
+   "language": "english",
+   "review": "Basically The Witcher but with bugs",
+   "created": 1695108250,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 5130
+  },
+  {
+   "id": "146556804",
+   "language": "english",
+   "review": "Pro: \n\n- Lore\n- Blade Runner Vibes\n- Porn Cinematic ( Oh yea )\n- Guns Choices/ Gun detail\n- Katana and Hammer Melee weapon. I Love both.\n- Combat Gameplay is great.\n- Johnny is funny AF\n- Amazing \"mission impossible\" quest\n- Strippers ( oh yea. )\n- Apartment for rent are well designed\n- Music ambience is good. Car Radio Music is also good. ( Be careful not to record copyrighted music and then publish on YT. You'll get a copyright strike. Go in the option to click \"mute copyrighted music\" to avoid this if you are a streamer.\n- Cat and Iguana in your apartment is a nice touch ( if you acquire them ).\n- Hammer Quake skill is insane\n\n\nCON:\n\n- No \"in-between\" interaction with open world NPC as you drive around unless you use a mod\n- NPC all looks kinda...static? They are the same model. They are either, kids, Sexy Model, Fat dude, gangsters, Cops, Construction. Other NPC have the same body type but different clothing. In GTA5, you could fight your grand-ma if you wanted to.\n- No dogs or cats in the street. Weird.\n- Streets are dead on many parts of the cities.. which makes this game \"empty\"\n- No Flying car, unless you use a mod\n- Legendaries are too easy to get from the start ( if too easy, shouldn't be Legendaries, should be Epic. Legendary means extremely hard to get )\n- Not enough \"WTF is going on!\" random moments just like GTA 5. Everything look static. Go from A to B. Rinse and repeat = Static\n- No \"hauling missions\" unless you use a mod.\n- No enough \"Racing Car\" event. Only few in-game missions.\n- After doing multiple mission, you feel the \"rinse and repeat\" motion sickness and bored pretty easily.\n- No Flight Simulator fight, no boat chasing.\n- No Bobba Fett Jet Pack ( except double jump trait )\n- MaxTac are easy to beat with Katana skills maxed out = 0 challenge.\n- No Edgerunner DLC nor storylines. Yet they made a fantastic animate movie about it... it's like eating a Hot-Dog without ketchup. Good. But \"regular\". However, they added some reference outfit in some part of the game. Yay.\n\nConclusion: I do enjoy the Combat System & the amazing visual graphics ( if you have a great GPU that it ). The vehicles are beautifully designed. I specifically love Motorcycle. The cities and environment is beautiful and well detailed. VR mode also looks very promising & interesting ( if you have the budget for it ). The only thing missing, are side contents and \"WTF\" moments. Apart from that, I do enjoy the game.. but get bored very fast...sadly.\n\nGame Lore: 9.5/10\nCombat System: 9.5/10\nMain Mission: 9/10\nSide missions: 8.5/10\nNPC looks details: 7/10\nAnimals ( cat, dog, hamster, birds, etc ) : 1/10 ( a city without animals. That's strange )\nApartment: 8/10\nMusic: 8/10\nRadio Music ( copyrighted ): 9/10 ( Edgerunners | “I Really Want to Stay At Your House” by Rosa Walton is my fav music while strolling in the cities, but you have to wait it plays )\nRadio Music ( non-copyrighted) : 7.5/10\nWeapon choices: 9.5/10\nOther non-expected random Challenges: 6/10\n\n-My Overall Rating- 7.2/10\n\nGood. But it won't last and you'll get bored fast.",
+   "created": 1695072168,
+   "voted_up": false,
+   "votes_up": 8,
+   "playtime_at_review_min": 2940
+  },
+  {
+   "id": "146545117",
+   "language": "english",
+   "review": "REMEMBER - NO PRE ORDERS",
+   "created": 1695057690,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 1749
+  },
+  {
+   "id": "146651295",
+   "language": "english",
+   "review": "great game, not buggy at all",
+   "created": 1695221726,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2133
+  },
+  {
+   "id": "146650012",
+   "language": "english",
+   "review": "one of the best games ive played tbh",
+   "created": 1695220594,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 5170
+  },
+  {
+   "id": "146649050",
+   "language": "english",
+   "review": "good",
+   "created": 1695219643,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 10084
+  },
+  {
+   "id": "146648236",
+   "language": "english",
+   "review": "best RPG in years",
+   "created": 1695218867,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 25062
+  },
+  {
+   "id": "146647052",
+   "language": "english",
+   "review": "Yet to play Phantom Liberty. As someone who binged the game when it first came out I'm looking forward to seeing how things have developed. Aside from that approaching the game after a couple years it's looking a lot more polished with some minor bugs (albeit still funny) so definitely worth a play.",
+   "created": 1695217705,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 4290
+  },
+  {
+   "id": "146646982",
+   "language": "english",
+   "review": "nice",
+   "created": 1695217662,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 8430
+  },
+  {
+   "id": "146646930",
+   "language": "english",
+   "review": "I had fun once in a while.",
+   "created": 1695217573,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 3407
+  },
+  {
+   "id": "146646506",
+   "language": "english",
+   "review": "i had fun for story and game play",
+   "created": 1695217122,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 12622
+  },
+  {
+   "id": "146645078",
+   "language": "english",
+   "review": "Nice game!",
+   "created": 1695215570,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 13421
+  },
+  {
+   "id": "146643479",
+   "language": "english",
+   "review": "Drop the 2.0 patch already...",
+   "created": 1695213733,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 3601
+  },
+  {
+   "id": "146646036",
+   "language": "english",
+   "review": "Visual novel",
+   "created": 1695216636,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 1067
+  },
+  {
+   "id": "146642266",
+   "language": "english",
+   "review": "I had high expectations for the game, but when it came out is was horrible. Now (a year in) the company is marketing a \"version 2.0\", which is really only was should be expected from launch. Horrible culture, where shipping barely working crap is accepted.",
+   "created": 1695212193,
+   "voted_up": false,
+   "votes_up": 13,
+   "playtime_at_review_min": 1355
+  },
+  {
+   "id": "146634077",
+   "language": "english",
+   "review": "Lifeless game for CASUAL gamers",
+   "created": 1695196980,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 208
+  },
+  {
+   "id": "146593645",
+   "language": "english",
+   "review": "[Pre-2.0]\n\nTook over 2 hours to get it stable enough to launch, let my hopium trick me into thinkin' it would be good if i just got it to launch; and steam refused my refund as a result of my foul hubris; so out of copium I gave it a fair shake. \n\nIt's ok, workable if you're quick to remorse based denial, not good by any means though, if they have done anything to patch this game since launch, I honestly cant tell. \n\nNexus mods is truly your only friend in Night City, and it cant even fix everything here. It mostly just gives you funny wee-wees to put on your robo-lady.\n\nSo glad I snagged this on sale for $20, tho still a lil' too expensive even discounted to that imo. \nWe'll see if this 2.0 update makes anything worthwhile. \nRegardless, definitely not buying the DLC until I see its price heavily discounted as well. \n\nIn conclusion; CDPR doesn't deserve fully cooked cash for half-baked work, not in 2020, not now, not ever. Your money decides whether they get to swindle you over and over, don't reward bad behavior in hopes of lasting positive change,.\n\n[Edit: post 2.0 first impressions and a lil bit that i forgot in pre2.0.]\n\nStill just 'alright' and 'workable', police chases are a fun touch for chaos, but I have yet to dig into the new-new items and stuff they added in, mostly out of lack of motive to get back into the game after finishing my 1st run. \nBut it seems chill enough if not a lil-teensy-weensy 3 years too late, and not quite enough to bring it to the glory of the fake tech demo they first showed. \nBut hey, I never really was a fan of the game neither pre-nor-post-hype, so feel free to discount me as you will. As a coping individual myself; I know well that bitterness is a very soothing salve for a wounded soul. :)\n\nRight now as it stands; game is pretty business as per usual; I'm just waiting for a couple of modders to catch up more than anything, but I'm glad the big script mods were ahead of the curve, gets the fussy stuff out of the way real quick, and that shows forward progress from the modders for sure! not to mention I only was just getting into the game before they changed up the UI, so there's not much I feel like I gotta hard-adjust to, so that's nice. There I can be positive in the review too! 1st's for everything.\n\nBut overall, I just don't think this game's charm will ever properly rub onto me, big thing is while I really like the plot, and the general gist of the story works within it's pacing pretty well, I feel that the characters are entirely held back by the same quip filled generic Marvel-movie sameness that is very prevalent in a lot of media nowadays; much to it's detriment.\nI would love all of these characters wholeheartedly if they didn't just spout out their own meh-flavored Duke Nukem one liners every 3 sentences like its a sitcom or something. \nNot to say I don't like the characters or hate the game because of it's flaws, I would have stopped at prolly like 10hrs in if I didn't see some little glimmer of something in it.\n\nI still would like to hold onto the idea that the world could be a decent place where people wouldn't have to settle for holding onto glimmers of what their dreams could be, \nGosh dang it, I want a world where it isn't far-fetched idea to want your dreams to come true.\nI wont settle for facsimiles.",
+   "created": 1695136219,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 6802
+  },
+  {
+   "id": "146713341",
+   "language": "english",
+   "review": "Good game I approve",
+   "created": 1695308521,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 2646
+  },
+  {
+   "id": "146713004",
+   "language": "english",
+   "review": "So this game when it launched ran okay on my PC. And based on that it was a nice game, nothing revoltionary but yeah I will say it had potential and even after several updates with 2.0 still to go live in a couple of hours, I can confidently say I enjoyed the experience. Besides Cybernetic modding and Hacking , this game has got some good systems and a great story with some enjoyable characters. Also Keanu Reeves rocks in the role of Johnny Silverhand and playing as him is the highlight of the whole experience. Also this has one of the best city designs and great weapon design as well. The inventory system is great and CDPR have absolutely nailed at conveying the whole cyberpunk Vibe. The downfall of the game begins at NPC AI and Police AI. Plus no jet packs \\_(\"/)_/, plus driving in this game is good for only a selected cars. Not nearly as great as a GTA 5 in CYberpunk aesthetic but still a good enough Cyberpunk 2077. So there is that.",
+   "created": 1695308325,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5054
+  },
+  {
+   "id": "146712996",
+   "language": "english",
+   "review": "Reinstall again for Phantom Liberty",
+   "created": 1695308320,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 21084
+  },
+  {
+   "id": "146712719",
+   "language": "english",
+   "review": "It's very fun and Johnny is the best part of the whole game",
+   "created": 1695308059,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 10290
+  },
+  {
+   "id": "146712708",
+   "language": "english",
+   "review": "Engaging story, Great atmosphere and entertaining gameplay",
+   "created": 1695308051,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1616
+  },
+  {
+   "id": "146712555",
+   "language": "english",
+   "review": "I miss it if I don't play it.",
+   "created": 1695307933,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 13807
+  },
+  {
+   "id": "146712435",
+   "language": "english",
+   "review": "this game has sex",
+   "created": 1695307826,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 60
+  },
+  {
+   "id": "146712299",
+   "language": "english",
+   "review": "yeeeeee boiii",
+   "created": 1695307707,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 5513
+  },
+  {
+   "id": "146712283",
+   "language": "english",
+   "review": "byberbunk wEYYYYYYYYYYYYYYYYYYYYY",
+   "created": 1695307691,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 11603
+  },
+  {
+   "id": "146712209",
+   "language": "english",
+   "review": "it good",
+   "created": 1695307611,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 204
+  },
+  {
+   "id": "146711295",
+   "language": "english",
+   "review": "A $30 DLC being released with basic Quality updates (not in the DLC but released along side) is kinda crazy. I get its a lot of content but like the game was $60 and now the DLC feels kinda like another money grab. Maby its for you but remember that the game released broken so what is to be expected from a new DLC.",
+   "created": 1695306833,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 1804
+  },
+  {
+   "id": "146710038",
+   "language": "english",
+   "review": "Great game but it should have Turkish voices",
+   "created": 1695305723,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 5908
+  },
+  {
+   "id": "146687787",
+   "language": "english",
+   "review": "Presumably there's a game in there somewhere, if you can slog through the hardboy cutscenes.",
+   "created": 1695270548,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 111
+  },
+  {
+   "id": "146679888",
+   "language": "english",
+   "review": "Uninspired and buggy.",
+   "created": 1695258204,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 754
+  },
+  {
+   "id": "146675116",
+   "language": "english",
+   "review": "Soul-less game",
+   "created": 1695250287,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 4165
+  },
+  {
+   "id": "146670831",
+   "language": "english",
+   "review": "That was a ROUGH launch... what happened to finishing games before launching?",
+   "created": 1695244037,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 199
+  },
+  {
+   "id": "146668810",
+   "language": "english",
+   "review": "After everything that's happened, they want us to pay 30$ for DLC that should have been free? You have to be kidding me.",
+   "created": 1695241275,
+   "voted_up": false,
+   "votes_up": 16,
+   "playtime_at_review_min": 4128
+  },
+  {
+   "id": "146662803",
+   "language": "english",
+   "review": "everyone knows why this game is bad. people say they've fixed the bugs, but this just means it's a playable boring game instead of an unplayable boring game. wild that they're releasing DLC and people are clamoring to pay for it",
+   "created": 1695233730,
+   "voted_up": false,
+   "votes_up": 11,
+   "playtime_at_review_min": 1751
+  },
+  {
+   "id": "146656802",
+   "language": "english",
+   "review": "Oh yes, please make me pay 40$ so I can play the fixed version of your game.",
+   "created": 1695227005,
+   "voted_up": false,
+   "votes_up": 8,
+   "playtime_at_review_min": 4833
+  },
+  {
+   "id": "146784056",
+   "language": "english",
+   "review": "10/10 fr",
+   "created": 1695394921,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 26986
+  },
+  {
+   "id": "146782991",
+   "language": "english",
+   "review": "Nice Cock",
+   "created": 1695393919,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 4482
+  },
+  {
+   "id": "146782970",
+   "language": "english",
+   "review": "I'm glad I waited until 2.0 to play Cyberpunk, because THIS is the game what I wanted.",
+   "created": 1695393899,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 492
+  },
+  {
+   "id": "146782944",
+   "language": "english",
+   "review": "This is one of the best games ever made.",
+   "created": 1695393872,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 411
+  },
+  {
+   "id": "146782877",
+   "language": "english",
+   "review": "keeps me coming back",
+   "created": 1695393811,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 13485
+  },
+  {
+   "id": "146782607",
+   "language": "english",
+   "review": "GREAT",
+   "created": 1695393578,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6604
+  },
+  {
+   "id": "146782588",
+   "language": "english",
+   "review": "Cyberpunk went from being an absolute joke to contending for the title of the greatest open world game of all time.  If you gave up on it before, it might be time to revisit",
+   "created": 1695393558,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 3720
+  },
+  {
+   "id": "146782351",
+   "language": "english",
+   "review": "NANOTECH GO BRRRRRRRRRRRRRRRRRRRRRRR",
+   "created": 1695393325,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 297
+  },
+  {
+   "id": "146782107",
+   "language": "english",
+   "review": "+",
+   "created": 1695393110,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 8529
+  },
+  {
+   "id": "146782057",
+   "language": "english",
+   "review": "I have a Steam Deck and its my only source for gaming Steam games. I added my friends account and set it to share his game library with me but when I played Cyberpunk2077 I saw we would be sharing save file locations, I can see his saves and it's a risk of accidentally overwriting each other's files and losing the others progress entirely. It sucks.",
+   "created": 1695393069,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 42
+  },
+  {
+   "id": "146783566",
+   "language": "english",
+   "review": "After putting a lot of time into the game trying to go through every side quest, the developer decided to redesign many of the game systems, invalidating my build, all the work I put into my gear, all the recipes I had learned and generally ruin the play through I had put a whole lot of time into.\n\nLosing progress in a game through no fault of my own is a huge pet peeve of mine. \n\nI'd start over, but as this isn't a game where you play YOUR character, it's one where you play THEIR character... there is just no motivation. I'd just end up going through the motions all over again, and making the same choices 90% of the time. For me there is no replay value.\n\nOn top of that the 2.0 patch is unplayable on my box. From the title screen managing less than 1 FPS to the fact that I can not get it into keyboard and mouse mode... regardless of the fact I don't have a controller plugged in, and have the steam input for it turned off. It's just broken. And I'm hardly the only one, other people I know who can get further than me are reporting things from people walking down the streets with their bits hanging out to just crashing to desktop constantly.\n\nWhen the most recent Bethesda game is more bug free than your PATCH, you have failed.",
+   "created": 1695394464,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 11323
+  },
+  {
+   "id": "146781719",
+   "language": "english",
+   "review": "Too much violence",
+   "created": 1695392754,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 17860
+  },
+  {
+   "id": "146781489",
+   "language": "english",
+   "review": "Crashing after update 2.0. CD Project Red, you idiots!",
+   "created": 1695392530,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 5412
+  },
+  {
+   "id": "146781308",
+   "language": "english",
+   "review": "시ㅂ ㅏ 실행 안됨 존나 짱남 해결 방법도 모르겠음",
+   "created": 1695392341,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 6183
+  },
+  {
+   "id": "146780142",
+   "language": "english",
+   "review": "So I'm playing this game on a 4080 at 30FPS because they have removed the option to play on anything but my native 4k resolution, this intro tutorial mission where after listening to half an hour of unskippable dialog and no saving, I get to be shooting from this vehicle with the least suitable weapon on the planet, where after 69 previous attempts I got pretty good at it and finally manage to kill all 3 vehicles with 20 hp left, but then.. I just die? Again?\n\nAllegedly the latest patch was supposed to dramatically improve vehicle combat, but it looks like there's some stupid scripting bug that just subtracts your HP over time during this mission and despite clearing all enemies HP just keeps decreasing until you die.\n\nSure, I'm playing on the hardest difficulty, but I have also played this game before and it was nowhere near this bad. I'm just straight up not having a good time.",
+   "created": 1695391076,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 3531
+  },
+  {
+   "id": "146778159",
+   "language": "english",
+   "review": "Somehow they made the game crash even more with update 2.0",
+   "created": 1695389010,
+   "voted_up": false,
+   "votes_up": 7,
+   "playtime_at_review_min": 8358
+  },
+  {
+   "id": "146777754",
+   "language": "english",
+   "review": "SUCKS!",
+   "created": 1695388559,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 4683
+  },
+  {
+   "id": "146774167",
+   "language": "english",
+   "review": "It was a buggy mess at launch, still a buggy mess. I don't know if i should give CDPR credit for fixing some of it.\nI think this game needs a bit more time in the oven.",
+   "created": 1695384155,
+   "voted_up": false,
+   "votes_up": 7,
+   "playtime_at_review_min": 121
+  },
+  {
+   "id": "146773903",
+   "language": "english",
+   "review": "2.0 update made it a Trash game\n- isnt it illegal to change PC requirements after you already Sold the game to thousands of people ?!\n- most of the Things are not working anymore\n- shooting uses stamina wtf !\n- clothes have no more armor Value ?! the hell\n- cops follow you for an Hour !\n- level scaling is Hell\n- dont use HDD or its just utter garbage, go play no mans sky, BattleBits or Bannerlord if you want a Good game\n\nPS:there are so many Bot ,paid and fake acc reviews its disgusting\"\n\n\"it doesnt show my playtime, idk why but i completed the game 2 times, okey... i play most of the time offline xD\"",
+   "created": 1695383798,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 352
+  },
+  {
+   "id": "146772934",
+   "language": "english",
+   "review": "They've improved and changed a lot of things in 2.0, not all for the better but some of it is interesting. The game looks better, so if you cared about that, great. Unfortunately, it will run significantly less reliably.\n\nThe problem is twofold. First, and worst, a lot of the old bugs they patched out/wrote code bandaids for are back with a vengeance, and old bugs that were never exterminated are worse than ever (memory leaks, buttons and abilities not working, more memory leaks, a somehow even dumber police system where you'll be savagely beaten for doing missions for the police, more memory leaks, etc).\n\nThe second problem, and this one is basically unsolvable, is that it's still the same game. Sure, your abilities and how you influence the world is a little different, but nearly every character remains unlikeable. Now, unlikeable can be forgiven if it's done in a charismatic, interesting way - unlikeable but charismatic can be fascinating. And just like in the original release, they were hoping Keanu Fever would enthrall people.\n\nUnfortunately his performance remains flat, lifeless, and clueless. The man doesn't even know how to pronounce low-context phrases for sh*t's sake. If Idris had been the lead from the get go, I'm guessing Cyberpunk could have been a flawed masterwork. Instead it's just flawed and boring.\n\nYou're likely to find yourself wanting to skip every drawn out, poorly conceived piece of dialogue, every care ride where you and your \"partners\" snipe at each other and behave like uninteresting idiot children, every \"dramatic\" moment where the people you're fighting are exactly as awful as you are. Whoever pitched the idea of \"you'll be a dirt bag but the audience will somehow emotionally connect to you instead of every other dirtbag\" must have been awfully convinced they could pull off \"dirtbag we want to root for.\" Spoiler: they were dead wrong.\n\nHow does the studio of the Witcher 3 produce such uninteresting pablum and then invest time patching it to... contain the same pablum. Sheesh.",
+   "created": 1695382431,
+   "voted_up": false,
+   "votes_up": 9,
+   "playtime_at_review_min": 13265
+  },
+  {
+   "id": "146772659",
+   "language": "english",
+   "review": "Levelscaling dogwater game.\n\nGive me a refund",
+   "created": 1695382025,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 1345
+  },
+  {
+   "id": "146770885",
+   "language": "english",
+   "review": "Disappointing narrative that falsely promises player agency; you're just a puppet on predetermined tracks. The constant phone calls are annoying, especially when you're driving or on a mission. Characters lack depth and originality. Dialogues are uninspired. Combat is monotonous and extremely easy, even on hard-mode. A visually stunning city serves but just a hollow backdrop with minimal interactivity. Persistent bugs, including broken keybindings (still present in v2.5)... inexcusable years after release.\n\nFinished the game. It took less than 15 hours, did no secondary-quests, and it was just boring. The final boss got utterly crushed with absolutely no efforts. The game balance is so bad that you can just never level up or take any perk and you will roll on everything anyway.\n\nFinished the game again in max difficulty, it was slightly more interesting, but you can still become basically immortal with the right implants... Lots of boring secondary fedex quests, some rare nice stealth ones.",
+   "created": 1695379233,
+   "voted_up": false,
+   "votes_up": 9,
+   "playtime_at_review_min": 3561
+  },
+  {
+   "id": "146770453",
+   "language": "english",
+   "review": "2.0 and this game is still a buggy mess.",
+   "created": 1695378518,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 3826
+  },
+  {
+   "id": "146768175",
+   "language": "english",
+   "review": "I was quite enjoying my play through using a stealth / hacking build, and had levelled up crafting so my clothing and weapons had the best mods etc.  And it was fun.  This version 2.0 has made all that useless with removed mods, changed (that is, dumbed down) the skill tree, changed vehicle handling for the worse and changed NPC trace back so if you hack them so you might as well have a siren on your head.  Also, looks like CDPR didn't learn from their initial release and while not a total buggy mess like that was, its noticeably worse than v1.6.",
+   "created": 1695374557,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 6855
+  },
+  {
+   "id": "146767372",
+   "language": "english",
+   "review": "While I only started around 1.4, played through the game without problem, and even 100% the achievements and enjoyed the game, the 2.0 changes to the core gameplay are too much to the point it should have been a sequel or a different game. The new vehicle shooting and police system are good additions but all the changes to items, perks, stats are the changes that I so dislike, I don't even like playing the game as a whole anymore.\ntl;dr 2.0 changes to items/perks/stats are so different from previous versions it is a different and worse game",
+   "created": 1695373139,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 7655
+  },
+  {
+   "id": "146766585",
+   "language": "english",
+   "review": "new update broke the game for me and essentially  removed the whole  of  the crafting system  I was  trying to explore and invest into as  part of the  skill tree  revamp  making  my whole  build  worthless regardless  of the reset  of  points.",
+   "created": 1695371724,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 3566
+  },
+  {
+   "id": "146766492",
+   "language": "english",
+   "review": "Start new game, fresh install, get to first shoot out\n\nEVERYONE IS INVULNERABLE, ME, THE ENEMIES, NOTHING DIES\n\ngo ♥♥♥♥ yourself you absolutely pathetic sacks of ♥♥♥♥, this long for the patch that is supposed to fix everything and it does this, did you even test this?\n\nI dont even care what the solution to this is, Iam done with this game and this post will be probably be the most fun ill get out of it.\n\nonce again, go ♥♥♥♥ yourself CDPR, why dont you hire some actually talent instead of diversity hires?",
+   "created": 1695371536,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 3353
+  },
+  {
+   "id": "146764946",
+   "language": "english",
+   "review": "I'm sure the new version is great.  I wanted to finish my game the way it was.  Who knows, maybe I'll come back to this game at some point, but this is irritating enough that I'm quitting for now.\n(Edit:  I've since come back and played the new Cyberpunk.  It's better in some ways, but its a different game.  I wanted to finish my old game, and they took that away from me.)",
+   "created": 1695368802,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 26928
+  },
+  {
+   "id": "146764414",
+   "language": "english",
+   "review": "Nintendo. what the fuck is this combat",
+   "created": 1695367706,
+   "voted_up": false,
+   "votes_up": 7,
+   "playtime_at_review_min": 5919
+  },
+  {
+   "id": "146763593",
+   "language": "english",
+   "review": "So, not only did these people release a garbage-tier product and sold the game on what is basically a pile of lies, they NOW have the gall to ask 30 bucks for their funny little DLC as well as thinking it would be hilarious to change the requirements to run this dumpster fire where it REQUIRES an SSD, basically making the game unplayable if you don`t happen to have an SSD. Great idea, btw - alienate a portion of the fanbase that already has an unfavorable opinion of you since you evaporated the last bits of community goodwill built up over the years with the release of this travesty by forcing them to basically acquire new hardware to even play this, and then say 'fuck you' to anyone who might have had a passing interest in playing this after they actually bothered to fix it and make it playable. AVOID IT LIKE THE PLAGUE, 0/10.",
+   "created": 1695366094,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 7241
+  },
+  {
+   "id": "146863896",
+   "language": "english",
+   "review": "It had a rough start, but even back then the story was good enough to work through for one playthrough. Now, it's just amazing.",
+   "created": 1695481133,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 8399
+  },
+  {
+   "id": "146863616",
+   "language": "english",
+   "review": "Fui numa prostituta.\nEm vez de sexo recebi uma terapia.\nEla destrinchou minha alma e ansiedades.\nEu chorei.\n\n10/10\n\nEdit: \nMe mandaram fazer parceria com uma motorista pra minha missão.\nEla odeia autoridades e sempre fode tudo.\nMe arrastou pra uma busca por vingança que não tinha nada a ver comigo.\nDepois criou um plano pra me ajudar na minha, que acabou matando um dos seus melhores amigos.\nQuase teve um colapso mental pq acha que sempre fode tudo, e nunca vai mudar.\nEu estou apaixonado.\n\n11/10\n\nObra prima em cinematografia, tema, vibe e personagens. Gameplay divertidíssima tb.",
+   "created": 1695480902,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 721
+  },
+  {
+   "id": "146863510",
+   "language": "english",
+   "review": "Love it, after all the bugs they did a great comeback!",
+   "created": 1695480817,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 16569
+  },
+  {
+   "id": "146863489",
+   "language": "english",
+   "review": "Look Mom, I'm at the top of Arasaka Tower.",
+   "created": 1695480803,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 3856
+  },
+  {
+   "id": "146863056",
+   "language": "english",
+   "review": "This game is great, i dunno what everyone was complaining about.",
+   "created": 1695480489,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 9890
+  },
+  {
+   "id": "146862973",
+   "language": "english",
+   "review": "Great game",
+   "created": 1695480428,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 8274
+  },
+  {
+   "id": "146862933",
+   "language": "english",
+   "review": "This game is crazy, I like seeing people get drive byed",
+   "created": 1695480402,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1875
+  },
+  {
+   "id": "146862526",
+   "language": "english",
+   "review": "I love this game, but sadly my PC cant run it after the 2.0 update :-/",
+   "created": 1695480121,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 10420
+  },
+  {
+   "id": "146862524",
+   "language": "english",
+   "review": "Bomba fantastic!",
+   "created": 1695480118,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 265
+  },
+  {
+   "id": "146862139",
+   "language": "english",
+   "review": "i have always liked it. still do. it has a great story, soundtrack, world and characters. gameplay is also fun and has gotten a lot better now.",
+   "created": 1695479819,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 6192
+  },
+  {
+   "id": "146860139",
+   "language": "english",
+   "review": "Wow what a whirlwind its been! I bought this game, hated it, came back 2.0, still didnt like it. Then, a good pal tells me to try again, he whets my appetite with a description of his wild antics in the game. I came back and finally, I was having fun. Really. I still hated the seriously weak script and paper thin narrative, I still hated V's voice and awful interjections into the story, but I was having fun! I played the game as a netrunner, I felt like the game was an rpg as I cast hacks on folks like a wizard and used my auto-target gun to take them down. I found myself finally immersed in night city, with its excellent topography and lighting. I even started to love the radio, something I initially hated. Driving in first person listening to that funky Miles Davis while dodging police was exceptional. However, as I continued the assault side missions, they all blended into one. I became so powerful as a net runner the game no longer had any sort of challenge. I was walking into enemy encampments and killing everyone with my hacks, it all felt pointless. Essentially, Cyberpunk has a soul problem. Much like the robots in the game, this game has no soul. It is a 7/10 with a pretty face with no soul to bear. The game tricks you into thinking you have agency over its awful narrative, and the game also makes you feel like your on a real RPG power path. This identity crisis hurts the game in my opinion, leaving  the player bored and exhausted from seeing the same mission play out, again and again and again and again. Oh well. Even though its a 7/10 I still give this one a bad review, because it had the potential to be so much more.",
+   "created": 1695478235,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 2162
+  },
+  {
+   "id": "146859151",
+   "language": "english",
+   "review": "It's carp!\nAvoid!",
+   "created": 1695477295,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 205
+  },
+  {
+   "id": "146859096",
+   "language": "english",
+   "review": "I would personally congrats CDRED. Because with in every update it is getting worse. I mean how did you screw 23 GB update which you promised to make the game great again!",
+   "created": 1695477251,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 6678
+  },
+  {
+   "id": "146856983",
+   "language": "english",
+   "review": "...You know why.",
+   "created": 1695475253,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 8407
+  },
+  {
+   "id": "146856440",
+   "language": "english",
+   "review": "You release a broken game that take all the fun and the storie line and now you want me to paye for a DLC you joking right you should give me that DLC for your previous fk up",
+   "created": 1695474707,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 4793
+  },
+  {
+   "id": "146855113",
+   "language": "english",
+   "review": "Just boring,  couldnt give a fuck about the story.  People just yap, yap, yap.  Tried paying the game 3 times now, and you just spend time in boring i dont give a fuck conversations than actual doing anything exciting.",
+   "created": 1695473313,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 4845
+  },
+  {
+   "id": "146853811",
+   "language": "english",
+   "review": "2.0 ruined the game even more by vastly simplifying the game mechanics and introducing level scaling. The game used to be a broken RPG title, now it's a broken looter shooter.",
+   "created": 1695471905,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 537
+  },
+  {
+   "id": "146852969",
+   "language": "english",
+   "review": "The gameplay is good but the story line seems dull to me ....Also the characters are okayish in my opinion.",
+   "created": 1695471032,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 2287
+  },
+  {
+   "id": "146850280",
+   "language": "english",
+   "review": "2.0 is how the game should have been day 1 minimum. Game is fun to play right now but there are bugs that annoy me so much such as:\nScreen effect from first Silverhand meeting lingers after progressing and closing the game.\nF5 dont work, controller short cut works.\nYou cant switch between mouse and keyboard and controller without launching the game on big picture mode.\n",
+   "created": 1695468083,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 2746
+  },
+  {
+   "id": "146847078",
+   "language": "english",
+   "review": "Lots of promises, didn't live up to the expectations.\nFirst and only CD PROJEKT RED game ever bought.",
+   "created": 1695464215,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 6002
+  },
+  {
+   "id": "146844987",
+   "language": "english",
+   "review": "im sure the other reviews arent lying. But it just crashes every time i try to open the game.",
+   "created": 1695461689,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 42
+  },
+  {
+   "id": "146842583",
+   "language": "english",
+   "review": "It's 2023, nearly 3 years after launch, and the game is still a broken mess. CDProjectRed has zero credibility, and it's a shame that they are constitutionally incapable of making a product worth buying since Witcher 3.",
+   "created": 1695458673,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 27
+  },
+  {
+   "id": "146840894",
+   "language": "english",
+   "review": "its fine but its as much a rpg as halo infinite.",
+   "created": 1695456445,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 3308
+  },
+  {
+   "id": "146840586",
+   "language": "english",
+   "review": "Was Broken .......... IS Broken ................. Will be broken..................",
+   "created": 1695456035,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 7232
+  },
+  {
+   "id": "146839203",
+   "language": "english",
+   "review": "Update 2.0 completely breaks the game unfortunately. It's impossible to get keyboard/mouse to function correctly as it forces controller layout, even when a controller is not present. Many keybindings are also broken. And straight up can't be rebound either. Which essentially makes it unplayable unless you only want to use an xbox/steam controller.\n\nHopefully CDPR will fix these issues before Phantom Liberty comes out.",
+   "created": 1695454071,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 433
+  },
+  {
+   "id": "146836447",
+   "language": "english",
+   "review": "If you have then revert to 1.6. \nIf you don't have don't encourage there new direction by buying.",
+   "created": 1695450325,
+   "voted_up": false,
+   "votes_up": 8,
+   "playtime_at_review_min": 15201
+  },
+  {
+   "id": "146835781",
+   "language": "english",
+   "review": "I pre-ordered this game. Waited patiently for the game to get stable and for the new DLC that would come. 3 years later when the DLC got announced I decided to start from the beginning and complete the game. I got to 30% of the story when the 2.0 update got released. \n\nThe new 2.0 update killed any and all desire to complete the game. Everything is made dumbed down and linear with gear, skills and upgrades. I wish I could get a refund.",
+   "created": 1695449408,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 3312
+  },
+  {
+   "id": "146835526",
+   "language": "english",
+   "review": "I've never seen such a bad game update. Version 2.0 completely removes the functionality, projectiles, and consumables of the character's clothes, but does not compensate for the materials consumed in crafting, making the game more cumbersome.There is also a game crash bug since version 1.61, which is still not fixed in version 2.0.",
+   "created": 1695449047,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 1853
+  },
+  {
+   "id": "146834639",
+   "language": "english",
+   "review": "Game still crashes like nobodies business.",
+   "created": 1695447745,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 2876
+  },
+  {
+   "id": "146833312",
+   "language": "english",
+   "review": "The game was a shitshow at launch, everyone recognizes this\n\nThen they patch the game, over and over, to something 'passable'.\n\nAnd now, they relaunch the game, big huge 2.0 patch.\n\nExcept the game, after update WON'T FUCKING LAUNCH.\n\nI HAVE ZERO MODS ENABLED, MODS ARE NOT THE ISSUE\n\nHoly shit, you had ONE JOB CDProjectRed\n\n",
+   "created": 1695445849,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 11812
+  },
+  {
+   "id": "146939844",
+   "language": "english",
+   "review": "They fixed it and its fun now. Also mod compatibility works perfectly for the most part so the games worth it now. Also much more optimized for lower end computers which makes this game 4/5. Would recommend buying on sale.",
+   "created": 1695567716,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 18067
+  },
+  {
+   "id": "146939723",
+   "language": "english",
+   "review": "the sasha devon experience",
+   "created": 1695567617,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 322
+  },
+  {
+   "id": "146939392",
+   "language": "english",
+   "review": "I started playing two weeks before the 2.0 changes and I have to say that there are some things that I miss from the earlier version. Some of my top tier weapons have been downgraded in 2.0 and crafting isn't the same. Accidentally run someone over now and the cops play a pretty serious game of chase with you. Not being able to use consumables as fast as you want is a downgrade really. The story is still there though and that's the best part anyway.",
+   "created": 1695567306,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3989
+  },
+  {
+   "id": "146939274",
+   "language": "english",
+   "review": "Glad I've waited till now, what a joy to play",
+   "created": 1695567202,
+   "voted_up": true,
+   "votes_up": 1,
+   "playtime_at_review_min": 1297
+  },
+  {
+   "id": "146938856",
+   "language": "english",
+   "review": "I'm the person who can't stand replaying through single player games.\n\nI'm on my 4th play through.",
+   "created": 1695566842,
+   "voted_up": true,
+   "votes_up": 3,
+   "playtime_at_review_min": 3702
+  },
+  {
+   "id": "146938743",
+   "language": "english",
+   "review": "good now",
+   "created": 1695566744,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2851
+  },
+  {
+   "id": "146938633",
+   "language": "english",
+   "review": "lets see this new update\n",
+   "created": 1695566640,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1778
+  },
+  {
+   "id": "146938519",
+   "language": "english",
+   "review": "---{ Graphics }---\n☐ You forget what reality is\n☑ Beautiful\n☐ Good\n☐ Decent\n☐ Bad\n☐ Don‘t look too long at it\n☐ MS-DOS\n\n---{ Gameplay }---\n☑ Very good\n☐ Good\n☐ It's just gameplay\n☐ Mehh\n☐ Watch paint dry instead\n☐ Just don't\n\n---{ Audio }---\n☐ Eargasm\n☑ Very good\n☐ Good\n☐ Not too bad\n☐ Bad\n☐ I'm now deaf\n\n---{ Audience }---\n☐ Kids\n☐ Teens\n☑ Adults\n☐ Grandma\n\n---{ PC Requirements }---\n☐ Check if you can run paint\n☐ Potato\n☐ Decent\n☑ Fast\n☐ Rich boi\n☐ Ask NASA if they have a spare computer\n\n---{ Difficulty }---\n☐ Just press 'W'\n☑ Easy\n☐ Easy to learn / Hard to master\n☐ Significant brain usage\n☐ Difficult\n☐ Dark Souls\n\n---{ Grind }---\n☐ Nothing to grind\n☐ Only if u care about leaderboards/ranks\n☑ Isn't necessary to progress\n☐ Average grind level\n☐ Too much grind\n☐ You'll need a second life for grinding\n\n---{ Story }---\n☐ No Story\n☐ Some lore\n☐ Average\n☐ Good\n☑ Lovely\n☐ It'll replace your life\n\n---{ Game Time }---\n☐ Long enough for a cup of coffee\n☐ Short\n☐ Average\n☑ Long\n☐ To infinity and beyond\n\n---{ Price }---\n☐ It's free!\n☐ Worth the price\n☑ If it's on sale\n☐ If u have some spare money left\n☐ Not recommended\n☐ You could also just burn your money\n\n---{ Bugs }---\n☐ Never heard of\n☑ Minor bugs\n☐ Can get annoying\n☐ ARK: Survival Evolved\n☐ The game itself is a big terrarium for bugs\n\n---{ ? / 10 }---\n☐ 1\n☐ 2\n☐ 3\n☐ 4\n☐ 5\n☐ 6\n☐ 7\n☑ 8\n☐ 9\n☐ 10\n\n",
+   "created": 1695566555,
+   "voted_up": true,
+   "votes_up": 2,
+   "playtime_at_review_min": 752
+  },
+  {
+   "id": "146938496",
+   "language": "english",
+   "review": "its fine i quess",
+   "created": 1695566535,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6069
+  },
+  {
+   "id": "146938405",
+   "language": "english",
+   "review": "the best darn game since gta",
+   "created": 1695566438,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1219
+  },
+  {
+   "id": "146939342",
+   "language": "english",
+   "review": "Game updated midway through last level, screwed me massively resetting my character to a build that no longer works with the kit I had on me, all while I try to learn the new buttons on the fly. I wasn't aware I could roll it back to the last version so had to struggle through to the end. When I found the rollback option in steam game settings I did just that, hit the last achievements and went for the uninstall. I cannot tell if it was the game itself or the update that makes me feel 'meh' about the game. Unlike RDR, Fallout, Mass Effect etc. I don't have any attachment to the characters in the game or the story, it's just 'another game' in my book. I can see 2.0 making things better but that's too late for me.",
+   "created": 1695567260,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 5620
+  },
+  {
+   "id": "146938463",
+   "language": "english",
+   "review": "Only controller prompts on screen without any controller in use, or even plugged in. It's great to see that one again.",
+   "created": 1695566495,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 7546
+  },
+  {
+   "id": "146929577",
+   "language": "english",
+   "review": "2.0 made a fundamentall change so the \"NPC\" scale with player level wich completly ruins \"the powerfantasy\" of the RPG \nand for me makes the game much worse",
+   "created": 1695557919,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 1896
+  },
+  {
+   "id": "146927064",
+   "language": "english",
+   "review": "Fuck launchers, you gypo fucks.",
+   "created": 1695555921,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 50
+  },
+  {
+   "id": "146920796",
+   "language": "english",
+   "review": "3 years down the line and I still jump on occasionally after someone mentions the game is better now or they fixed things.\n100% falsehoods, the current mod/perk system is worse than before and seems more geared to technical play, cold blood is gone for example.\nThe main reason I log in, play hopefully for 5 minutes and then rage quit though, is that the quests are still all broken, Lt Mower is forever lost to me under the map, they can't be bothered to fix a bug that prevents ever completing the psycho questline and it brings back all the negative emotion I felt years ago when the game launched. Just hard reset that quest for anyone with it open, and any other quest that was known to be bugged. 1 patch, quest reset, real easy, but they just don't give a flying F.\n\nMy point is, don't buy the BS, the game will never be fixed, they're just trying to cash out with a DLC and move on, don't fall for the corporate play.",
+   "created": 1695548522,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 3872
+  },
+  {
+   "id": "146917435",
+   "language": "english",
+   "review": "okay i have to say this is a great game but i just restarted and i glitch and go through the floor in the elevator other than that great game 10/10",
+   "created": 1695544217,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 2043
+  },
+  {
+   "id": "146916132",
+   "language": "english",
+   "review": "had a game breaking visual bug since day one. dont fall for all the shiny chrome, all it is, is rust",
+   "created": 1695542486,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 2751
+  },
+  {
+   "id": "146914320",
+   "language": "english",
+   "review": "Crashes to desktop after downloading a 55GB 2.0 \"update\".",
+   "created": 1695539993,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 10478
+  },
+  {
+   "id": "146912520",
+   "language": "english",
+   "review": "As someone who completed the entire game with 100% achievements prior to the 2.0 update, in some ways I am disappointed with it's arrival. \n\nCDPR suggested starting a new game ahead of the expansion. I see why, it is a completely different game and any builds you had are now useless. You will have to start fresh to get a feel for it all. \n\nThe new leveling system is terrible. \n\nWith enemy scaling the game feels too easy (especially those beat on the brat fights) \n\nThe old crafting system was better \n\nCant spam heals or grenades \n\nWeapons have stamina? \n\non the plus side the police system rework is better though. \n\n",
+   "created": 1695537418,
+   "voted_up": false,
+   "votes_up": 8,
+   "playtime_at_review_min": 10912
+  },
+  {
+   "id": "146910435",
+   "language": "english",
+   "review": "worth it for most people at a 50%+ discount, $60 is asking too much for a glorified Bethesda game that is stuck in one city.\n\n2.0 update makes the game playable, just in time for them to splatter ads for the DLC all over the game. congrats!\n\nall previous issues with story, characters, lifepaths, and world activity are still present. night city is very pretty as long as you don't look too close or too long.",
+   "created": 1695534308,
+   "voted_up": false,
+   "votes_up": 18,
+   "playtime_at_review_min": 6369
+  },
+  {
+   "id": "146910114",
+   "language": "english",
+   "review": "2.0 Made the game objectively worse in almost every single way.",
+   "created": 1695533801,
+   "voted_up": false,
+   "votes_up": 11,
+   "playtime_at_review_min": 16041
+  },
+  {
+   "id": "146906788",
+   "language": "english",
+   "review": "I JUST finished grinding all the money and exp and time to become David from the edgerunners anime. My sandevistan could slow time for like 12 seconds and cooldown in 2. I loved being god-like, dropping an entire room in 10 seconds. Then you did this patch in September , before the Phantom liberty DLC and completely altered the game into something else. My slow motion now lasts half the time and cools down for like 10 seconds.... Ruined the whole appeal in my build that I worked hard for. This is an offline game, yet we have to worry about re-works, re-balances, and ONLINE GAME problems. We're no longer safe in offline games, knowing that the product we purchased won't be COMPLETELY altered into another game with new systems we have to re-learn. I'm disgusted by this.",
+   "created": 1695528653,
+   "voted_up": false,
+   "votes_up": 10,
+   "playtime_at_review_min": 6467
+  },
+  {
+   "id": "146903259",
+   "language": "english",
+   "review": "Cyberpunk 2077 despite it's rough launch issues (that not everyone experienced admittedly) was an INCREDIBLE game. It had an amazing story to tell and so much going for it in many different ways and with the update for 2.0 I was more excited then ever.\n\nExcept after the update when I made a new game I am now crashing at the same point each time. The first time I have to go into my apartment to sleep, the game will do the slow fade to black and then goes to straight black and crashes. I did have mods so I uninstalled them and re-verified integrity of game files but still I am crashing every time. A Friend mentioned he had to spam C key to skip the cutscene so I tried this as well to no avail. After a fresh reinstall I'll see if I can give the game a recommendation but until then I'll have to go against the game on the basis that this shouldn't be problem with an update this far after release.",
+   "created": 1695523557,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 12001
+  },
+  {
+   "id": "146902836",
+   "language": "english",
+   "review": "in 4 hours, I've had a crash to desktop, *numerous* input errors/delays, and thus far the flat-out inability to edit keybinds because it throws errors.\n\nSomewhat pretty game except for the 2D car sprites in the opening flight scene....not sure wtf to think :|\n\nedit 43 hours later: Even with the 2.1 update, the game's still crashing on illegal file references and who knows what else. It's a really cool game when you can play it for more than 45-90 minutes at a time, but it's still insanely unstable.",
+   "created": 1695522988,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 251
+  },
+  {
+   "id": "146902405",
+   "language": "english",
+   "review": "2.0 ruined everything for me from what i had gather/upgraded for hours, to the experience from the gameplay and added more bugs into all the bugs already there.. smh",
+   "created": 1695522390,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 4887
+  },
+  {
+   "id": "146900752",
+   "language": "english",
+   "review": "This game is totally okay, but wow so much talking.  Get ready to watch a 4 hour movie before you get to do anything fun.",
+   "created": 1695520061,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 651
+  },
+  {
+   "id": "146899943",
+   "language": "english",
+   "review": "Too many dialogues with little meaningful decisions to make. Got extremely bored after 10-12 hours of the campaign and was feeling like Im forcing myself through it. If you want to play a real RPG play Baldurs Gate. I rate Cyberpunk 5/7 for good graphics and atmosphere. Gun game is awful. The new talent system is okay. I was playing hard difficulty and I could keep progressing without having to spend ANY point on my skills whatsoever.  I can tell there was a lot of effort put into development, kudos for that. Just not my cup of tea I guess",
+   "created": 1695518969,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 978
+  },
+  {
+   "id": "146899790",
+   "language": "english",
+   "review": "The game was fantastic prior to the 2.0 patch. However, the patch has significantly deteriorated the gameplay experience, especially for those using a netrunner build. I cannot recommend purchasing this game in its current state, and I have no intention of spending any more money on DLC from this company. While it was enjoyable in the past, the game has unfortunately become unplayable.",
+   "created": 1695518752,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 6924
+  },
+  {
+   "id": "146899234",
+   "language": "english",
+   "review": "Most boring game to ever exist. Before you start talking shit I run this game at max settings at 4k with my system. I get easily 100-120fps. yes the 2.0 makes it run better but still doesn't help the game being so fucking boring. I got this game when it came out unplayable and boring refunded that garbage. 2.0 came out i bought again ran great but still boring asf. DO NOT BUY THIS GARBAGE GAME.",
+   "created": 1695517925,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 210
+  },
+  {
+   "id": "146897262",
+   "language": "english",
+   "review": "I have had this game on my PC since December 9th 2020. I've played it every now and again to see if this time it'll be up to the standard I expect for $60 AAA game\n\nit is not, it never has been and if the bugs I saw 2 years ago are still here then it never will be. you can revamp all the systems you want I dont care, if every conversation has some sort of bug in it, if even driving at 40+mph is too much for the game to handle so much that parts of the map load in 2 foot from my character and parts of the map straight up do not load so there are holes, then you have failed to actually let me play the game. I shit you not I have restarted the game 3 times now to see if this update will be the one, all of them not being more than a few hours after the first big mission (the one you get johnny stuck in your head)\n\nnothing has changed. the same bugs from 2 years ago are still there, theres a stupidly huge lack of polish on everything, bugs gafuckinglore and from what I've actually gotten to play the game itself is just boring, I swear I spend more time in conversations than actually doing shit. I'm sick of thinking \"this update will be the one I can finally play the game!\" and it disgusts me that people can even say this game is fixed. I'd refund if I could in a heartbeat.",
+   "created": 1695515073,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 961
+  },
+  {
+   "id": "147005642",
+   "language": "english",
+   "review": "now that it works its incredible",
+   "created": 1695654131,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 7171
+  },
+  {
+   "id": "147005547",
+   "language": "english",
+   "review": "One of the most amazing story telling games i have ever played. Yes it has bugs and yest it sometimes can run like thrash. But the story is perfect.",
+   "created": 1695654031,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 11555
+  },
+  {
+   "id": "147005348",
+   "language": "english",
+   "review": "Played from day 1 with bugs and performance issues.  Dev's have continued to optimize the game. The Big 2.0 patch really makes it better and the DLC is great as well.",
+   "created": 1695653814,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3301
+  },
+  {
+   "id": "147005340",
+   "language": "english",
+   "review": "great game after 2.0. recommend.",
+   "created": 1695653807,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1387
+  },
+  {
+   "id": "147005320",
+   "language": "english",
+   "review": "The anime really brought me into this world",
+   "created": 1695653792,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 6044
+  },
+  {
+   "id": "147005295",
+   "language": "english",
+   "review": ">get apogee sandevistan\n>get gold plated bat infused with some afro woman rage\n>start batting skulls of various shapes and sizes \n>keep yelling \"BOINK!\" everytime i obliterate someone's skull into pieces\n>only use gold plated bat from now on\n>always yell \"BOINK!\" with sheer autism \n\n10/10 would boink again",
+   "created": 1695653766,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 2863
+  },
+  {
+   "id": "147005030",
+   "language": "english",
+   "review": "Cyberpunk 2.0 Review\n\nDoes the game still have some bugs? Yes. But this game is vastly different. Yes, most of these fixes should have been in the game from the start but regardless I actually like the game now. I have fun. I see a gang, I wanna mow them down cuz of how smooth the combat  feels now. The game runs better, and it feels smoother. The new UI is great as well.",
+   "created": 1695653458,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 3903
+  },
+  {
+   "id": "147004977",
+   "language": "english",
+   "review": "A rough launch has unfortunately stripped this game of the reputation it now deserves, as one of the greatest masterpieces in gaming.",
+   "created": 1695653397,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 1233
+  },
+  {
+   "id": "147004700",
+   "language": "english",
+   "review": "best game ever made, also has bewb.",
+   "created": 1695653119,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 14214
+  },
+  {
+   "id": "147004539",
+   "language": "english",
+   "review": "Glad I waited a few years to start properly playing the game in a much more solid and complete state than release. Amazing DLC too. Got all achievements which was very doable. Pathtracing was incredible. Enough to make walking about the city enjoyable.",
+   "created": 1695652936,
+   "voted_up": true,
+   "votes_up": 0,
+   "playtime_at_review_min": 16959
+  },
+  {
+   "id": "147005627",
+   "language": "english",
+   "review": "CyberCrash 2077",
+   "created": 1695654118,
+   "voted_up": false,
+   "votes_up": 21,
+   "playtime_at_review_min": 1211
+  },
+  {
+   "id": "147004258",
+   "language": "english",
+   "review": "Unbelieveable.... 2 years later i re-opened this game. Got this game breaking 'relic' glitch (the one you got upon picking a dialogue about Johnny) and the save is now unplayable. Ruined hours of progress almost, only to be saved by modders in Nexus.\n\nUpon checking, its amazing almost how this bug existed for years and still exist. Especially after the 2.0 patch it just became worst (there was a work-a-round before the patch, now it doesn't work).\n\nSo glad i didn't get this game at full price lmao",
+   "created": 1695652604,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 586
+  },
+  {
+   "id": "147004208",
+   "language": "english",
+   "review": "The game was good and I would recommend it if it wasn't for what they did,\nNew patch has ruined the game completely\nCons\n- Clothes don't give you armour anymore\n- There is some retarded Cyberware limit\n- Stealth hacking is pretty much useless now\n- Perks were good and simple to understand now it black magic\n- When you had decent amount of heals forget it, they stole it and left you about 2\n- And for the first time since I played it I fell under the map and game had to reload while casually driving to my quest\n- Perks and levelling up barely makes sense\n- Minimap doesn't show accurately where to go\n\nPros\n- New messaging hud\n- Cars now change gears which is hearable\n- I will have 70GB of spare place on my harddrive after I finish this DLC\n\nDear CDPROJECTRED\nInstead of fixing something you already had you decided to change it completely for WORSE, bring back the old HUD cyberware and fix those perks, why on release Cyberpunk was filled with bugs and it sort of came back to surface and now with another patch you threw tons of bugs on top of it and decided to sell it, I regret pre-ordering this DLC and trusting that maybe this time you will do well, is this your new thing? Fu c king up on start? If so congratulations you exceeded my expectations in this realm.",
+   "created": 1695652544,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 13892
+  },
+  {
+   "id": "147001472",
+   "language": "english",
+   "review": "The game was good before the 2.0 update ,but seeing as steam doesnt allow u to downgrade ,the game is now rather mid ,fun builds are now rebalanced to be boring and all the fun of the skil tree has been sucked out.\nwould not recommend buying this game unless its discounted down to 10$",
+   "created": 1695649534,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 6415
+  },
+  {
+   "id": "147001147",
+   "language": "english",
+   "review": "Updated to Cyberpunk 2.0 and the game is now unplayable. Have to wait literally 5 minutes just to see the ground and even then i have to wait another 5 minutes for everything else to load in. gone from a smooth 60 fps in most areas in the city to 20-30 fps. Even in my inventory nothing loads have to wait 10 seconds just to switch between tabs. Pre-update was enjoyable now wishing I could get a refund.",
+   "created": 1695649074,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 2789
+  },
+  {
+   "id": "147000836",
+   "language": "english",
+   "review": "Part of me can't get over the awful launch still, the fact they literally lied so blatantly about so many things still drives me the wrong way, and playing this feels like I'm excusing all of that. On top of that though, I just don't think the game is very fun. \n\nThe intro skips 6 months in about 2 minutes, I have no idea who V is or what his motivations are, I have no idea what this world is or what I'm trying to accomplish in it and the game does a really bad job of trying to tell me. It throws a bunch of characters at you almost instantly who monologue for about 10 minutes, and by the end of it I still have no idea who they are or what my motivations are even. I'm getting phone calls from this random person who I guess is my boss? We're doing some kind of heist? What are we robbing? Who? Why? \n\nMaybe it's the old \"it gets better after X hours\" thing, but honestly I just don't care enough. This seems like a game where people are gonna talk a lot about the stuff you're doing but you're still not really going to understand what you're doing or why.",
+   "created": 1695648730,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 204
+  },
+  {
+   "id": "146994905",
+   "language": "english",
+   "review": ".",
+   "created": 1695640493,
+   "voted_up": false,
+   "votes_up": 5,
+   "playtime_at_review_min": 605
+  },
+  {
+   "id": "146994283",
+   "language": "english",
+   "review": "DON'T BUY IF YOU USE THE LEFT HAND TO CONTROL THE MOUSE.\n\nI first played this game on Stadia on release, it actually worked great on Stadia back then but after each pach got more and more broken.\nNow I decided to buy it on steam for 2.0 release.\nWhile there is a lot of improvements there is still a lot more bugs then I was expecting.\n\nBut the biggest problem is that I use my left hand as my mouse hand when playing, so I have the mouse buttons inverted in Windows. Cyberpunk 2077 don't use the inverted mouse bindings from Windows, fine I guess a few other games can't handle that either.\nThe problem is that I'm not allowed to rebind anything to the (my) left mouse button (original right mouse button).\nI have never played a game before with no support for mouse in the left hand.",
+   "created": 1695639352,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 875
+  },
+  {
+   "id": "146993901",
+   "language": "english",
+   "review": "im not paying 30 dollars to reward a dev to finish a game 3 years after releasing it",
+   "created": 1695638675,
+   "voted_up": false,
+   "votes_up": 10,
+   "playtime_at_review_min": 1493
+  },
+  {
+   "id": "146993243",
+   "language": "english",
+   "review": "Update 2.0 the permanent relic malfunction glitch is still in this game after YEARS of bug fixes this one genuinely ruins the game and makes it completely unplayable cutscenes are unlistenable and gameplay completely breaks down its impossible to use the map or just simply run around with this, the fact that this basic stuff is still an issue is a clear and complete indictment of the developers.  The game still being in this poor of a state is absolutely unacceptable and it completely boggles my mind how this company went from witcher 3 to this where basic game breaking glitches still exist in this game YEARS AND YEARS after release.  Game still runs poorly and the RPG element was significantly dumbed down for this latest version.  I dont know what to say other than this game isnt worth $20 these days much less $60 what a joke.",
+   "created": 1695637471,
+   "voted_up": false,
+   "votes_up": 10,
+   "playtime_at_review_min": 1487
+  },
+  {
+   "id": "146992566",
+   "language": "english",
+   "review": "135 hours play with no crashes, new update (2.0) and now cant get further than the menu after the 3rd try of booting the game.\nNo support what so ever",
+   "created": 1695636176,
+   "voted_up": false,
+   "votes_up": 37,
+   "playtime_at_review_min": 8230
+  },
+  {
+   "id": "146992527",
+   "language": "english",
+   "review": "Still crashes randomly and feels buggy",
+   "created": 1695636104,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 5771
+  },
+  {
+   "id": "146990886",
+   "language": "english",
+   "review": "CyberPunk 2.0\n\nI loved the original cyber punk upon release even with it's bugs. I don't know why they would regress a great system instead of just enhancing what they already had to make it better.\n\nLevel scaling:\nEnemies now match your level no matter where you go. I don't completely hate it, but I don't love it either. It's just artificial difficulty to make people play longer. We already had difficulty levels, why add artificial difficulty? Also you made an RPG game, why are you introducing a system that defeats the purpose of RPGs and getting stronger in the first place? Characters are supposed to feel overpowered. If anything it should have been optional.\n\nDLSS 3.5:\ndoes absolutely nothing for older cards. I was hoping to hope on and gain at least 15% FPS with a 2080TI and ray tracing on. I actually lost 15% FPS when it's turned on. Basically useless feature. and no, I don't have path tracing on, I fixed the bug where you can't enable it without path tracing on.\n\nNew Skill Tree:\nMy biggest problem is the new skill tree. Complete garbage compared to the old system. I am playing around with the new build planner linked below and immediately can tell how very limited it is in customization. You used to be able to run some pretty cool builds like poison damage through cyber hacks and gain crit on poison and poison damage increase through mixing up intelligence with cool. Now you can't do any of that at all. All of the trees are very specific like \"SMGs only\" or \"throwable weapons only\". What if I want the extra headshot damage or crit damage from a cyber hack?\n\nI mean what were they thinking, the skill tree has lost all complexity for a brain dead bare bones system. They should have kept all the weapon trees separated like they used to have them which allowed you to get some cool buffs off other trees that had nothing to do with the weapon you're using.\n\nOh and the relic system? It's just basic stuff they could have added to the normal skill tree. There's no hybrid mechanics offered at all that could have brought the opportunity for more advanced builds. What they should have done is made the relic system where you can select an advanced class that compliments your current build. There's no complexity to it at all. Unexciting and boring.\n\nI can forgive the enemy level scaling and even the DLSS because it's newer technology. I however can not forgive the over simplification of the skill tree to the point where a monkey can literally slam keys to come up with a build and it wouldn't make much of a difference.\n\nhttps://www.cyberpunk.net/en/build-planner",
+   "created": 1695632827,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 2228
+  },
+  {
+   "id": "146989810",
+   "language": "english",
+   "review": "Bought this on sale about a year or so earlier. IT was ok, the perks were whatever but it was average, firm 5/10 movie kind of deal. Re download for 2.0, perks seem pretty cool, the rebalance to meds and grenades is appreciated and the cyberware limit means that only a full cyber build goes super heavy on that. But at some point in the game I just stopped taking damage completely. reloaded it hours ago, threw my self off of buildings, sat in exploding cars, drowned. didnt fix it. So im waiting for 3.0 myself, maybe 4.0 if they can't fix it the fourth time around.",
+   "created": 1695630636,
+   "voted_up": false,
+   "votes_up": 1,
+   "playtime_at_review_min": 3628
+  },
+  {
+   "id": "146989691",
+   "language": "english",
+   "review": "Biggest L CDPR ever take is Letting Mary Kenney( fking SW inc) join. We do not want to see unsightly face. and more Cringe from them L for letting her join. Rip the Witcher 4. I will never support CDPR ever again. Why the f all the character should be ugly af in the game. I meant at least no look very handsome is acceptable but Being too ugly not only one but all character is the worst.\n\nI really love this game a lot. After hearing they hired are which isnt just right. i love gaming seeing non-gamer destroying the community isnt just right. delusional beauty standard and false logic is just the worst for People with healthy mind.  \n\nI played this game i loved for last time today. Hope they know what they are making. And never try to tell healthy minded people that they are wrong.",
+   "created": 1695630351,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 136
+  },
+  {
+   "id": "146987813",
+   "language": "english",
+   "review": "Nah, nope, lol no. Yall are 100000000% delusional.",
+   "created": 1695626297,
+   "voted_up": false,
+   "votes_up": 6,
+   "playtime_at_review_min": 3105
+  },
+  {
+   "id": "146981739",
+   "language": "english",
+   "review": "Game looked great, played for several hours but came to a mission in the main quest where you enter a mode called braindance, and you have to scan somebodies phone. I have not found witch button that you use to do so. searched forums, tried you tube, tried searching the button configerations menu. Nobody knows how to scan this phone. Not sure if this is a glitch but the game is unplayable and its to late to get a refund. search it yourself and don't buy until they fix this.",
+   "created": 1695615293,
+   "voted_up": false,
+   "votes_up": 2,
+   "playtime_at_review_min": 337
+  },
+  {
+   "id": "146980473",
+   "language": "english",
+   "review": "I don't like 2.0.  It feels like quickhacking has basically been ruined. I was going for a Quick-Hack and 'Cool' build before taking a break. Came back to try and finish the game before the Patriot DLC came out and, quite frankly the game sucks now. Trying to stealth stuff is just not working anymore and I am just going to drop the game again. Not worth it anymore after the fun of quickhacking has become a tedious wait game.",
+   "created": 1695613107,
+   "voted_up": false,
+   "votes_up": 3,
+   "playtime_at_review_min": 6502
+  },
+  {
+   "id": "146980457",
+   "language": "english",
+   "review": "The story is good and interesting. I honestly really REALLY like it. But the prologue, before the game actually opens up, is long as fuck. As in several hours long.\n\nThe rest of this review is just gonna be a long list of complaints about controls, because the controls in this game are just fucking abysmal. \nA mod is required to rebind half the keybinds, including secondary interact. \nSeveral actions cancel hold-to-sprint. Walking down stairs, jumping, sliding, or walking into a wall. If you continue to hold the sprint button through these actions, it won't continue your sprint. Similar situation with acceleration on driving. \nYou can sprint up stairs, but not down them. If you let go of sprint mid-air, then immediately press it again, you will sprint when you land. I can't imagine the thought process behind making it so awkward to just sprint.\nWith the 2.0 update, W/S navigate the UI and text prompts. Meaning, if you're on the phone while walking, W will scroll through your prompts. And that one's hardcoded, can't be changed even with the mod. No multitasking for you.\nIf someone is talking to you and the \"Skip ahead\" prompt is available, you will not be able to crouch. Meaning if you're on a mission with another NPC that's talking to you, and you're trying to stealth, you can't. You either don't crouch, or you just wait till they stop talking.\n\nIf you don't wanna use CDPR's special curated keybinds, then it's just one massive QOL nightmare.",
+   "created": 1695613079,
+   "voted_up": false,
+   "votes_up": 0,
+   "playtime_at_review_min": 1573
+  },
+  {
+   "id": "146977228",
+   "language": "english",
+   "review": "\nNothing in this game is like, actually really good, when it should have all been.\nI was hyped for a good 4 years and met the worst game CD could have possibly made, and now I play it after 2 years and STILL see NOTHING, nothing ever close to what they promised. \nAnd did they fix it? Did they fix anything that warrants a purchase? Anything that comes anywhere close to the promises they made for so many years? \nThis will be the most disappointing release of any videogame, forever, never forget how much they managed to scam us.\nThe story is shallow\nThe gameplay is shallow\nThe city is nothing, and I mean nothing, but visuals\nThere was no life and will never be a soul to this fucking husk of a failed attempt in making a videogame.\nFuck you CD Project Red, and fuck everyone that's too ignorant in acknowledging all of this game's very inherent flaws.",
+   "created": 1695607670,
+   "voted_up": false,
+   "votes_up": 4,
+   "playtime_at_review_min": 4431
+  }
+ ]
+}
